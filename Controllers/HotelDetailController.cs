@@ -1,13 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using SWP_template.Models;
-
-
 
 namespace SWP_template.Controllers
 {
@@ -24,11 +16,11 @@ namespace SWP_template.Controllers
         }
 
         [HttpGet]
-        public IActionResult HotelDetail(string id, string HotelName)
+        public IActionResult HotelDetail(string id)
         {
             Console.WriteLine("id="+id);
-            //var hotel = context.Hotels.Where(h => h.HotelId.Equals(id)).FirstOrDefault();
-            ViewBag.hotel_name = HotelName;
+            var hotel = context.Hotels.Where(h => h.HotelId.Equals(id)).FirstOrDefault();
+            ViewBag.hotel_name = hotel.HotelName;
             List<Room> room = context.Rooms.Where(r => r.HotelId.Equals(id)).ToList();
             room.ForEach(r => Console.WriteLine( r.RoomName));
             return View(room);
