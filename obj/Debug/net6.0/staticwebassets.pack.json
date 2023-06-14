@@ -1,0 +1,3005 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SWP_template.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SWP_template.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\atomic.css",
+      "PackagePath": "staticwebassets\\css\\atomic.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\blue-violet.css",
+      "PackagePath": "staticwebassets\\css\\blue-violet.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\brown.css",
+      "PackagePath": "staticwebassets\\css\\brown.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\caribbean-green.css",
+      "PackagePath": "staticwebassets\\css\\caribbean-green.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\datepicker.css",
+      "PackagePath": "staticwebassets\\css\\datepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\egg-blue.css",
+      "PackagePath": "staticwebassets\\css\\egg-blue.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\flexslider.css",
+      "PackagePath": "staticwebassets\\css\\flexslider.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\green.css",
+      "PackagePath": "staticwebassets\\css\\green.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\jquery.colorpanel.css",
+      "PackagePath": "staticwebassets\\css\\jquery.colorpanel.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\lightblue.css",
+      "PackagePath": "staticwebassets\\css\\lightblue.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\orange.css",
+      "PackagePath": "staticwebassets\\css\\orange.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\owl.theme.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\pigment-green.css",
+      "PackagePath": "staticwebassets\\css\\pigment-green.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\pink.css",
+      "PackagePath": "staticwebassets\\css\\pink.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\preview.css",
+      "PackagePath": "staticwebassets\\css\\preview.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\purple.css",
+      "PackagePath": "staticwebassets\\css\\purple.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\red.css",
+      "PackagePath": "staticwebassets\\css\\red.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\PlayfairDisplay-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\PlayfairDisplay-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\PlayfairDisplay-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\PlayfairDisplay-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\PlayfairDisplay-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\PlayfairDisplay-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\PlayfairDisplay-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\PlayfairDisplay-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\PlayfairDisplay-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\PlayfairDisplay-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\PlayfairDisplay-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\PlayfairDisplay-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\297835251.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\297835251.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\353017859.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\353017859.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\353017866.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\353017866.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\353018545.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\353018545.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\353019098.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\353019098.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\353019100.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\353019100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\353019104.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\353019104.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\353019105.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\353019105.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\353022403.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\353022403.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\357638688.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\357638688.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\357639968.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\357639968.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\366026620.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\366026620.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\416011707.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\416011707.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\416011832.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\416011832.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 1\\avt.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 1\\avt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446486257.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446486257.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446486258.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446486258.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446486259.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446486259.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446486260.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446486260.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446486262.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446486262.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446486264.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446486264.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446486268.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446486268.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446486725.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446486725.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446486726.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446486726.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446486727.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446486727.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446486732.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446486732.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446486733.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446486733.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446525187.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446525187.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446666764.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446666764.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446666799.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446666799.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446666856.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446666856.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446671115.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446671115.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446671209.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446671209.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446671290.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446671290.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446671293.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446671293.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446780354.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446780354.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\446780356.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\446780356.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 2\\avt.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 2\\avt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\413709959.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\413709959.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\413709963.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\413709963.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\414952215.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\414952215.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\414954340.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\414954340.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\414954343.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\414954343.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\414958016.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\414958016.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\414968675.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\414968675.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\414968677.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\414968677.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\426979405.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\426979405.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\426980162.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\426980162.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\426980164.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\426980164.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\426980179.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\426980179.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\426981492.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\426981492.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\426981899.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\426981899.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\426982013.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\426982013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\426984469.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\426984469.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\426984472.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\426984472.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\426984475.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\426984475.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\426984536.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\426984536.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\426997550.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\426997550.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\426997669.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\426997669.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\444705816.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\444705816.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\445033683.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\445033683.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\445194465.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\445194465.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\446160805.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\446160805.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\446238264.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\446238264.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\446280087.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\446280087.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Lat\\Hotel 3\\avt.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Lat\\Hotel 3\\avt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\139418701.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\139418701.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\139418702.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\139418702.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\139418761.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\139418761.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\139419113.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\139419113.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\139419121.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\139419121.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\139419123.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\139419123.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\139471618.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\139471618.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\139471631.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\139471631.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\139471639.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\139471639.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\139471644.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\139471644.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\151500105.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\151500105.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\151500106.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\151500106.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\151500107.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\151500107.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\461665422.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\461665422.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\461665427.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\461665427.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\461665429.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\461665429.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\461666827.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\461666827.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\avt.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\avt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 1\\le tan.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 1\\le tan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\175459877.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\175459877.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\175459909.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\175459909.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\175460174.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\175460174.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\175460649.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\175460649.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\175460650.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\175460650.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\175460991.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\175460991.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\175460994.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\175460994.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\175461001.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\175461001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\179432710.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\179432710.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\215538466.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\215538466.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\215538469.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\215538469.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\228807603.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\228807603.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\379064659.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\379064659.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\379065014.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\379065014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\379065019.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\379065019.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\379065021.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\379065021.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\379065317.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\379065317.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\379954788.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\379954788.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\390368633.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\390368633.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\390368635.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\390368635.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\390368637.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\390368637.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 2\\avt.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 2\\avt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\186499248.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\186499248.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\344273286.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\344273286.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\344273541.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\344273541.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\344273590.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\344273590.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\344273649.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\344273649.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\344273682.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\344273682.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\344273757.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\344273757.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\344273826.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\344273826.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\344273857.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\344273857.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\344273890.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\344273890.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\344273906.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\344273906.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\344274043.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\344274043.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\344274128.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\344274128.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\344274660.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\344274660.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\419128152.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\419128152.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\419569762.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\419569762.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Da Nang\\Hotel 3\\avt.jpg",
+      "PackagePath": "staticwebassets\\img\\Da Nang\\Hotel 3\\avt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Danang.jpg",
+      "PackagePath": "staticwebassets\\img\\Danang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\HCM.jpg",
+      "PackagePath": "staticwebassets\\img\\HCM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Hanoi.jpg",
+      "PackagePath": "staticwebassets\\img\\Hanoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\438079089.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\438079089.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\438079124.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\438079124.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\438079129.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\438079129.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\438079132.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\438079132.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\438079137.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\438079137.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\438079145.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\438079145.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\438079148.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\438079148.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\438079159.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\438079159.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\438079163.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\438079163.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445554890.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445554890.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445554904.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445554904.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445554909.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445554909.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445554923.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445554923.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445554934.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445554934.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445554944.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445554944.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445554948.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445554948.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445554988.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445554988.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445554997.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445554997.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445555004.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445555004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445555032.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445555032.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445555054.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445555054.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445555058.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445555058.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445555062.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445555062.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445555066.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445555066.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445555125.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445555125.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\445565004.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\445565004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 1\\avt.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 1\\avt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\289743765.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\289743765.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\289743766.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\289743766.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\289743769.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\289743769.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\289743773.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\289743773.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\289743781.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\289743781.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\289743785.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\289743785.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\289743787.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\289743787.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\290007956.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\290007956.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\290007960.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\290007960.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\290007962.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\290007962.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\290007970.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\290007970.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\290007987.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\290007987.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\290008003.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\290008003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\290008006.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\290008006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\290008065.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\290008065.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\290008107.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\290008107.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\290008112.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\290008112.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\290116933.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\290116933.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\345905712.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\345905712.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\345906659.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\345906659.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\345906662.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\345906662.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\345923814.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\345923814.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\349636782.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\349636782.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\349636785.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\349636785.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\440450769.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\440450769.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 2\\avt.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 2\\avt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\406938852.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\406938852.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\406938853.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\406938853.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\416520849.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\416520849.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\416520898.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\416520898.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\416520912.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\416520912.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\416520920.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\416520920.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\416520927.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\416520927.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\417032615.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\417032615.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\417032656.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\417032656.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\417032667.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\417032667.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\417038908.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\417038908.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\417243348.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\417243348.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\417387472.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\417387472.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\417775296.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\417775296.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\417775379.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\417775379.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\417775398.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\417775398.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\417775408.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\417775408.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\417775422.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\417775422.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\419133864.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\419133864.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\426284059.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\426284059.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Ho Chi Minh\\Hotel 3\\avt.jpg",
+      "PackagePath": "staticwebassets\\img\\Ho Chi Minh\\Hotel 3\\avt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Hoian.jpg",
+      "PackagePath": "staticwebassets\\img\\Hoian.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Hue.jpg",
+      "PackagePath": "staticwebassets\\img\\Hue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\397483520.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\397483520.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\397483527.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\397483527.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\397483531.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\397483531.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\397483540.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\397483540.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\398014225.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\398014225.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\398014229.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\398014229.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\398014234.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\398014234.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\398014236.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\398014236.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\398014237.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\398014237.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\398014239.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\398014239.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\398014242.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\398014242.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\401188933.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\401188933.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\401188949.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\401188949.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\407949536.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\407949536.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\407949537.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\407949537.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\407949538.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\407949538.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\408444195.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\408444195.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\410895739.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\410895739.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\410895741.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\410895741.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\410898001.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\410898001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\410898004.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\410898004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\410898253.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\410898253.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\410898258.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\410898258.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\414225237.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\414225237.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\414225238.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\414225238.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\414225240.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\414225240.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\414225241.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\414225241.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\414225248.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\414225248.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\414225706.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\414225706.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\414225708.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\414225708.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\414225709.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\414225709.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\414225710.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\414225710.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\414225713.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\414225713.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\414225715.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\414225715.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\414226362.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\414226362.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\414226363.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\414226363.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\414226364.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\414226364.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Quy Nhon\\Hotel 1\\avt.jpg",
+      "PackagePath": "staticwebassets\\img\\Quy Nhon\\Hotel 1\\avt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vn.png",
+      "PackagePath": "staticwebassets\\img\\Vn.png"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\445084057.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\445084057.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\445084079.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\445084079.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\445084081.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\445084081.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\445084458.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\445084458.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\445084494.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\445084494.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\445086552.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\445086552.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\445089341.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\445089341.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\445089453.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\445089453.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\445089467.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\445089467.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\448304086.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\448304086.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\448793075.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\448793075.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\448793079.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\448793079.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\449830031.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\449830031.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\449830043.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\449830043.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\449830045.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\449830045.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\449830046.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\449830046.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\450675440.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\450675440.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\450675444.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\450675444.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\450675449.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\450675449.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\450675472.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\450675472.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\450677354.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\450677354.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\450677360.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\450677360.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\450677371.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\450677371.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\450677378.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\450677378.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\451038484.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\451038484.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\461576458.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\461576458.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 1\\avt.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 1\\avt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\408444114.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\408444114.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\408444116.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\408444116.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\408447230.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\408447230.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\408447244.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\408447244.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\408944537.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\408944537.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\408944541.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\408944541.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\408944542.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\408944542.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\408944545.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\408944545.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\408944547.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\408944547.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\412696484.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\412696484.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\412701035.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\412701035.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\412701160.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\412701160.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\412701319.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\412701319.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\412701329.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\412701329.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\412701336.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\412701336.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\412701363.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\412701363.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\412705735.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\412705735.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\419102240.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\419102240.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\419102241.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\419102241.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\419102242.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\419102242.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\419102249.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\419102249.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\419102252.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\419102252.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\419102257.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\419102257.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\431103322.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\431103322.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\435356155.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\435356155.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\435356157.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\435356157.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\435356159.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\435356159.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\435356162.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\435356162.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\435356169.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\435356169.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\438523400.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\438523400.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\454250083.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\454250083.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\454250084.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\454250084.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 2\\avt.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 2\\avt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433021797.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433021797.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433021801.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433021801.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433021804.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433021804.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433021805.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433021805.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022056.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022056.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022057.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022057.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022068.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022068.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022075.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022075.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022175.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022175.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022187.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022187.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022204.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022204.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022712.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022712.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022718.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022718.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022864.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022864.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022865.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022865.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022866.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022866.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022874.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022874.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022876.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022876.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433022877.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433022877.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433030291.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433030291.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433030305.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433030305.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433030307.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433030307.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433030310.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433030310.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\433030328.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\433030328.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\436357683.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\436357683.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\436358223.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\436358223.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\439348872.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\439348872.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\Vung Tau\\Hotel 3\\avt.jpg",
+      "PackagePath": "staticwebassets\\img\\Vung Tau\\Hotel 3\\avt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\about-us.jpg",
+      "PackagePath": "staticwebassets\\img\\about-us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\available-room-1.jpg",
+      "PackagePath": "staticwebassets\\img\\available-room-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\available-room-2.jpg",
+      "PackagePath": "staticwebassets\\img\\available-room-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\available-room-3.jpg",
+      "PackagePath": "staticwebassets\\img\\available-room-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\available-room-4.jpg",
+      "PackagePath": "staticwebassets\\img\\available-room-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\available-seat-1.jpg",
+      "PackagePath": "staticwebassets\\img\\available-seat-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\available-seat-2.jpg",
+      "PackagePath": "staticwebassets\\img\\available-seat-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\available-seat-3.jpg",
+      "PackagePath": "staticwebassets\\img\\available-seat-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\available-seat-4.jpg",
+      "PackagePath": "staticwebassets\\img\\available-seat-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\best-offer-cruise.jpg",
+      "PackagePath": "staticwebassets\\img\\best-offer-cruise.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\blog-listing-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-listing-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\blog-listing-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-listing-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\blog-listing-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-listing-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\byf-airport-info.jpg",
+      "PackagePath": "staticwebassets\\img\\byf-airport-info.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\byf-baggage-info.jpg",
+      "PackagePath": "staticwebassets\\img\\byf-baggage-info.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\byf-check-in.jpg",
+      "PackagePath": "staticwebassets\\img\\byf-check-in.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\byf-visa-passport.jpg",
+      "PackagePath": "staticwebassets\\img\\byf-visa-passport.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-1.jpg",
+      "PackagePath": "staticwebassets\\img\\car-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-2.jpg",
+      "PackagePath": "staticwebassets\\img\\car-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-3.jpg",
+      "PackagePath": "staticwebassets\\img\\car-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-4.jpg",
+      "PackagePath": "staticwebassets\\img\\car-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-ad.jpg",
+      "PackagePath": "staticwebassets\\img\\car-ad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-detail-tab-1.jpg",
+      "PackagePath": "staticwebassets\\img\\car-detail-tab-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-detail-tab-2.jpg",
+      "PackagePath": "staticwebassets\\img\\car-detail-tab-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-detail-tab-3.jpg",
+      "PackagePath": "staticwebassets\\img\\car-detail-tab-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-feature-1.jpg",
+      "PackagePath": "staticwebassets\\img\\car-feature-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-feature-2.jpg",
+      "PackagePath": "staticwebassets\\img\\car-feature-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-feature-3.jpg",
+      "PackagePath": "staticwebassets\\img\\car-feature-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-feature-4.jpg",
+      "PackagePath": "staticwebassets\\img\\car-feature-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-feature-5.jpg",
+      "PackagePath": "staticwebassets\\img\\car-feature-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-feature-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\img\\car-feature-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-feature-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\img\\car-feature-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-feature-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\img\\car-feature-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-feature-thumb-4.jpg",
+      "PackagePath": "staticwebassets\\img\\car-feature-thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-feature-thumb-5.jpg",
+      "PackagePath": "staticwebassets\\img\\car-feature-thumb-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-grid-1.jpg",
+      "PackagePath": "staticwebassets\\img\\car-grid-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-grid-2.jpg",
+      "PackagePath": "staticwebassets\\img\\car-grid-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-grid-3.jpg",
+      "PackagePath": "staticwebassets\\img\\car-grid-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-grid-4.jpg",
+      "PackagePath": "staticwebassets\\img\\car-grid-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-grid-5.jpg",
+      "PackagePath": "staticwebassets\\img\\car-grid-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-grid-6.jpg",
+      "PackagePath": "staticwebassets\\img\\car-grid-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-list-1.jpg",
+      "PackagePath": "staticwebassets\\img\\car-list-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-list-2.jpg",
+      "PackagePath": "staticwebassets\\img\\car-list-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-list-3.jpg",
+      "PackagePath": "staticwebassets\\img\\car-list-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-list-4.jpg",
+      "PackagePath": "staticwebassets\\img\\car-list-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-list-5.jpg",
+      "PackagePath": "staticwebassets\\img\\car-list-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-list-6.jpg",
+      "PackagePath": "staticwebassets\\img\\car-list-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-packages.jpg",
+      "PackagePath": "staticwebassets\\img\\car-packages.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-slider-1.jpg",
+      "PackagePath": "staticwebassets\\img\\car-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\car-slider-2.jpg",
+      "PackagePath": "staticwebassets\\img\\car-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\client-1.jpg",
+      "PackagePath": "staticwebassets\\img\\client-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\client-2.jpg",
+      "PackagePath": "staticwebassets\\img\\client-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\client-3.jpg",
+      "PackagePath": "staticwebassets\\img\\client-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\color.png",
+      "PackagePath": "staticwebassets\\img\\color.png"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\coming-soon-page.jpg",
+      "PackagePath": "staticwebassets\\img\\coming-soon-page.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\commenter-1.jpg",
+      "PackagePath": "staticwebassets\\img\\commenter-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\commenter-2.jpg",
+      "PackagePath": "staticwebassets\\img\\commenter-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\commenter-3.jpg",
+      "PackagePath": "staticwebassets\\img\\commenter-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\commenter-4.jpg",
+      "PackagePath": "staticwebassets\\img\\commenter-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\contact-form.jpg",
+      "PackagePath": "staticwebassets\\img\\contact-form.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-about-us.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-about-us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-blog-details.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-blog-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-blog-listing.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-blog-listing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-byf-info.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-byf-info.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-car-detail.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-car-detail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-car-grid-list.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-car-grid-list.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-contact-us.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-contact-us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-cruise-detail.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-cruise-detail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-cruise-grid-list.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-cruise-grid-list.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-flight-detail.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-flight-detail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-flight-grid-list.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-flight-grid-list.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-forgot-password.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-forgot-password.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-holiday.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-holiday.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-hotel-detail.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-hotel-detail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-hotel-grid-list.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-hotel-grid-list.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-login.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-registration.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-registration.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-thank-you.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-thank-you.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-tour-detail.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-tour-detail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-tour-grid-list.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-tour-grid-list.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cover-travel-insurance.jpg",
+      "PackagePath": "staticwebassets\\img\\cover-travel-insurance.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\crs-feature-1.jpg",
+      "PackagePath": "staticwebassets\\img\\crs-feature-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\crs-feature-2.jpg",
+      "PackagePath": "staticwebassets\\img\\crs-feature-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\crs-feature-3.jpg",
+      "PackagePath": "staticwebassets\\img\\crs-feature-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\crs-feature-4.jpg",
+      "PackagePath": "staticwebassets\\img\\crs-feature-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\crs-feature-5.jpg",
+      "PackagePath": "staticwebassets\\img\\crs-feature-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\crs-feature-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\img\\crs-feature-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\crs-feature-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\img\\crs-feature-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\crs-feature-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\img\\crs-feature-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\crs-feature-thumb-4.jpg",
+      "PackagePath": "staticwebassets\\img\\crs-feature-thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\crs-feature-thumb-5.jpg",
+      "PackagePath": "staticwebassets\\img\\crs-feature-thumb-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-1.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-2.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-3.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-4.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-5.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-6.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-detail-tab-1.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-detail-tab-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-detail-tab-2.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-detail-tab-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-detail-tab-3.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-detail-tab-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-detail-tab-4.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-detail-tab-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-grid-1.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-grid-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-grid-2.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-grid-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-grid-3.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-grid-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-grid-4.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-grid-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-grid-5.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-grid-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-grid-6.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-grid-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-list-1.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-list-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-list-2.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-list-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-list-3.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-list-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-list-4.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-list-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-list-5.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-list-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-list-6.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-list-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-slider-1.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\cruise-slider-2.jpg",
+      "PackagePath": "staticwebassets\\img\\cruise-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\destination-1.jpg",
+      "PackagePath": "staticwebassets\\img\\destination-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\destination-2.jpg",
+      "PackagePath": "staticwebassets\\img\\destination-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\destination-3.jpg",
+      "PackagePath": "staticwebassets\\img\\destination-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\destination-4.jpg",
+      "PackagePath": "staticwebassets\\img\\destination-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\error-page.jpg",
+      "PackagePath": "staticwebassets\\img\\error-page.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\f-feature-1.jpg",
+      "PackagePath": "staticwebassets\\img\\f-feature-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\f-feature-2.jpg",
+      "PackagePath": "staticwebassets\\img\\f-feature-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\f-feature-3.jpg",
+      "PackagePath": "staticwebassets\\img\\f-feature-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\f-feature-4.jpg",
+      "PackagePath": "staticwebassets\\img\\f-feature-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\f-feature-5.jpg",
+      "PackagePath": "staticwebassets\\img\\f-feature-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\f-feature-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\img\\f-feature-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\f-feature-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\img\\f-feature-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\f-feature-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\img\\f-feature-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\f-feature-thumb-4.jpg",
+      "PackagePath": "staticwebassets\\img\\f-feature-thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\f-feature-thumb-5.jpg",
+      "PackagePath": "staticwebassets\\img\\f-feature-thumb-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\flight-1.jpg",
+      "PackagePath": "staticwebassets\\img\\flight-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\flight-2.jpg",
+      "PackagePath": "staticwebassets\\img\\flight-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\flight-3.jpg",
+      "PackagePath": "staticwebassets\\img\\flight-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\flight-4.jpg",
+      "PackagePath": "staticwebassets\\img\\flight-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\flight-5.jpg",
+      "PackagePath": "staticwebassets\\img\\flight-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\flight-6.jpg",
+      "PackagePath": "staticwebassets\\img\\flight-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\flight-detail-tab-1.jpg",
+      "PackagePath": "staticwebassets\\img\\flight-detail-tab-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\flight-detail-tab-2.jpg",
+      "PackagePath": "staticwebassets\\img\\flight-detail-tab-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\flight-detail-tab-3.jpg",
+      "PackagePath": "staticwebassets\\img\\flight-detail-tab-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\flight-detail-tab-4.jpg",
+      "PackagePath": "staticwebassets\\img\\flight-detail-tab-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\flight-detail-tab-5.jpg",
+      "PackagePath": "staticwebassets\\img\\flight-detail-tab-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\flight-slider-1.jpg",
+      "PackagePath": "staticwebassets\\img\\flight-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\flight-slider-2.jpg",
+      "PackagePath": "staticwebassets\\img\\flight-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\flight-testimonials.jpg",
+      "PackagePath": "staticwebassets\\img\\flight-testimonials.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\forgot-password-real.jpg",
+      "PackagePath": "staticwebassets\\img\\forgot-password-real.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\forgot-password.jpg",
+      "PackagePath": "staticwebassets\\img\\forgot-password.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\ftr-instagram-1.jpg",
+      "PackagePath": "staticwebassets\\img\\ftr-instagram-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\ftr-instagram-2.jpg",
+      "PackagePath": "staticwebassets\\img\\ftr-instagram-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\ftr-instagram-3.jpg",
+      "PackagePath": "staticwebassets\\img\\ftr-instagram-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\ftr-instagram-4.jpg",
+      "PackagePath": "staticwebassets\\img\\ftr-instagram-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\ftr-instagram-5.jpg",
+      "PackagePath": "staticwebassets\\img\\ftr-instagram-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\ftr-instagram-6.jpg",
+      "PackagePath": "staticwebassets\\img\\ftr-instagram-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\h-feature-1.jpg",
+      "PackagePath": "staticwebassets\\img\\h-feature-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\h-feature-2.jpg",
+      "PackagePath": "staticwebassets\\img\\h-feature-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\h-feature-3.jpg",
+      "PackagePath": "staticwebassets\\img\\h-feature-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\h-feature-4.jpg",
+      "PackagePath": "staticwebassets\\img\\h-feature-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\h-feature-5.jpg",
+      "PackagePath": "staticwebassets\\img\\h-feature-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\h-feature-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\img\\h-feature-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\h-feature-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\img\\h-feature-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\h-feature-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\img\\h-feature-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\h-feature-thumb-4.jpg",
+      "PackagePath": "staticwebassets\\img\\h-feature-thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\h-feature-thumb-5.jpg",
+      "PackagePath": "staticwebassets\\img\\h-feature-thumb-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\highlights.jpg",
+      "PackagePath": "staticwebassets\\img\\highlights.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\holiday-deal-1.jpg",
+      "PackagePath": "staticwebassets\\img\\holiday-deal-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\holiday-deal-2.jpg",
+      "PackagePath": "staticwebassets\\img\\holiday-deal-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\holiday-deal-3.jpg",
+      "PackagePath": "staticwebassets\\img\\holiday-deal-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\homepage-slider-1.jpg",
+      "PackagePath": "staticwebassets\\img\\homepage-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\homepage-slider-2.jpg",
+      "PackagePath": "staticwebassets\\img\\homepage-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hot-tour-1.jpg",
+      "PackagePath": "staticwebassets\\img\\hot-tour-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hot-tour-2.jpg",
+      "PackagePath": "staticwebassets\\img\\hot-tour-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-3.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-4.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-5.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-6.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-detail-tab-1.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-detail-tab-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-detail-tab-2.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-detail-tab-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-detail-tab-3.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-detail-tab-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-detail-tab-4.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-detail-tab-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-detail-tab-5.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-detail-tab-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-grid-1.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-grid-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-grid-2.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-grid-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-grid-3.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-grid-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-grid-4.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-grid-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-grid-5.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-grid-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-grid-6.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-grid-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-offers.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-offers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-slider-1.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\hotel-slider-2.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\image--ks2.png",
+      "PackagePath": "staticwebassets\\img\\image--ks2.png"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\image--ks3.png",
+      "PackagePath": "staticwebassets\\img\\image--ks3.png"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\landing-slider-1.jpg",
+      "PackagePath": "staticwebassets\\img\\landing-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\landing-slider-2.jpg",
+      "PackagePath": "staticwebassets\\img\\landing-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\latest-blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\latest-blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\latest-blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\latest-blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\latest-blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\latest-blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\loader-atomic.gif",
+      "PackagePath": "staticwebassets\\img\\loader-atomic.gif"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\loader-caribbean-green.gif",
+      "PackagePath": "staticwebassets\\img\\loader-caribbean-green.gif"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\loader-eggblue.gif",
+      "PackagePath": "staticwebassets\\img\\loader-eggblue.gif"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\loader-green.gif",
+      "PackagePath": "staticwebassets\\img\\loader-green.gif"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\loader-lightblue.gif",
+      "PackagePath": "staticwebassets\\img\\loader-lightblue.gif"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\loader-orange.gif",
+      "PackagePath": "staticwebassets\\img\\loader-orange.gif"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\loader-purple.gif",
+      "PackagePath": "staticwebassets\\img\\loader-purple.gif"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\loader-red.gif",
+      "PackagePath": "staticwebassets\\img\\loader-red.gif"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\login.jpg",
+      "PackagePath": "staticwebassets\\img\\login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\luxury-car.jpg",
+      "PackagePath": "staticwebassets\\img\\luxury-car.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\luxury-room-1.jpg",
+      "PackagePath": "staticwebassets\\img\\luxury-room-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\luxury-room-2.jpg",
+      "PackagePath": "staticwebassets\\img\\luxury-room-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\luxury-room-3.jpg",
+      "PackagePath": "staticwebassets\\img\\luxury-room-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\luxury-room-4.jpg",
+      "PackagePath": "staticwebassets\\img\\luxury-room-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\master-card.png",
+      "PackagePath": "staticwebassets\\img\\master-card.png"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\megamenu.jpg",
+      "PackagePath": "staticwebassets\\img\\megamenu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\message-banner.jpg",
+      "PackagePath": "staticwebassets\\img\\message-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\new.jpg",
+      "PackagePath": "staticwebassets\\img\\new.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\newsletter.jpg",
+      "PackagePath": "staticwebassets\\img\\newsletter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\payment-1.jpg",
+      "PackagePath": "staticwebassets\\img\\payment-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\payment-1.png",
+      "PackagePath": "staticwebassets\\img\\payment-1.png"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\payment-2.png",
+      "PackagePath": "staticwebassets\\img\\payment-2.png"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\payment-3.png",
+      "PackagePath": "staticwebassets\\img\\payment-3.png"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\payment-4.png",
+      "PackagePath": "staticwebassets\\img\\payment-4.png"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\recent-post-1.jpg",
+      "PackagePath": "staticwebassets\\img\\recent-post-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\recent-post-2.jpg",
+      "PackagePath": "staticwebassets\\img\\recent-post-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\recent-post-3.jpg",
+      "PackagePath": "staticwebassets\\img\\recent-post-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\registration.jpg",
+      "PackagePath": "staticwebassets\\img\\registration.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\reviewer-1.jpg",
+      "PackagePath": "staticwebassets\\img\\reviewer-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\reviewer-2.jpg",
+      "PackagePath": "staticwebassets\\img\\reviewer-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\reviewer-3.jpg",
+      "PackagePath": "staticwebassets\\img\\reviewer-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\sidebar-insta-1.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar-insta-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\sidebar-insta-2.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar-insta-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\sidebar-insta-3.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar-insta-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\sidebar-insta-4.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar-insta-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\sidebar-insta-5.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar-insta-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\sidebar-insta-6.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar-insta-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\sidebar-insta-7.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar-insta-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\sidebar-insta-8.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar-insta-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\sidebar-insta-9.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar-insta-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\skills.jpg",
+      "PackagePath": "staticwebassets\\img\\skills.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\t-feature-1.jpg",
+      "PackagePath": "staticwebassets\\img\\t-feature-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\t-feature-2.jpg",
+      "PackagePath": "staticwebassets\\img\\t-feature-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\t-feature-3.jpg",
+      "PackagePath": "staticwebassets\\img\\t-feature-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\t-feature-4.jpg",
+      "PackagePath": "staticwebassets\\img\\t-feature-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\t-feature-5.jpg",
+      "PackagePath": "staticwebassets\\img\\t-feature-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\t-feature-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\img\\t-feature-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\t-feature-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\img\\t-feature-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\t-feature-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\img\\t-feature-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\t-feature-thumb-4.jpg",
+      "PackagePath": "staticwebassets\\img\\t-feature-thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\t-feature-thumb-5.jpg",
+      "PackagePath": "staticwebassets\\img\\t-feature-thumb-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\team-member-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team-member-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\team-member-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team-member-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\team-member-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team-member-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\team-member-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team-member-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\team-member-5.jpg",
+      "PackagePath": "staticwebassets\\img\\team-member-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\testimonials.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-1.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-2.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-3.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-4.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-detail-tab-1.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-detail-tab-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-detail-tab-2.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-detail-tab-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-detail-tab-3.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-detail-tab-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-grid-1.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-grid-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-grid-2.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-grid-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-grid-3.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-grid-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-grid-4.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-grid-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-grid-5.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-grid-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-grid-6.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-grid-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-list-1.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-list-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-list-2.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-list-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-list-3.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-list-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-list-4.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-list-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-list-5.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-list-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-list-6.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-list-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-offers.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-offers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-slider-1.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-slider-2.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\tour-testimonials.jpg",
+      "PackagePath": "staticwebassets\\img\\tour-testimonials.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\travel-insurance.jpg",
+      "PackagePath": "staticwebassets\\img\\travel-insurance.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\trip-africa-1.jpg",
+      "PackagePath": "staticwebassets\\img\\trip-africa-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\trip-africa-2.jpg",
+      "PackagePath": "staticwebassets\\img\\trip-africa-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\trip-africa-3.jpg",
+      "PackagePath": "staticwebassets\\img\\trip-africa-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\trip-africa-4.jpg",
+      "PackagePath": "staticwebassets\\img\\trip-africa-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\trip-malaysia-1.jpg",
+      "PackagePath": "staticwebassets\\img\\trip-malaysia-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\trip-malaysia-2.jpg",
+      "PackagePath": "staticwebassets\\img\\trip-malaysia-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\trip-malaysia-3.jpg",
+      "PackagePath": "staticwebassets\\img\\trip-malaysia-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\trip-malaysia-4.jpg",
+      "PackagePath": "staticwebassets\\img\\trip-malaysia-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\user-profile.jpg",
+      "PackagePath": "staticwebassets\\img\\user-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\user.png",
+      "PackagePath": "staticwebassets\\img\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\vehicle-1.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicle-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\vehicle-2.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicle-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\vehicle-3.jpg",
+      "PackagePath": "staticwebassets\\img\\vehicle-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\video-banner.jpg",
+      "PackagePath": "staticwebassets\\img\\video-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\img\\wishlist.jpg",
+      "PackagePath": "staticwebassets\\img\\wishlist.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\custom-date-picker.js",
+      "PackagePath": "staticwebassets\\js\\custom-date-picker.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\custom-flex.js",
+      "PackagePath": "staticwebassets\\js\\custom-flex.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\custom-gallery.js",
+      "PackagePath": "staticwebassets\\js\\custom-gallery.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\custom-navigation.js",
+      "PackagePath": "staticwebassets\\js\\custom-navigation.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\custom-owl.js",
+      "PackagePath": "staticwebassets\\js\\custom-owl.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\custom-price-slider.js",
+      "PackagePath": "staticwebassets\\js\\custom-price-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\custom-slick.js",
+      "PackagePath": "staticwebassets\\js\\custom-slick.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\custom-video.js",
+      "PackagePath": "staticwebassets\\js\\custom-video.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\jquery.colorpanel.js",
+      "PackagePath": "staticwebassets\\js\\jquery.colorpanel.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\jquery.flexslider.js",
+      "PackagePath": "staticwebassets\\js\\jquery.flexslider.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SWP_template.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.SWP_template.props",
+      "PackagePath": "build\\SWP_template.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SWP_template.props",
+      "PackagePath": "buildMultiTargeting\\SWP_template.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.SWP_template.props",
+      "PackagePath": "buildTransitive\\SWP_template.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

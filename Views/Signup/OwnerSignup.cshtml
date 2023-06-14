@@ -1,0 +1,92 @@
+﻿@using SWP_template.Models
+@model RegisterViewModel
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+
+    <!-- Font Awesome Stylesheet -->
+    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" id="cpswitch" href="~/css/orange.css">
+    <link rel="stylesheet" href="~/css/responsive.css">
+</head>
+
+<body>
+    <!--===== INNERPAGE-WRAPPER ====-->
+    <section class="innerpage-wrapper">
+        <div id="registration" class="innerpage-section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <div class="flex-content">
+                            <div class="custom-form custom-form-fields">
+                                <h3>Registration</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                @using (Html.BeginForm("OwnerSignup", "Signup", FormMethod.Post))
+                                {
+                                    @*@ViewBag.fail*@
+                                    @* <div class="form"> *@
+                                    <div class="form-group">
+
+                                        @Html.LabelFor(m => m.Account, new { @class = "sr-only",@for = "inputAccount" })
+                                        @Html.TextBoxFor(m => m.Account, new { @class = "form-control account",id = "inputAccount", name = "account",placeholder ="User account", autofocus ="" })
+                                        @Html.ValidationMessageFor(m => m.Account, "", new { @class = "text-danger" })
+                                        <span><i class="fa fa-user"></i></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        @Html.LabelFor(m => m.Email, new { @class = "sr-only", @for = "inputEmail" })
+                                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control email", id = "inputEmail" , name = "email", placeholder = "Email address", autofocus = "" })
+                                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                        <span><i class="fa fa-envelope"></i></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        @Html.LabelFor(m => m.Password, new { @class = "sr-only", @for = "inputPassword" })
+                                        @Html.PasswordFor(m => m.Password, new { @class = "form-control form-control-lg password", id = "inputPassword",name = "password", placeholder = "Password", type="password" })
+                                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                                        <span><i class="fa fa-lock"></i></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        @Html.LabelFor(m => m.ConfirmPassword, new { @class = "sr-only", @for = "inputPassword" })
+                                        @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control form-control-lg password_confirmation", id = "inputPassword", name = "confirmPassword", placeholder = "Confirm Password", type="password" })
+                                        @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
+                                        <span><i class="fa fa-lock"></i></span>
+                                    </div>
+
+                                    <button class="btn btn-orange btn-block" type="submit">Register</button>
+
+                                }
+
+
+                            </div><!-- end custom-form -->
+
+                            <div class="flex-content-img custom-form-img">
+                                <img src="~/img/image--ks2.png" class="img-responsive" alt="registration-img" />
+                            </div><!-- end custom-form-img -->
+                        </div><!-- end form-content -->
+
+                    </div><!-- end columns -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end registration -->
+    </section><!-- end innerpage-wrapper -->
+    <!-- Page Scripts Starts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom-navigation.js"></script>
+    <!-- Page Scripts Ends -->
+</body>
