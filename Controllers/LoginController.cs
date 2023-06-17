@@ -27,15 +27,12 @@ public class LoginController : Controller
     [ValidateAntiForgeryToken]
     public IActionResult Login(string account, string password, bool rememberme)
     {
-        var dbcontext = new SwpContext();
-
-        var data = dbcontext.Accountsses.Where(a => a.Username.Equals(account) && a.Password.Equals(password) && a.Role.Equals("R003")).FirstOrDefault();
-        if (data != null)
+        var acc = ManageAccount.UserLogin(account, password, "R003");
+        if (acc != null)
         {
             var session = HttpContext.Session;
-
-            session.SetString("Username", data.Username);
-            session.SetString("ID", data.AccountId);
+            session.SetString("Username", account);
+            session.SetString("ID", acc.AccountId);
             return View("/Views/Home/Index.cshtml");
         }
         else
@@ -43,8 +40,6 @@ public class LoginController : Controller
             ViewBag.LoginFail = "Wrong username or password!";
             return View();
         }
-
-
     }
 
 

@@ -58,15 +58,15 @@ namespace SWP_template.Models
 
         }
 
-        public static bool Login(string username, string password)
+        public static Accountss UserLogin(string username, string password, string RoleID)
         {
             using var dbcontext = new SwpContext();
             var account = (from a in dbcontext.Accountsses
-                           where a.Username.Equals(username) && a.Password.Equals(password)
+                           where a.Username.Equals(username) && a.Password.Equals(password) && a.Role.Equals(RoleID)
                            select a).FirstOrDefault();
             if (account != null)
-                return true;
-            return false;
+                return account;
+            return null;
         }
         // public void ReadHotel(){
 
