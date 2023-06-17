@@ -1,10 +1,9 @@
-﻿
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor Accessors
 @{
     ViewData["Title"] = "Bookeng";
-    
-
+    //Accessors.HttpContext.Session.Clear();
 }
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -64,12 +63,12 @@
                     <div id="links">
                         
                         @*@{int x = Context.Session.Get("account");}*@
-                        @if (@ViewBag.Succeed != null)
+                        @if (@Accessors.HttpContext.Session.GetString("Username") != null)
                         {
 
                             <ul class="list-unstyled list-inline">
-                                <li style="color: white; font-weight: bold;">@ViewBag.Succeed</li>
-                                <li><a asp-area="" asp-controller="Login" asp-action="Logout"><span><i class="fa fa-plus"></i></span>Log out</a></li>
+                                <li style="color: white; font-weight: bold;"><a href="@Url.ActionLink("UserProfile","UserProfile", new { id = Accessors.HttpContext.Session.GetString("ID")})">@Accessors.HttpContext.Session.GetString("Username")</a></li>
+                                <li><a href="@Url.ActionLink("Logout","Home")"><span><i class="fa fa-plus"></i></span>Log out</a></li>
 
                             </ul>
                         }

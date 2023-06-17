@@ -15,7 +15,7 @@ public partial class Hotel
 
     public string Province { get; set; }
 
-    public string StartPrice { get; set; }
+    public string StartPrice { get; set; }  
 
     public string HotelInfo { get; set; }
 

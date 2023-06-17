@@ -52,9 +52,9 @@
 	height:100%;">
                     <div class=" meta">
                         <div class="container">
-                            <h2>Discover</h2>
-                            <h1>Australia</h1>
-                            <a href="#" class="btn btn-default">View More</a>
+                            <h1>Where to next?</h1>
+                            <h3>Find exclusive Genius rewards in every corner of the world!</h3>
+                            @*<a href="#" class="btn btn-default">View More</a>*@
                         </div><!-- end container -->
                     </div><!-- end meta -->
                 </li><!-- end item-1 -->
@@ -155,24 +155,30 @@
                         <div class="item">
                             <div class="main-block hotel-block">
                                 <div class="main-img">
-                                    <a href="#">
+                                    @*<a asp-area="" asp-action="HotelList" asp-controller="HotelList", new { province = "}>*@
+                                    <a href="@Url.Action("HotelList", "HotelList", new { province = "Ha Noi" }) ">
+
                                         <img src="~/img/Hanoi.jpg" class="img-responsive" alt="hotel-img" />
                                     </a>
                                     <div class="main-mask">
                                         <ul class="list-unstyled list-inline offer-price-1">
                                             <li class="price">Start at 150,000<span class="divider">|</span><span class="pkg">Avg/Night</span></li>
-                                            
+
                                         </ul>
                                     </div><!-- end main-mask -->
                                 </div><!-- end offer-img -->
 
                                 <div class="main-info hotel-info">
                                     <div class="arrow">
-                                        <a href="#"><span><i class="fa fa-angle-right"></i></span></a>
+                                        <a href="@Url.Action("HotelList", "HotelList", new { province = "Ha Noi" }) ">
+                                            <span><i class="fa fa-angle-right"></i></span>
+                                        </a>
                                     </div><!-- end arrow -->
 
                                     <div class="main-title hotel-title">
-                                        <a href="#">Ha Noi</a>
+                                        <a href="@Url.Action("HotelList", "HotelList", new { province = "Ha Noi" }) ">
+                                            Ha Noi
+                                        </a>
 
                                     </div><!-- end hotel-title -->
                                 </div><!-- end hotel-info -->
@@ -182,24 +188,28 @@
                         <div class="item">
                             <div class="main-block hotel-block">
                                 <div class="main-img">
-                                    <a href="#">
+                                    <a href="@Url.Action("HotelList", "HotelList", new { province = "Hoi An" }) ">
                                         <img src="~/img/hoian.jpg" class="img-responsive" alt="hotel-img" />
                                     </a>
                                     <div class="main-mask">
                                         <ul class="list-unstyled list-inline offer-price-1">
                                             <li class="price">Start at 166,600<span class="divider">|</span><span class="pkg">Avg/Night</span></li>
-                                           
+
                                         </ul>
                                     </div><!-- end main-mask -->
                                 </div><!-- end offer-img -->
 
                                 <div class="main-info hotel-info">
                                     <div class="arrow">
-                                        <a href="#"><span><i class="fa fa-angle-right"></i></span></a>
+                                        <a href="@Url.Action("HotelList", "HotelList", new { province = "Hoi An" }) ">
+                                            <span><i class="fa fa-angle-right"></i></span>
+                                        </a>
                                     </div><!-- end arrow -->
 
                                     <div class="main-title hotel-title">
-                                        <a href="#">Hoi An</a>
+                                        <a href="@Url.Action("HotelList", "HotelList", new { province = "Hoi An" }) ">
+                                            Hoi An
+                                        </a>
 
                                     </div><!-- end hotel-title -->
                                 </div><!-- end hotel-info -->
@@ -209,24 +219,25 @@
                         <div class="item">
                             <div class="main-block hotel-block">
                                 <div class="main-img">
-                                    <a href="#">
+                                    <a href="@Url.Action("HotelList", "HotelList", new { province = "Ho Chi Minh" }) ">
+
                                         <img src="~/img/HCM.jpg" class="img-responsive" alt="hotel-img" />
                                     </a>
                                     <div class="main-mask">
                                         <ul class="list-unstyled list-inline offer-price-1">
                                             <li class="price">Start at 120,000<span class="divider">|</span><span class="pkg">Avg/Night</span></li>
-                                           
+
                                         </ul>
                                     </div><!-- end main-mask -->
                                 </div><!-- end offer-img -->
 
                                 <div class="main-info hotel-info">
                                     <div class="arrow">
-                                        <a href="#"><span><i class="fa fa-angle-right"></i></span></a>
+                                        <a href="@Url.Action("HotelList", "HotelList", new { province = "Ho Chi Minh" }) "><span><i class="fa fa-angle-right"></i></span></a>
                                     </div><!-- end arrow -->
 
                                     <div class="main-title hotel-title">
-                                        <a href="#">Ho Chi Minh</a>
+                                        <a href="@Url.Action("HotelList", "HotelList", new { province = "Ho Chi Minh" }) ">Ho Chi Minh</a>
                                     </div><!-- end hotel-title -->
                                 </div><!-- end hotel-info -->
                             </div><!-- end hotel-block -->
@@ -235,24 +246,24 @@
                         <div class="item">
                             <div class="main-block hotel-block">
                                 <div class="main-img">
-                                    <a href="#">
+                                    <a href="@Url.Action("HotelList", "HotelList", new { province = "Da Nang" }) ">
                                         <img src="~/img/danang.jpg" class="img-responsive" alt="hotel-img" />
                                     </a>
                                     <div class="main-mask">
                                         <ul class="list-unstyled list-inline offer-price-1">
                                             <li class="price">Start at 150,000<span class="divider">|</span><span class="pkg">Avg/Night</span></li>
-                                           
+
                                         </ul>
                                     </div><!-- end main-mask -->
                                 </div><!-- end offer-img -->
 
                                 <div class="main-info hotel-info">
                                     <div class="arrow">
-                                        <a href="#"><span><i class="fa fa-angle-right"></i></span></a>
+                                        <a href="@Url.Action("HotelList", "HotelList", new { province = "Da Nang" }) "><span><i class="fa fa-angle-right"></i></span></a>
                                     </div><!-- end arrow -->
 
                                     <div class="main-title hotel-title">
-                                        <a href="#">Da Nang</a>
+                                        <a href="@Url.Action("HotelList", "HotelList", new { province = "Da Nang" }) ">Da Nang</a>
                                     </div><!-- end hotel-title -->
                                 </div><!-- end hotel-info -->
                             </div><!-- end hotel-block -->
@@ -261,24 +272,24 @@
                         <div class="item">
                             <div class="main-block hotel-block">
                                 <div class="main-img">
-                                    <a href="#">
+                                    <a href="@Url.Action("HotelList", "HotelList", new { province = "Hue" }) ">
                                         <img src="~/img/Hue.jpg" class="img-responsive" alt="hotel-img" />
                                     </a>
                                     <div class="main-mask">
                                         <ul class="list-unstyled list-inline offer-price-1">
                                             <li class="price">Start at 130,000<span class="divider">|</span><span class="pkg">Avg/Night</span></li>
-                                           
+
                                         </ul>
                                     </div><!-- end main-mask -->
                                 </div><!-- end offer-img -->
 
                                 <div class="main-info hotel-info">
                                     <div class="arrow">
-                                        <a href="#"><span><i class="fa fa-angle-right"></i></span></a>
+                                        <a href="@Url.Action("HotelList", "HotelList", new { province = "Hue" }) "><span><i class="fa fa-angle-right"></i></span></a>
                                     </div><!-- end arrow -->
 
                                     <div class="main-title hotel-title">
-                                        <a href="#">Hue</a>
+                                        <a href="@Url.Action("HotelList", "HotelList", new { province = "Hue" }) ">Hue</a>
                                     </div><!-- end hotel-title -->
                                 </div><!-- end hotel-info -->
                             </div><!-- end hotel-block -->

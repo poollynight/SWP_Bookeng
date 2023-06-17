@@ -1,0 +1,165 @@
+﻿@model SubmitRoomModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Detail Left Sidebar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+
+    <!-- Font Awesome Stylesheet -->
+    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" id="cpswitch" href="~/css/orange.css">
+    <link rel="stylesheet" href="~/css/responsive.css">
+
+    <!--Date-Picker Stylesheet-->
+    <link rel="stylesheet" href="~/css/datepicker.css">
+
+    <!-- Slick Stylesheet -->
+    <link rel="stylesheet" href="~/css/slick.css">
+    <link rel="stylesheet" href="~/css/slick-theme.css">
+</head>
+<body>
+    <h1>Xác nhận thông tin</h1>
+    <p>First Name: @ViewData["FirstName"]</p>
+    <p>Last Name:  @ViewData["LastName"]</p>
+    <p>Email:  @ViewData["Email"]</p>
+    <p>Phone:  @ViewData["Phone"]</p>
+    <p>Country:  @ViewData["Country"]</p>
+    <p>Arrival Date: @ViewData["ArrivalDate"]</p>
+    <p>Departure Date:  @ViewData["DepartureDate"]</p>
+    <p>Room:  @ViewData["QuatityRoom"]</p>
+    <p>Bed:  @ViewData["Bed"]</p>
+    <p>Adults:  @ViewData["Adults"]</p>
+    <p>Child:  @ViewData["Childs"]</p>
+    <p>Pay Method:  @ViewData["PayMethod"]</p>
+    <button type="submit">Confirm</button>
+    <button type="button" onclick="showEditModal()" data-toggle="modal" data-target="#editModal">Edit</button>
+
+    <div id="editModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="editModalLabel">Edit Information</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form method="post" action="@Url.Action("Submit","SubmitRoom")">
+                        <!-- Các trường dữ liệu để chỉnh sửa -->
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="editFirstName" name="firstName" placeholder="First Name" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="editLastName" name="lastName" placeholder="Last Name" required />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="editEmail" name="email" placeholder="Email" required />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="editPhone" name="phone" placeholder="Phone" required />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="editCountry" name="country" placeholder="Country" required />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control dpd1" id="editArrivalDate" name="arrivalDate" placeholder="Arrival Date" required />                                       		<i class="fa fa-calendar"></i>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control dpd2" id="editDepartureDate" name="departureDate" placeholder="Departure Date" required />                                       		<i class="fa fa-calendar"></i>
+                        </div>
+
+                        <div class="form-group">
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-12 col-lg-6 no-sp-r">
+                                <div class="form-group right-icon">
+                                    <select class="form-control" name="quatityRoom" id="editAuatityRoom">
+                                        <option selected>Rooms</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-12 col-lg-6 no-sp-l">
+                                <div class="form-group right-icon">
+                                    <select class="form-control" name="bed" id="editBed">
+                                        <option selected>Beds</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6 col-md-12 col-lg-6 no-sp-r">
+                                <div class="form-group right-icon">
+                                    <select class="form-control" name="adults" id="editAdults">
+                                        <option selected>Adults</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-12 col-lg-6 no-sp-l">
+                                <div class="form-group right-icon">
+                                    <select class="form-control" name="childs" id="editChilds">
+                                        <option selected>Childs</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group right-icon">
+                            <select class="form-control" name="payMethod" id="editPayMethod">
+                                <option selected>Payment Method</option>
+                                <option>Credit Card</option>
+                                <option>Paypal</option>
+                            </select>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <button class="btn btn-block btn-orange" type="submit">Save Changes</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/bootstrap-datepicker.js"></script>
+    <script src="~/js/slick.min.js"></script>
+    <script src="~/js/custom-navigation.js"></script>
+    <script src="~/js/custom-date-picker.js"></script>
+    <script src="~/js/custom-slick.js"></script>
+    <script src="~/js/site.js"></script>
+
+</body>
+
+
+</html>

@@ -24,9 +24,9 @@ namespace SWP_template.Controllers
 
 
 
-        public IActionResult HotelList()
+        public IActionResult HotelList(string province)
         {
-            var ListHotel = context.Hotels.ToList();
+            var ListHotel = context.Hotels.Where(h => h.Province.Equals(province)).ToList();
             return View(ListHotel);
         }
     }

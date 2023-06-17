@@ -12,11 +12,14 @@ public class LoginController : Controller
     {
         _logger = logger;
     }
-    [HttpGet]
+   
     public IActionResult Login()
     {
         return View();
     }
+
+    //Logout
+    
 
 
     [HttpPost]
@@ -26,15 +29,14 @@ public class LoginController : Controller
     {
         var dbcontext = new SwpContext();
 
-        var data = dbcontext.Accountsses.Where(a => a.Username.Equals(account) && a.Password.Equals(password) && a.Role.Equals("R003")).ToList();
-        if (data.Count() > 0)
+        var data = dbcontext.Accountsses.Where(a => a.Username.Equals(account) && a.Password.Equals(password) && a.Role.Equals("R003")).FirstOrDefault();
+        if (data != null)
         {
-           
-            HttpContext.Session.SetString("Username", data.FirstOrDefault().Username);
-            HttpContext.Session.SetString("Password", data.FirstOrDefault().Password);
-            ViewBag.Succeed = account;
-            object session = HttpContext.Session;
-            return View("/Views/Home/Index.cshtml", session);
+            var session = HttpContext.Session;
+
+            session.SetString("Username", data.Username);
+            session.SetString("ID", data.AccountId);
+            return View("/Views/Home/Index.cshtml");
         }
         else
         {
@@ -46,10 +48,5 @@ public class LoginController : Controller
     }
 
 
-    //Logout
-    public ActionResult Logout()
-    {
-        HttpContext.Session.Clear();//remove session
-        return View("/Views/Home/Index.cshtml");
-    }
+
 }
