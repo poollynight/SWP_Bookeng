@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4W4AWqdRDVF0Pm9JbuUw8l3oi/6EEIeM5QlObr9UiydWsn/1nWacRB81ZPwYOfuEyJxVnz0AbwLDJrKyd9i6Iw==",
+  "dgSpecHash": "Qg2wKgCufd1wQ+0sFC6JRzJEn69dyFo9KlhcZX4GWdKeb3NQscoR06Dg+yFo3/hhevvzILwo7FuFmHgMPqKWEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\SWP_template.csproj",
+  "projectFilePath": "C:\\Users\\CHIEN THANG\\source\\repos\\SWP_Bookeng\\SWP_template.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CHIEN THANG\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\CHIEN THANG\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
