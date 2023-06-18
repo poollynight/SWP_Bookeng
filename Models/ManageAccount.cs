@@ -32,14 +32,14 @@ namespace SWP_template.Models
             var info = new InfoAccount()
             {
                 AccountId = accID,
-                Name = "",
-                Age = "",
-                Phone = "",
+                Name = " ",
+                Age = " ",
+                Phone = " ",
                 Email = email,
-                Gender = "",
-                Birthday = "",
-                Nation = "",
-                Identitycard = "",
+                Gender = " ",
+                Birthday = " ",
+                Nation = "  ",
+                Identitycard = " ",
             };
             var p1 = new Accountss()
             {

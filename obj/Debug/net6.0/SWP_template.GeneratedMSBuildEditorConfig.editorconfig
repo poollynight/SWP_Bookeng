@@ -16,18 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\CHIEN THANG\Desktop\SWP_template_des
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/CHIEN THANG/Desktop/SWP_template_des/Areas/Admin/Views/AdminHome/AdminHome.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Ib21lXEFkbWluSG9tZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/CHIEN THANG/Desktop/SWP_template_des/Areas/Admin/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/CHIEN THANG/Desktop/SWP_template_des/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/ForgotPassword/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9yZ290UGFzc3dvcmRcRm9yZ290UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,8 +40,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/Owner/AdminHome.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJcQWRtaW5Ib21lLmNzaHRtbA==
+[C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/Owner/OwnerHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJcT3duZXJIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/Owner/OwnerLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJcT3duZXJMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/Shared/Error.cshtml]
@@ -72,10 +64,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbnVwXFNpZ251cC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/Signup/SucceedSignup.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbnVwXFN1Y2NlZWRTaWdudXAuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/SubmitRoom/SubmitRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VibWl0Um9vbVxTdWJtaXRSb29tLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -91,10 +79,6 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/CHIEN THANG/Desktop/SWP_template_des/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-1vr2v1ym6n
 
 [C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

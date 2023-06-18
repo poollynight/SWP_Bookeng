@@ -644,4 +644,3 @@ C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\ServiceStack.Comm
 C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\ServiceStack.Interfaces.dll
 C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\ServiceStack.Text.dll
 C:\Users\CHIEN THANG\Desktop\SWP_template_des\obj\Debug\net6.0\SWP_template.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\CHIEN THANG\Desktop\SWP_template_des\obj\Debug\net6.0\scopedcss\Areas\Admin\Views\Shared\_AdminLayout.cshtml.rz.scp.css

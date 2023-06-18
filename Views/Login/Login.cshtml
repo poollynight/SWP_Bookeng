@@ -41,7 +41,7 @@
                                     @ViewBag.LoginFail
                                     <div class="form-group">
                                         @Html.LabelFor(m => m.Account, new { @class = "sr-only",@for = "inputAccount" })
-                                        @Html.TextBoxFor(m => m.Account, new { @class = "form-control account",id = "inputAccount", name = "account",placeholder ="User account", autofocus ="" })
+                                        @Html.TextBoxFor(m => m.Account, new { @class = "form-control account",id = "inputAccount", name = "account",placeholder ="User account", autofocus ="", required="required" })
                                         @*@Html.ValidationMessageFor(m => m.Account, "", new { @class = "text-danger" })*@
 
                                         <span><i class="fa fa-user"></i></span>
@@ -49,7 +49,7 @@
 
                                     <div class="form-group">
                                         @Html.LabelFor(m => m.Password, new { @class = "sr-only", @for = "inputPassword" })
-                                        @Html.PasswordFor(m => m.Password, new { @class = "form-control form-control-lg password", id = "inputPassword",name = "password", placeholder = "Password" })
+                                        @Html.PasswordFor(m => m.Password, new { @class = "form-control form-control-lg password", id = "inputPassword",name = "password", placeholder = "Password", required="required" })
                                         @*@Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })*@
 
 
