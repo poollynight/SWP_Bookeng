@@ -16,15 +16,14 @@ namespace SWP_template.Controllers.Owner
         [ValidateAntiForgeryToken]
         public IActionResult OwnerLogin(string account, string password, bool rememberme)
         {
-            var dbcontext = new SwpContext();
+            var dbcontext = new Swp1Context();
 
-            var data = dbcontext.Accountsses.Where(a => a.Username.Equals(account) && a.Password.Equals(password) && a.Role.Equals("R002")).FirstOrDefault();
+            var data = ManageAccount.Login(account, password, "R002");
             if (data != null)
             {
-                var session = HttpContext.Session;
-
-                session.SetString("Username", data.Username);
-                session.SetString("ID", data.AccountId);
+                IHttpContextAccessor Accessors = new HttpContextAccessor();
+                Accessors.HttpContext.Session.SetString("Username", account);
+                Accessors.HttpContext.Session.SetString("ID", data);
                 return View("/Views/Owner/OwnerHome.cshtml");
             }
             else

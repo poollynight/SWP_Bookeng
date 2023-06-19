@@ -13,7 +13,7 @@ namespace SWP_template.Controllers
     [Route("[controller]")]
     public class HotelListController : Controller
     {
-        SwpContext context = new SwpContext();
+        Swp1Context context = new Swp1Context();
 
         private readonly ILogger<HotelListController> _logger;
          

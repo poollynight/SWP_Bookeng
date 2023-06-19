@@ -13,15 +13,13 @@ public partial class Hotel
 
     public string HotelAddress { get; set; }
 
-    public string Province { get; set; }
-
-    public string StartPrice { get; set; }  
-
     public string HotelInfo { get; set; }
 
-    public string Avartar { get; set; }
+    public string Province { get; set; }
 
-    public virtual Accountss Account { get; set; }
+    public string StartPrice { get; set; }
+
+    public string HotelImage { get; set; }
 
     public virtual ICollection<Room> Rooms { get; set; } = new List<Room>();
 }

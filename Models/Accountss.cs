@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace SWP_template.Models;
+﻿namespace SWP_template.Models;
 
 public partial class Accountss
 {
@@ -11,11 +8,23 @@ public partial class Accountss
 
     public string Password { get; set; }
 
-    public string Role { get; set; }
+    public string RoleId { get; set; }
 
     public string Email { get; set; }
 
-    public virtual ICollection<Hotel> Hotels { get; set; } = new List<Hotel>();
+    public string Name { get; set; }
 
-    public virtual AccountRole RoleNavigation { get; set; }
+    public string Phone { get; set; }
+
+    public string Birthday { get; set; }
+
+    public string Nation { get; set; }
+
+    public string Gender { get; set; }
+
+    public string Identitycard { get; set; }
+
+    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
+
+    public virtual AccountRole Role { get; set; }
 }

@@ -24,49 +24,59 @@ namespace SWP_template.Models
             return id;
         }
 
-
+        public static string OwnerAccountIdGenerate()
+        {
+            Random res = new Random();
+            string str = "0123456789";
+            int size = 8;
+            string id = "OW";
+            for (int i = 0; i < size; i++)
+            {
+                // Selecting a index randomly
+                int x = res.Next(str.Length);
+                // Appending the character at the 
+                // index to the random alphanumeric string.
+                id = id + str[x];
+            }
+            return id;
+        }
         public static void SinupAccount(string username, string email, string password, string role)
         {
-            using var dbContext = new SwpContext();
-            string accID = UserAccountIdGenerate();
-            var info = new InfoAccount()
-            {
-                AccountId = accID,
-                Name = " ",
-                Age = " ",
-                Phone = " ",
-                Email = email,
-                Gender = " ",
-                Birthday = " ",
-                Nation = "  ",
-                Identitycard = " ",
-            };
+            string accID;
+            using var dbContext = new Swp1Context();
+            if(role.Equals("R002")) accID = OwnerAccountIdGenerate();
+             else accID = UserAccountIdGenerate();
+           
             var p1 = new Accountss()
             {
                 AccountId = accID,
                 Username = username,
                 Password = password,
-                Role = role,
+                RoleId = role,
                 Email = email,
+                Name = " ",
+                Phone = " ",
+                Gender = " ",
+                Birthday = " ",
+                Nation = "  ",
+                Identitycard = " ",
             };
 
 
             dbContext.AddAsync(p1);
-            dbContext.AddAsync(info);
-
             dbContext.SaveChanges();
 
         }
 
-        public static bool Login(string username, string password)
+        public static string Login(string username, string password, string role)
         {
-            using var dbcontext = new SwpContext();
+            using var dbcontext = new Swp1Context();
             var account = (from a in dbcontext.Accountsses
                            where a.Username.Equals(username) && a.Password.Equals(password)
                            select a).FirstOrDefault();
             if (account != null)
-                return true;
-            return false;
+                return account.AccountId;
+            return null;
         }
         // public void ReadHotel(){
 

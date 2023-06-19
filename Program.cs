@@ -15,7 +15,7 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 builder.Services.AddHttpContextAccessor();
-builder.Services.AddDbContextPool<SwpContext>(config =>
+builder.Services.AddDbContextPool<Swp1Context>(config =>
 {
     config.UseSqlServer(builder.Configuration.GetConnectionString("ArticleContext"));
 

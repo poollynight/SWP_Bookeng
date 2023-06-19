@@ -28,4 +28,6 @@ public partial class Room
     public int? RoomAvailable { get; set; }
 
     public virtual Hotel Hotel { get; set; }
+
+    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 }

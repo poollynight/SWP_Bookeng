@@ -7,8 +7,8 @@ namespace SWP_template.Controllers
     {
         public IActionResult UserProfile(string id)
         {
-            var dbcontext = new SwpContext();
-            var user = dbcontext.InfoAccounts.Where(a => a.AccountId == id).FirstOrDefault();
+            var dbcontext = new Swp1Context();
+            var user = dbcontext.Accountsses.Where(a => a.AccountId == id).FirstOrDefault();
             return View(user);
         }
     }
