@@ -9,7 +9,7 @@ namespace SWP_template.Controllers
     {
 
         [HttpPost]
-        public ActionResult Submit(string firstName, string lastName, string email, string phone, string country, string arrivalDate, string departureDate, string quatityRoom, string bed, string adults, string childs, string payMethod)
+        public ActionResult Submit(string firstName, string lastName, string email, string phone, string country, string arrivalDate, string departureDate,string roomType, string quatityRoom, string bed, string adults, string childs, string payMethod)
         {
             ViewData["FirstName"] = firstName;
             ViewData["LastName"] = lastName;
@@ -18,6 +18,7 @@ namespace SWP_template.Controllers
             ViewData["Country"] = country;
             ViewData["ArrivalDate"] = arrivalDate;
             ViewData["DepartureDate"] = departureDate;
+            ViewData["RoomType"] = roomType;
             ViewData["QuatityRoom"] = quatityRoom;
             ViewData["Bed"] = bed;
             ViewData["Adults"] = adults;

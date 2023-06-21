@@ -27,8 +27,14 @@ namespace SWP_template.Controllers
         public IActionResult HotelDetail(string id)
         {
 
+
             var hotel = context.Hotels.Where(h => h.HotelId.Equals(id)).FirstOrDefault();
+            int fileCount = Directory.GetFiles($"wwwroot/img/{hotel.Province}/{hotel.HotelName}").Length;
+            string imgURL = $"{hotel.Province}/{hotel.HotelName}";
+            Console.WriteLine(fileCount);
             ViewBag.hotel_name = hotel.HotelName;
+            ViewBag.img_Number = fileCount;
+            ViewBag.img_URl = imgURL;
             List<Room> room = context.Rooms.Where(r => r.HotelId.Equals(id)).ToList();
             return View(room);
         }

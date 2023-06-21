@@ -73,6 +73,18 @@
                                         <input type="text" class="form-control dpd2" name="departureDate" placeholder="Departure Date" required />                                       		<i class="fa fa-calendar"></i>
                                     </div>
 
+                                    <div class="form-group">
+                                        <div class="form-group right-icon">
+                                            <select class="form-control" name="roomType">
+                                                <option selected>Room Type</option>
+                                                @foreach (var room in Model)
+                                                {
+                                                    <option>@room.RoomName</option>
+                                                }
+                                            </select>
+                                            <i class="fa fa-angle-down"></i>
+                                        </div>
+                                    </div>
                                     <div class="row">
                                         <div class="col-sm-6 col-md-12 col-lg-6 no-sp-r">
                                             <div class="form-group right-icon">
@@ -135,8 +147,8 @@
                                     </div>
 
                                     <div class="checkbox custom-check">
-                                        <input type="checkbox" id="check01" name="checkbox" />
-                                        <label for="check01"><span><i class="fa fa-check"></i></span>By continuing, you are agree to the <a href="#">Terms & Conditions.</a></label>
+                                        <input required type="checkbox" id="check01" name="checkbox" />
+                                        <label  for="check01"><span><i class="fa fa-check" ></i></span>By continuing, you are agree to the <a asp-action="Privacy" asp-controller="Home">Terms & Conditions.</a></label>
                                     </div>
 
                                     <button class="btn btn-block btn-orange" type="submit">Confirm Booking</button>
@@ -165,22 +177,22 @@
 
                         <div class="detail-slider">
                             <div class="feature-slider">
-                                @foreach(var item in Model){
-                                    
-                                <div><img src="~/img/h-feature-1.jpg" class="img-responsive" alt="feature-img" /></div>
-                                <div><img src="~/img/h-feature-2.jpg" class="img-responsive" alt="feature-img" /></div>
-                                <div><img src="~/img/h-feature-3.jpg" class="img-responsive" alt="feature-img" /></div>
-                                <div><img src="~/img/h-feature-4.jpg" class="img-responsive" alt="feature-img" /></div>
-                                <div><img src="~/img/h-feature-5.jpg" class="img-responsive" alt="feature-img" /></div>
+                                @for(int i =1; i < ViewBag.img_Number; i++){
+                                    string url = ViewBag.img_URL +"/"+ i + ".jpg";
+                                    <div><img src="~/img/@url" class="img-responsive" alt="feature-img" style="max-height: 569px" /></div>
                                 }
+
                             </div><!-- end feature-slider -->
 
                             <div class="feature-slider-nav">
-                                <div><img src="~/img/h-feature-thumb-1.jpg" class="img-responsive" alt="feature-thumb" /></div>
-                                <div><img src="~/img/h-feature-thumb-2.jpg" class="img-responsive" alt="feature-thumb" /></div>
+                                @for(int i =1; i < ViewBag.img_Number; i++){
+                                    string url = ViewBag.img_URL + "/" + i + ".jpg";
+                                <div><img src="~/img/@url" class="img-responsive" alt="feature-thumb" style="max-height: 112px" /></div>
+                                @*<div><img src="~/img/h-feature-thumb-2.jpg" class="img-responsive" alt="feature-thumb" /></div>
                                 <div><img src="~/img/h-feature-thumb-3.jpg" class="img-responsive" alt="feature-thumb" /></div>
                                 <div><img src="~/img/h-feature-thumb-4.jpg" class="img-responsive" alt="feature-thumb" /></div>
-                                <div><img src="~/img/h-feature-thumb-5.jpg" class="img-responsive" alt="feature-thumb" /></div>
+                                <div><img src="~/img/h-feature-thumb-5.jpg" class="img-responsive" alt="feature-thumb" /></div>*@
+                                }
                             </div><!-- end feature-slider-nav -->
                         </div>  <!-- end detail-slider -->
 
@@ -198,7 +210,7 @@
                                 <div id="hotel-overview" class="tab-pane in active">
                                     <div class="row">
                                         <div class="col-sm-4 col-md-4 tab-img">
-                                            <img src="~/img/hotel-detail-tab-1.jpg" class="img-responsive" alt="flight-detail-img" />
+                                            <img src="~/img/@ViewBag.img_URL/avt.jpg" class="img-responsive" alt="flight-detail-img" />
                                         </div><!-- end columns -->
 
                                         <div class="col-sm-8 col-md-8 tab-text">
@@ -265,11 +277,13 @@
 
                         <div class="available-blocks" id="available-rooms">
                             <h2>Available Rooms</h2>
-                            @foreach(var room in Model)
+                            @foreach (var room in Model)
                             {
                                 <div class="list-block main-block room-block">
                                     <div class="list-content">
                                         <div class="main-img list-img room-img">
+                                            <img src="~/img/@ViewBag.img_URL/avt.jpg" class="img-responsive" alt="flight-detail-img" style="max-height: 250px"/>
+
                                             <div class="main-mask">
                                                 <ul class="list-unstyled list-inline offer-price-1">
                                                     <li class="price">@room.RoomPrice<span class="divider">|</span><span class="pkg">1 Night</span></li>
@@ -287,21 +301,9 @@
                                         <div class="list-info room-info">
                                             <h3 class="block-title"><a href="#">@room.RoomName</a></h3>
                                             @*<p class="block-minor">Max Guests:02</p>*@
-                                            <p class="block-minor">@room.RoomAvailable</p>
-                                            <p class="block-minor">
-                                                Select amount:
-                                                <select name="" id="">
-                                                    <option value="0">0</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                    <option value="5">5</option>
-                                                </select>
-                                            </p>
-
-                                            <p>@room.Wifi <t/>@room.Window </p>
-                                            <a href="#" class="btn btn-orange btn-lg">Reserve</a>
+                                            <p class="block-minor">Available: @room.RoomAvailable</p>
+                                            @*<p>@room.Wifi <t />@room.Window </p>*@
+                                            @*<a href="#" class="btn btn-orange btn-lg">Reserve</a>*@
                                         </div><!-- end room-info -->
                                     </div><!-- end list-content -->
                                 </div>
