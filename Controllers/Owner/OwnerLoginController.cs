@@ -18,7 +18,7 @@ namespace SWP_template.Controllers.Owner
         {
             var dbcontext = new Swp1Context();
 
-            var data = ManageAccount.Login(account, password, "R002");
+            var data = EFManage.Login(account, password, "R002");
             if (data != null)
             {
                 IHttpContextAccessor Accessors = new HttpContextAccessor();

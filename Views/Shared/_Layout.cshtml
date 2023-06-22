@@ -75,15 +75,15 @@
                         {
                             <ul class="list-unstyled list-inline">
                                 <li style="color: white; font-weight: bold; text-decoration: none"><a asp-area="" asp-controller="OwnerSignup" asp-action="OwnerSignup"><span><i class="fa fa-plus"></i></span>List your properties</a></li>
-                                <li style="color: white; font-weight: bold;"><a href="@Url.ActionLink("UserProfile","UserProfile", new { id = Accessors.HttpContext.Session.GetString("ID")})">@Accessors.HttpContext.Session.GetString("Username")</a></li>
+                                <li style="color: white; font-weight: bold;"><a href="@Url.ActionLink("UserProfile","UserProfile", new { id = Accessors.HttpContext.Session.GetString("ID")})">Hi, @Accessors.HttpContext.Session.GetString("Username")</a></li>
                                 <li><a href="@Url.ActionLink("Logout","Home")"><span><i class="fa fa-plus"></i></span>Log out</a></li>
                             </ul>
                         }
                         else if (@Accessors.HttpContext.Session.GetString("ID").Contains("OW"))
                         {
                             <ul class="list-unstyled list-inline">
-                                <li style="color: white; font-weight: bold; text-decoration: none"><a asp-area="" asp-controller="ManageHotel" asp-action="ManageHotel">Manage Hotel</a></li>
-                                <li style="color: white; font-weight: bold;"><a href="@Url.ActionLink("UserProfile","UserProfile", new { id = Accessors.HttpContext.Session.GetString("ID")})">@Accessors.HttpContext.Session.GetString("Username")</a></li>
+                                <li style="color: white; font-weight: bold; text-decoration: none"><a asp-area="" asp-controller="ManageHotel" asp-action="ManageHotel">Manage your properties</a></li>
+                                <li style="color: white; font-weight: bold;"><a href="@Url.ActionLink("UserProfile","UserProfile", new { id = Accessors.HttpContext.Session.GetString("ID")})">Hi, @Accessors.HttpContext.Session.GetString("Username")</a></li>
                                 <li><a href="@Url.ActionLink("Logout","Home")"><span><i class="fa fa-plus"></i></span>Log out</a></li>
                             </ul>
                         }

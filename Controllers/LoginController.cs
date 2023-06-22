@@ -27,8 +27,8 @@ public class LoginController : Controller
     [ValidateAntiForgeryToken]
     public IActionResult Login(string account, string password, bool rememberme)
     {
-        var dbcontext = new Swp1Context();
-        var check = ManageAccount.Login(account, password, "R002");
+        string role = "R003";
+        var check = EFManage.Login(account, password,role );
         if (check != null)
         {
             IHttpContextAccessor Accessors = new HttpContextAccessor();

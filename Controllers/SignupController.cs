@@ -46,7 +46,7 @@ namespace SWP_template.Controllers
             }
             else
             {
-                ManageAccount.SinupAccount(account,email,password, "R003");
+                EFManage.SinupAccount(account,email,password, "R003");
                 return View("/Views/Login/Login.cshtml");
             }
         }

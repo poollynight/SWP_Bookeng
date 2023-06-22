@@ -298,7 +298,7 @@
                     </div><!-- end owl-hotel-offers -->
 
                     <div class="view-all text-center">
-                        <a asp-controller="HotelList" asp-action="HotelList" class="btn btn-orange">View All</a>
+                        <a class="btn btn-orange" href="@Url.Action("HotelList", "HotelList", new { province = "u" }) ">View All</a>
                     </div><!-- end view-all -->
                 </div><!-- end columns -->
             </div><!-- end row -->
