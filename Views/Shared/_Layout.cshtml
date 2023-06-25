@@ -2,20 +2,13 @@
 @inject IHttpContextAccessor Accessors
 @{
     ViewData["Title"] = "Bookeng";
-    //Accessors.HttpContext.Session.Clear();
 }
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
-    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/SWP_template.styles.css" asp-append-version="true" /> *@
-
-
     <link rel="icon" href="~/img/logo.png" type="image/x-icon">
 
     <!-- Google Fonts -->
@@ -58,10 +51,8 @@
                         </ul>
                     </div><!-- end info -->
                 </div><!-- end columns -->
-
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <div id="links">
-                        
                         @*@{int x = Context.Session.Get("account");}*@
                         @if (@Accessors.HttpContext.Session.GetString("ID") == null)
                         {
@@ -87,13 +78,6 @@
                                 <li><a href="@Url.ActionLink("Logout","Home")"><span><i class="fa fa-plus"></i></span>Log out</a></li>
                             </ul>
                         }
-
-
-
-
-
-
-
                     </div><!-- end links -->
                 </div><!-- end columns -->
             </div><!-- end row -->
@@ -104,25 +88,15 @@
             <div class="navbar-header">
                 <div class="header-search hidden-lg">
                 </div>
-
                 <a asp-controller="Home" asp-action="Index" class="navbar-brand">Bookeng</a>
-
-
             </div><!-- end navbar-header -->
-
         </div><!-- end container -->
     </nav><!-- end navbar -->
-
-
-
-
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
-
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

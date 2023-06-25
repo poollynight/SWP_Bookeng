@@ -79,7 +79,7 @@
                                                 <option selected>Room Type</option>
                                                 @foreach (var room in Model)
                                                 {
-                                                    <option>@room.RoomName</option>
+                                                    <option value="@room.RoomId">@room.RoomName</option>
                                                 }
                                             </select>
                                             <i class="fa fa-angle-down"></i>
@@ -210,7 +210,7 @@
                                 <div id="hotel-overview" class="tab-pane in active">
                                     <div class="row">
                                         <div class="col-sm-4 col-md-4 tab-img">
-                                            <img src="~/img/@ViewBag.img_URL/avt.jpg" class="img-responsive" alt="flight-detail-img" />
+                                            <img src="~/img/@ViewBag.img_URL/avt.jpg" class="img-responsive" alt="flight-detail-img" style="max-height: 150px; max-width: 240px" />
                                         </div><!-- end columns -->
 
                                         <div class="col-sm-8 col-md-8 tab-text">

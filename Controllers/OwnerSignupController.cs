@@ -10,7 +10,6 @@ namespace SWP_template.Controllers
         {
             return View("/Views/Signup/OwnerSignup.cshtml");
         }
-
         [HttpPost]
         public IActionResult OwnerSignup(string account, string email, string password, string confirmPassword)
         {

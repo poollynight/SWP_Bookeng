@@ -16,8 +16,6 @@ namespace SWP_template.Controllers.Owner
         [ValidateAntiForgeryToken]
         public IActionResult OwnerLogin(string account, string password, bool rememberme)
         {
-            var dbcontext = new Swp1Context();
-
             var data = EFManage.Login(account, password, "R002");
             if (data != null)
             {

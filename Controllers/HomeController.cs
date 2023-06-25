@@ -6,18 +6,16 @@ namespace SWP_template.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        public ILogger<HomeController> Logger { get; }
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
+            Logger = logger;
         }
-
         public IActionResult Index()
         {
-            return View();
+            return View("./Views/Home/Index.cshtml");
         }
-
         public IActionResult Privacy()
         {
             return View();
@@ -27,7 +25,6 @@ namespace SWP_template.Controllers
             IHttpContextAccessor Accessors = new HttpContextAccessor();
             Accessors.HttpContext.Session.Remove("Username");
             Accessors.HttpContext.Session.Remove("ID");
-
             return View("/Views/Home/Index.cshtml");
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

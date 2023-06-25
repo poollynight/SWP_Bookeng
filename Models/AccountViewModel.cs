@@ -4,6 +4,7 @@ namespace SWP_template.Models
     public class AccountViewModel
     {
     }
+   
     public class LoginViewModel
     {
         [Required(ErrorMessage = "This is required field")]
@@ -50,10 +51,27 @@ public class RegisterViewModel
 
     public class ForgotPasswordViewModel
     {
+        [Required(ErrorMessage = "This is required field")]
+        [Display(Name = "Account")]
+        public string Account { get; set; }
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
     }
-    
+    public class ResetPasswordViewModel
+    {
+
+        [Required(ErrorMessage = "This is required field")]
+        [StringLength(100, ErrorMessage = "The password must be at least 6 characters long.", MinimumLength = 6)]
+        [DataType(DataType.Password)]
+        [Display(Name = "Password")]
+        public string Password { get; set; }
+
+        [Required(ErrorMessage = "This is required field")]
+        [DataType(DataType.Password)]
+        [Display(Name = "ConfirmPassword")]
+        [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+        public string ConfirmPassword { get; set; }
+    }
 }
