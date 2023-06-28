@@ -25,9 +25,7 @@ public partial class Room
 
     public string RoomImage { get; set; }
 
-    public int? RoomAvailable { get; set; }
+    public int RoomAvailable { get; set; }
 
     public virtual Hotel Hotel { get; set; }
-
-    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 }

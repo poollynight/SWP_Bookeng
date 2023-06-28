@@ -68,73 +68,29 @@
                     <div class="col-sm-12">
                         <div class="tab-content">
                             <div id="hotels" class="tab-pane in active">
-                                <form>
+                                <form action="@Url.Action("Search", "Search")" method="post">
                                     <div class="row">
                                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-4">
                                                     <div class="form-group left-icon">
-                                                        <input type="text" class="form-control" style="padding-left: 5px;" placeholder="Find your destination">
+                                                        <input type="text" class="form-control" style="padding-left: 5px;" placeholder="Find your destination" name="province">
                                                     </div>
                                                 </div><!-- end columns -->
                                                 <div class="col-xs-12 col-sm-4">
                                                     <div class="form-group left-icon">
-                                                        <input type="text" class="form-control dpd1" placeholder="Check In">
-                                                        <i class="fa fa-calendar"></i>
+                                                        <input type="text" class="form-control" style="padding-left: 5px;" placeholder="Find Hotel Name" name="name">
                                                     </div>
-                                                </div><!-- end columns -->
-
-                                                <div class="col-xs-12 col-sm-4">
-                                                    <div class="form-group left-icon">
-                                                        <input type="text" class="form-control dpd2" placeholder="Check Out">
-                                                        <i class="fa fa-calendar"></i>
-                                                    </div>
-                                                </div><!-- end columns -->
+                                                </div><!-- end columns --><!-- end columns -->
                                             </div><!-- end row -->
                                         </div><!-- end columns -->
-
-                                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                                            <div class="row">
-                                                <div class="col-xs-6 col-sm-6 col-md-6">
-                                                    <div class="form-group right-icon">
-                                                        <select class="form-control">
-                                                            <option selected>Adults</option>
-                                                            <option value="1">1</option>
-                                                            <option value="2">2</option>
-                                                            <option value="3">3</option>
-                                                        </select>
-                                                        <i class="fa fa-angle-down"></i>
-                                                    </div>
-                                                </div><!-- end columns -->
-
-                                                <div class="col-xs-6 col-sm-6 col-md-6">
-                                                    <div class="form-group right-icon">
-                                                        <select class="form-control">
-                                                            <option selected>Kids</option>
-                                                            <option value="0">0</option>
-                                                            <option value="1">1</option>
-                                                            <option value="2">2</option>
-                                                        </select>
-                                                        <i class="fa fa-angle-down"></i>
-                                                    </div>
-                                                </div><!-- end columns -->
-
-                                            </div><!-- end row -->
-                                        </div><!-- end columns -->
-
                                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 search-btn">
                                             <button class="btn btn-orange" type="submit">Search</button>
                                         </div><!-- end columns -->
-
                                     </div><!-- end row -->
                                 </form>
                             </div><!-- end hotels -->
-
-
-
-
                         </div><!-- end tab-content -->
-
                     </div><!-- end columns -->
                 </div><!-- end row -->
             </div><!-- end container -->

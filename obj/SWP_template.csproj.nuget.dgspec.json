@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des1\\SWP_template.csproj": {}
+    "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\SWP_template.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des1\\SWP_template.csproj": {
+    "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\SWP_template.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des1\\SWP_template.csproj",
+        "projectUniqueName": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\SWP_template.csproj",
         "projectName": "SWP_template",
-        "projectPath": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des1\\SWP_template.csproj",
+        "projectPath": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\SWP_template.csproj",
         "packagesPath": "C:\\Users\\CHIEN THANG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des1\\obj\\",
+        "outputPath": "C:\\Users\\CHIEN THANG\\Desktop\\SWP_template_des\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS2022\\PACK_3\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.46.6, )"
+            },
             "MailKit": {
               "target": "Package",
               "version": "[4.1.0, )"

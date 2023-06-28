@@ -64,10 +64,15 @@ namespace SWP_template.Models
         public static string Login(string username, string password, string role)
         {
             using var dbcontext = new Swp1Context();
+            
             var account = (from a in dbcontext.Accountsses
                            where a.Username.Equals(username) && a.Password.Equals(password) && a.RoleId.Equals(role)
                            select a).FirstOrDefault();
-            return account.AccountId;
+            if (account != null)
+            {
+                return account.AccountId;
+            }
+            return null;
         }
         public static Accountss ForgotPassword(string account, string email)
         {
@@ -82,13 +87,12 @@ namespace SWP_template.Models
                 .ToList().ForEach(x => x.Password = password);
             dbcontext.SaveChanges();
         }
-        // public void ReadHotel(){
-
-        // }
-        //public async Task OnGetAsync(string searchString)
-        //{
-        //    using var dbcontext = new Swp1Context();
-        //    //int totalHotel = dbcontext.Hotels.Where
-        //}
+        public static void EditProfile(string accID, string name, string DOB, string email, string phone, string nation, string gender, string identitycard)
+        {
+            using var dbcontext = new Swp1Context();
+            (from a in dbcontext.Accountsses where a.AccountId.Equals(accID) select a).ToList().ForEach(a => 
+            { a.Name = name; a.Birthday = DOB; a.Email = email; a.Phone = phone; a.Nation = nation; a.Gender = gender; a.Identitycard = identitycard; });
+            dbcontext.SaveChanges();
+        }
     }
 }

@@ -22,7 +22,7 @@ namespace SWP_template.Controllers.Owner
                 IHttpContextAccessor Accessors = new HttpContextAccessor();
                 Accessors.HttpContext.Session.SetString("Username", account);
                 Accessors.HttpContext.Session.SetString("ID", data);
-                return View("/Views/Owner/OwnerHome.cshtml");
+                return RedirectToAction("OwnerHome", "OwnerHome");
             }
             else
             {

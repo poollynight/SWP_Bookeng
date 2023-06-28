@@ -35,7 +35,7 @@ public class SendMailServices
             return "Error: " + ex.Message;
         }
         smtp.Disconnect(true);
-        return "An email has been sent. Check your mail-box to reset password";
+        return "An email has been sent. Please check your mail-box";
     }
 
 }

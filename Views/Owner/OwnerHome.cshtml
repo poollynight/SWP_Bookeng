@@ -1,7 +1,74 @@
-﻿@page
-
+﻿@model List<SWP_template.Models.Hotel>
+@inject IHttpContextAccessor Accessors
 @{
-    ViewBag.Title = "Home";
+    string accountId = @Accessors.HttpContext.Session.GetString("ID");
 }
-<h2>ADMIN</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/FormAddHotel.css" />
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+
+    <!-- Font Awesome Stylesheet -->
+    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <form action="@Url.Action("SendOrder","SendOrder")" method="post">
+        <button type="submit">Order List</button>
+    </form>
+    @if (ViewData["Update"] != null)
+    {
+        <script>
+            alert("@ViewData["Update"]");
+        </script>
+    }
+    <button class="OpenPopup" id="OpenPopup" onclick="location.href='@Url.Action("CreateHotel", "CRUDHotel")'">Create</button>
+
+    @if (Model != null && Model.Count > 0)
+    {
+        @foreach (var hotel in Model)
+        {
+            <div class="hotel-list">
+                <ul class="hotel-list-left">
+                    <div class="hotel-img"><img src="~/img/" alt="123123" /></div>
+                    <div class="hotel-info">
+                        <h3>@hotel.HotelName</h3>
+                        <p>@hotel.StartPrice</p>
+                    </div>
+                </ul>
+                <ul class="hotel-list-right">
+                    <li>
+                        <form method="get" asp-controller="CRUDHotel" asp-action="EditHotel">
+                            <input type="hidden" value="@hotel.HotelId" name="HotelId" />
+                            <input type="submit" value="Update">
+                        </form>
+                    </li>
+                    <li>
+                        <form method="post" asp-controller="CRUDHotel" asp-action="DeleteHotelConfirmed">
+                            <input type="hidden" value="@hotel.HotelId" name="HotelId" />
+                            <input type="submit" value="Detail Room">
+                        </form>
+                    </li>
+                    <li>
+                        <form method="post" asp-controller="CRUDHotel" asp-action="DeleteHotelConfirmed">
+                            <input type="hidden" value="@hotel.HotelId" name="HotelId" />
+                            <input type="submit" value="Delete">
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        }
+    }
+    else
+    {
+        <h2>No Any Hotel!</h2>
+    }
+    <script src="/js/FormAddHotel.js"></script>
+</body>
+</html>

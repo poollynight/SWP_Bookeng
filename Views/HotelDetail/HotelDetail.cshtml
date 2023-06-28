@@ -1,5 +1,5 @@
 @model List<SWP_template.Models.Room>
-
+@inject IHttpContextAccessor Accessors
 <!doctype html>
 <html lang="en">
 <head>
@@ -43,8 +43,7 @@
                             <div class="booking-form">
                                 <h3>Book Hotel</h3>
                                 <p>Find your dream hotel today</p>
-
-                                <form method="post" action="@Url.Action("Submit","SubmitRoom")">
+                                <form method="post" action="@Url.Action("Confirm","Confirm", new {Hotelid = ViewBag.id})">
                                     <div class="form-group">
                                         <input type="text" class="form-control" name="firstName" placeholder="First Name" required />
                                     </div>
@@ -148,7 +147,7 @@
 
                                     <div class="checkbox custom-check">
                                         <input required type="checkbox" id="check01" name="checkbox" />
-                                        <label  for="check01"><span><i class="fa fa-check" ></i></span>By continuing, you are agree to the <a asp-action="Privacy" asp-controller="Home">Terms & Conditions.</a></label>
+                                        <label for="check01"><span><i class="fa fa-check"></i></span>By continuing, you are agree to the <a asp-action="Privacy" asp-controller="Home">Terms & Conditions.</a></label>
                                     </div>
 
                                     <button class="btn btn-block btn-orange" type="submit">Confirm Booking</button>
@@ -177,18 +176,20 @@
 
                         <div class="detail-slider">
                             <div class="feature-slider">
-                                @for(int i =1; i < ViewBag.img_Number; i++){
-                                    string url = ViewBag.img_URL +"/"+ i + ".jpg";
+                                @for (int i = 1; i < ViewBag.img_Number; i++)
+                                {
+                                    string url = ViewBag.img_URL + "/" + i + ".jpg";
                                     <div><img src="~/img/@url" class="img-responsive" alt="feature-img" style="max-height: 569px" /></div>
                                 }
 
                             </div><!-- end feature-slider -->
 
                             <div class="feature-slider-nav">
-                                @for(int i =1; i < ViewBag.img_Number; i++){
+                                @for (int i = 1; i < ViewBag.img_Number; i++)
+                                {
                                     string url = ViewBag.img_URL + "/" + i + ".jpg";
-                                <div><img src="~/img/@url" class="img-responsive" alt="feature-thumb" style="max-height: 112px" /></div>
-                                @*<div><img src="~/img/h-feature-thumb-2.jpg" class="img-responsive" alt="feature-thumb" /></div>
+                                    <div><img src="~/img/@url" class="img-responsive" alt="feature-thumb" style="max-height: 112px" /></div>
+                                    @*<div><img src="~/img/h-feature-thumb-2.jpg" class="img-responsive" alt="feature-thumb" /></div>
                                 <div><img src="~/img/h-feature-thumb-3.jpg" class="img-responsive" alt="feature-thumb" /></div>
                                 <div><img src="~/img/h-feature-thumb-4.jpg" class="img-responsive" alt="feature-thumb" /></div>
                                 <div><img src="~/img/h-feature-thumb-5.jpg" class="img-responsive" alt="feature-thumb" /></div>*@
@@ -210,7 +211,7 @@
                                 <div id="hotel-overview" class="tab-pane in active">
                                     <div class="row">
                                         <div class="col-sm-4 col-md-4 tab-img">
-                                            <img src="~/img/@ViewBag.img_URL/avt.jpg" class="img-responsive" alt="flight-detail-img" style="max-height: 150px; max-width: 240px" />
+                                            <img src="~/img/@ViewBag.img_URL/avt.jpg" class="img-responsive" alt="flight-detail-img" />
                                         </div><!-- end columns -->
 
                                         <div class="col-sm-8 col-md-8 tab-text">
@@ -282,7 +283,7 @@
                                 <div class="list-block main-block room-block">
                                     <div class="list-content">
                                         <div class="main-img list-img room-img">
-                                            <img src="~/img/@ViewBag.img_URL/avt.jpg" class="img-responsive" alt="flight-detail-img" style="max-height: 250px"/>
+                                            <img src="~/img/@ViewBag.img_URL/avt.jpg" class="img-responsive" alt="flight-detail-img" style="max-height: 250px" />
 
                                             <div class="main-mask">
                                                 <ul class="list-unstyled list-inline offer-price-1">
@@ -327,3 +328,4 @@
     <script src="~/js/custom-slick.js"></script>
     <!-- Page Scripts Ends -->
 </body>
+</html>

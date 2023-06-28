@@ -78,7 +78,6 @@ public partial class Swp1Context : DbContext
                 .HasColumnName("identitycard");
             entity.Property(e => e.Name)
                 .HasMaxLength(50)
-                .IsUnicode(false)
                 .HasColumnName("name");
             entity.Property(e => e.Nation)
                 .HasMaxLength(50)
@@ -150,7 +149,7 @@ public partial class Swp1Context : DbContext
 
         modelBuilder.Entity<Order>(entity =>
         {
-            entity.HasKey(e => new { e.RoomId, e.AccountId }).HasName("PK__Order__41CFE34134624D54");
+            entity.HasKey(e => new { e.RoomId, e.RoomName, e.AccountId, e.CheckIn, e.CheckOut, e.Email, e.Name, e.Phone, e.Nation, e.RoomType, e.RoomQualtity, e.BedQualtity, e.PayMethod }).HasName("PK__Order__41CFE34134624D54");
 
             entity.ToTable("Order");
 
@@ -158,32 +157,67 @@ public partial class Swp1Context : DbContext
                 .HasMaxLength(20)
                 .IsUnicode(false)
                 .HasColumnName("RoomID");
-            entity.Property(e => e.AccountId)
+            entity.Property(e => e.RoomName)
                 .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("RoomName");
+            entity.Property(e => e.AccountId)
+                .IsRequired()
+                .HasMaxLength(200)
                 .IsUnicode(false)
                 .HasColumnName("AccountID");
             entity.Property(e => e.CheckIn)
                 .IsRequired()
                 .HasMaxLength(20)
-                .IsUnicode(false);
+                .IsUnicode(false)
+                .HasColumnName("CheckIn");
             entity.Property(e => e.CheckOut)
-                .IsRequired()
                 .HasMaxLength(20)
-                .IsUnicode(false);
-            entity.Property(e => e.RoomName)
-                .IsRequired()
+                .IsUnicode(false)
+                .HasColumnName("CheckOut");
+            entity.Property(e => e.Email)
                 .HasMaxLength(20)
-                .IsUnicode(false);
+                .IsUnicode(false)
+                .HasColumnName("email");
+            entity.Property(e => e.Name)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("name");
+            entity.Property(e => e.Phone)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("phone");
+            entity.Property(e => e.Nation)
+                 .HasMaxLength(20)
+                 .IsUnicode(false)
+                 .HasColumnName("nation");
+            entity.Property(e => e.RoomType)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("RoomType");
+            entity.Property(e => e.RoomQualtity)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("RoomQualtity");
+            entity.Property(e => e.BedQualtity)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("BedQualtity");
+            entity.Property(e => e.PayMethod)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("PayMethod");
 
-            entity.HasOne(d => d.Account).WithMany(p => p.Orders)
-                .HasForeignKey(d => d.AccountId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Order__AccountID__34C8D9D1");
 
-            entity.HasOne(d => d.Room).WithMany(p => p.Orders)
-                .HasForeignKey(d => d.RoomId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Order__RoomID__33D4B598");
+            //entity.HasOne(d => d.Account).WithMany(p => p.Orders)
+            //    .HasForeignKey(d => d.AccountId)
+            //    .OnDelete(DeleteBehavior.ClientSetNull)
+            //    .HasConstraintName("FK__Order__AccountID__34C8D9D1");
+
+            //entity.HasOne(d => d.Room).WithMany(p => p.Orders)
+            //    .HasForeignKey(d => d.RoomId)
+            //    .OnDelete(DeleteBehavior.ClientSetNull)
+            //    .HasConstraintName("FK__Order__RoomID__33D4B598");
         });
 
         modelBuilder.Entity<Room>(entity =>
@@ -212,7 +246,7 @@ public partial class Swp1Context : DbContext
                 .IsUnicode(false);
             entity.Property(e => e.RoomName)
                 .IsRequired()
-                .HasMaxLength(20)
+                .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.RoomPrice)
                 .IsRequired()

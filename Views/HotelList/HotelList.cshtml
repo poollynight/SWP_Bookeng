@@ -1,12 +1,4 @@
 @model List<SWP_template.Models.Hotel>
-@*@{
-    var paging = new SWP_template.Helpers.PagingModel()
-            {
-                currentPage = 3,
-                countPages = 10,
-                generateUrl = (int? p) => "Page-" + p
-            };
-}*@
 <!doctype html>
 <html lang="en">
 <head>
@@ -32,7 +24,6 @@
     <link rel="stylesheet" href="~/css/jquery-ui.min.css">
 </head>
 <body>
-    @*<partial name="_Paging" model="@paging" />*@
     <!--===== INNERPAGE-WRAPPER ====-->
     <section class="innerpage-wrapper">
         <div id="hotel-listing" class="innerpage-section-padding">
@@ -188,8 +179,8 @@
                             <div class="list-block main-block h-list-block">
                                 <div class="list-content">
                                     <div class="main-img list-img h-list-img">
-                                        <a href="@Url.Action("HotelDetail", "HotelDetail", new { HotelID = item.HotelId} )" >
-                                            <img src="~/img/@item.Province/@item.HotelName/avt.jpg" class="img-responsive" alt="hotel-img" style="max-height: 245px "/>
+                                        <a href="@Url.Action("HotelDetail", "HotelDetail", new { HotelID = item.HotelId} )">
+                                            <img src="~/img/@item.Province/@item.HotelName/avt.jpg" class="img-responsive" alt="hotel-img" style="max-height: 245px " />
                                         </a>
                                         <div class="main-mask">
                                             <ul class="list-unstyled list-inline offer-price-1">

@@ -15,7 +15,21 @@ public partial class Order
 
     public string CheckOut { get; set; }
 
-    public int NumberOrder { get; set; }
+    public string Email { get; set; }
+
+    public string Name { get; set; }
+
+    public string Phone { get; set; }
+
+    public string Nation { get; set; }
+
+    public string RoomType { get; set; }
+
+    public int RoomQualtity { get; set; }
+
+    public int BedQualtity { get; set; }
+
+    public string PayMethod { get; set; }
 
     public virtual Accountss Account { get; set; }
 

@@ -21,6 +21,7 @@ namespace SWP_template.Controllers
             ViewBag.hotel_name = hotel.HotelName;
             ViewBag.img_Number = fileCount;
             ViewBag.img_URl = imgURL;
+            ViewBag.id = HotelID;
             List<Room> room = context.Rooms.Where(r => r.HotelId.Equals(HotelID)).ToList();
             return View(room);
         }

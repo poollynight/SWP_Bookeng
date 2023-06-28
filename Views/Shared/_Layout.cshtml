@@ -62,20 +62,20 @@
                             </ul>
                            
                         }
-                        else if (@Accessors.HttpContext.Session.GetString("ID").Contains("US"))
+                        else if (@Accessors.HttpContext.Session.GetString("ID").Contains("U"))
                         {
                             <ul class="list-unstyled list-inline">
                                 <li style="color: white; font-weight: bold; text-decoration: none"><a asp-area="" asp-controller="OwnerSignup" asp-action="OwnerSignup"><span><i class="fa fa-plus"></i></span>List your properties</a></li>
                                 <li style="color: white; font-weight: bold;"><a href="@Url.ActionLink("UserProfile","UserProfile", new { id = Accessors.HttpContext.Session.GetString("ID")})">Hi, @Accessors.HttpContext.Session.GetString("Username")</a></li>
-                                <li><a href="@Url.ActionLink("Logout","Home")"><span><i class="fa fa-plus"></i></span>Log out</a></li>
+                                <li><a href="@Url.ActionLink("Logout","Home")"><span><i class="fa fa-minus"></i></span>Log out</a></li>
                             </ul>
                         }
-                        else if (@Accessors.HttpContext.Session.GetString("ID").Contains("OW"))
+                        else if (@Accessors.HttpContext.Session.GetString("ID").Contains("O"))
                         {
                             <ul class="list-unstyled list-inline">
-                                <li style="color: white; font-weight: bold; text-decoration: none"><a asp-area="" asp-controller="ManageHotel" asp-action="ManageHotel">Manage your properties</a></li>
-                                <li style="color: white; font-weight: bold;"><a href="@Url.ActionLink("UserProfile","UserProfile", new { id = Accessors.HttpContext.Session.GetString("ID")})">Hi, @Accessors.HttpContext.Session.GetString("Username")</a></li>
-                                <li><a href="@Url.ActionLink("Logout","Home")"><span><i class="fa fa-plus"></i></span>Log out</a></li>
+                                <li style="color: white; font-weight: bold; text-decoration: none"><a href="@Url.ActionLink("OwnerHome","OwnerHome")">Manage your properties</a></li>
+                                <li style="color: white; font-weight: bold;"><a href="@Url.ActionLink("UserProfile","UserProfile", new { id = Accessors.HttpContext.Session.GetString("OwnerID")})">Hi, @Accessors.HttpContext.Session.GetString("Username")</a></li>
+                                <li><a href="@Url.ActionLink("Logout","Home")"><span><i class="fa fa-minus"></i></span>Log out</a></li>
                             </ul>
                         }
                     </div><!-- end links -->

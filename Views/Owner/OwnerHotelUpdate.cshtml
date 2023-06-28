@@ -1,0 +1,55 @@
+﻿@model Hotel
+@inject IHttpContextAccessor Accessors
+@*@{
+    string accountId = @Accessors.HttpContext.Session.GetString("ID");
+}*@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+
+    <!-- Font Awesome Stylesheet -->
+    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pop-up" id="pop-up">
+        <div class="pop-up-content">
+            <h1>Update new hotel</h1>
+            <form asp-controller="CRUDHotel" asp-action="UpdateHotel" method="post" >
+                <input type="hidden" name="accountId" value="@Model.HotelId" />
+
+                <label>Hotel's name</label>
+                <input type="text" asp-for="HotelName" placeholder="Hotel's name" value="@Model.HotelName" required />
+
+                <label>Hotel's address</label>
+                <input type="text" asp-for="HotelAddress" placeholder="Hotel's address" value="@Model.HotelAddress" required />
+
+                <label>Hotel's information</label>
+                <textarea asp-for="HotelInfo" placeholder="Hotel's information" required>@Model.HotelInfo</textarea>
+
+                <label>Province</label>
+                <select id="province" name="province" required>
+                    <option value="">Chọn tỉnh thành</option>
+                    @foreach (var province in ViewBag.Provinces)
+                    {
+                        <option value="@province">@province</option>
+                    }
+                </select>
+
+                <label>Hotel's Price</label>
+                <input type="text" asp-for="StartPrice" placeholder="Price" value="@Model.StartPrice" required />
+
+                <label>Hotel's image</label>
+                <input type="file" name="hotelImage" accept="image/*" />
+
+                <button name="hotelID" type="submit" value="@Model.HotelId">Update</button>
+                @*<input type="submit" value="Update"/>*@
+            </form>
+        </div>
+    </div>
+</body>
+</html>

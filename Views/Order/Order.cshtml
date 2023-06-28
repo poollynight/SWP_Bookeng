@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<Order>
+
+<h2>Order List</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Room ID</th>
+            <th>Room Name</th>
+            <th>Account ID</th>
+            <th>Check-In</th>
+            <th>Check-Out</th>
+            <th>Email</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Nation</th>
+            <th>Room Type</th>
+            <th>Room Quantity</th>
+            <th>Bed Quantity</th>
+            <th>Payment Method</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.RoomId</td>
+                <td>@order.RoomName</td>
+                <td>@order.AccountId</td>
+                <td>@order.CheckIn</td>
+                <td>@order.CheckOut</td>
+                <td>@order.Email</td>
+                <td>@order.Name</td>
+                <td>@order.Phone</td>
+                <td>@order.Nation</td>
+                <td>@order.RoomType</td>
+                <td>@order.RoomQualtity</td>
+                <td>@order.BedQualtity</td>
+                <td>@order.PayMethod</td>
+                <td><a class="btn btn-orange btn-block" href="@Url.Action("SendConfirmMail","SendConfirmMail", new{email = order.Email, roomID = order.RoomId, checkin = order.CheckIn})">Confirm</a></td>
+                <td><a class="btn btn-orange btn-block" href="@Url.Action("SendDenyMail","SendDenyMail", new{email = order.Email, roomID = order.RoomId, checkin = order.CheckIn})">Deny</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,4 +1,7 @@
-﻿namespace SWP_template.Models;
+﻿using System;
+using System.Collections.Generic;
+
+namespace SWP_template.Models;
 
 public partial class Accountss
 {
@@ -23,8 +26,6 @@ public partial class Accountss
     public string Gender { get; set; }
 
     public string Identitycard { get; set; }
-
-    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 
     public virtual AccountRole Role { get; set; }
 }
