@@ -13,24 +13,24 @@ namespace SWP_template.Controllers.Owner
         {
             var provinces = new List<string>
     {
-        "An Giang", "Bà Rịa - Vũng Tàu", "Bạc Liêu", "Bắc Kạn", "Bắc Giang",
-        "Bắc Ninh", "Bến Tre", "Bình Dương", "Bình Định", "Bình Phước",
-        "Bình Thuận", "Cà Mau", "Cao Bằng", "Cần Thơ", "Đà Nẵng","Đà Lạt",
-        "Đắk Lắk", "Đắk Nông", "Điện Biên", "Đồng Nai", "Đồng Tháp",
-        "Gia Lai", "Hà Giang", "Hà Nam", "Hà Nội", "Hà Tĩnh",
-        "Hải Dương", "Hải Phòng", "Hậu Giang", "Hòa Bình", "Hồ Chí Minh",
-        "Hưng Yên", "Khánh Hòa", "Kiên Giang", "Kon Tum", "Lai Châu",
-        "Lâm Đồng", "Lạng Sơn", "Lào Cai", "Long An", "Nam Định",
-        "Nghệ An", "Ninh Bình", "Ninh Thuận", "Phú Thọ", "Phú Yên",
-        "Quảng Bình", "Quảng Nam", "Quảng Ngãi", "Quảng Ninh", "Quảng Trị",
-        "Sóc Trăng", "Sơn La", "Tây Ninh", "Thái Bình", "Thái Nguyên",
-        "Thanh Hóa", "Thừa Thiên Huế", "Tiền Giang", "Trà Vinh", "Tuyên Quang",
-        "Vĩnh Long", "Vĩnh Phúc", "Yên Bái"
+"An Giang", "Ba Ria - Vung Tau", "Bac Lieu", "Bac Kan", "Bac Giang",
+"Bac Ninh", "Ben Tre", "Binh Duong", "Binh Dinh", "Binh Phuoc",
+"Binh Thuan", "Ca Mau", "Cao Bang", "Can Tho", "Da Nang", "Da Lat",
+"Dak Lak", "Dak Nong", "Dien Bien", "Dong Nai", "Dong Thap",
+"Gia Lai", "Ha Giang", "Ha Nam", "Ha Noi", "Ha Tinh",
+"Hai Duong", "Hai Phong", "Hau Giang", "Hoa Binh", "Ho Chi Minh",
+"Hung Yen", "Khanh Hoa", "Kien Giang", "Kon Tum", "Lai Chau",
+"Lam Dong", "Lang Son", "Lao Cai", "Long An", "Nam Dinh",
+"Nghe An", "Ninh Binh", "Ninh Thuan", "Phu Tho", "Phu Yen",
+"Quang Binh", "Quang Nam", "Quang Ngai", "Quang Ninh", "Quang Tri",
+"Soc Trang", "Son La", "Tay Ninh", "Thai Binh", "Thai Nguyen",
+"Thanh Hoa", "Thua Thien Hue", "Tien Giang", "Tra Vinh", "Tuyen Quang",
+"Vinh Long", "Vinh Phuc", "Yen Bai"
     };
 
             ViewBag.Provinces = provinces;
             // Hiện form tạo hotel tại đây nhe -Thiện-
-            return View("/Views/Owner/OwnerHotelCreate.cshtml");
+            return View("/Views/Owner/CreateHotel.cshtml");
         }
 
         [HttpPost]
@@ -54,19 +54,19 @@ namespace SWP_template.Controllers.Owner
             var hotel = swp1Context.Hotels.FirstOrDefault(h => h.HotelId == HotelId);
             var provinces = new List<string>
     {
-        "An Giang", "Bà Rịa - Vũng Tàu", "Bạc Liêu", "Bắc Kạn", "Bắc Giang",
-        "Bắc Ninh", "Bến Tre", "Bình Dương", "Bình Định", "Bình Phước",
-        "Bình Thuận", "Cà Mau", "Cao Bằng", "Cần Thơ", "Đà Nẵng","Đà Lạt",
-        "Đắk Lắk", "Đắk Nông", "Điện Biên", "Đồng Nai", "Đồng Tháp",
-        "Gia Lai", "Hà Giang", "Hà Nam", "Hà Nội", "Hà Tĩnh",
-        "Hải Dương", "Hải Phòng", "Hậu Giang", "Hòa Bình", "Hồ Chí Minh",
-        "Hưng Yên", "Khánh Hòa", "Kiên Giang", "Kon Tum", "Lai Châu",
-        "Lâm Đồng", "Lạng Sơn", "Lào Cai", "Long An", "Nam Định",
-        "Nghệ An", "Ninh Bình", "Ninh Thuận", "Phú Thọ", "Phú Yên",
-        "Quảng Bình", "Quảng Nam", "Quảng Ngãi", "Quảng Ninh", "Quảng Trị",
-        "Sóc Trăng", "Sơn La", "Tây Ninh", "Thái Bình", "Thái Nguyên",
-        "Thanh Hóa", "Thừa Thiên Huế", "Tiền Giang", "Trà Vinh", "Tuyên Quang",
-        "Vĩnh Long", "Vĩnh Phúc", "Yên Bái"
+"An Giang", "Ba Ria - Vung Tau", "Bac Lieu", "Bac Kan", "Bac Giang",
+"Bac Ninh", "Ben Tre", "Binh Duong", "Binh Dinh", "Binh Phuoc",
+"Binh Thuan", "Ca Mau", "Cao Bang", "Can Tho", "Da Nang", "Da Lat",
+"Dak Lak", "Dak Nong", "Dien Bien", "Dong Nai", "Dong Thap",
+"Gia Lai", "Ha Giang", "Ha Nam", "Ha Noi", "Ha Tinh",
+"Hai Duong", "Hai Phong", "Hau Giang", "Hoa Binh", "Ho Chi Minh",
+"Hung Yen", "Khanh Hoa", "Kien Giang", "Kon Tum", "Lai Chau",
+"Lam Dong", "Lang Son", "Lao Cai", "Long An", "Nam Dinh",
+"Nghe An", "Ninh Binh", "Ninh Thuan", "Phu Tho", "Phu Yen",
+"Quang Binh", "Quang Nam", "Quang Ngai", "Quang Ninh", "Quang Tri",
+"Soc Trang", "Son La", "Tay Ninh", "Thai Binh", "Thai Nguyen",
+"Thanh Hoa", "Thua Thien Hue", "Tien Giang", "Tra Vinh", "Tuyen Quang",
+"Vinh Long", "Vinh Phuc", "Yen Bai"
     };
             ViewBag.Provinces = provinces;
             if (hotel != null)
@@ -112,26 +112,41 @@ namespace SWP_template.Controllers.Owner
         [ValidateAntiForgeryToken]
         public ActionResult DeleteHotelConfirmed(string HotelId)
         {
+            // Nếu HotelId truyền về null thì trở lại trang load
             if (HotelId == null)
             {
-                Console.WriteLine("Xoá nè1");
                 return RedirectToAction("OwnerHome", "OwnerHome");
             }
+            // =============================================
 
+
+            // Nếu không có khách sạn nào thì sẽ load trở về
             var hotel = swp1Context.Hotels.FirstOrDefault(h => h.HotelId == HotelId);
             if (hotel == null)
             {
-                Console.WriteLine("Xoá nè2");
                 return RedirectToAction("OwnerHome", "OwnerHome");
             }
-            var rooms = swp1Context.Rooms.Where(r => r.HotelId == HotelId);
-            swp1Context.Rooms.RemoveRange(rooms);
-            Console.WriteLine("Xoá nè");
+            // =============================================
 
-            // Thực hiện xóa phòng trong database
-            swp1Context.Hotels.Remove(hotel);
-            swp1Context.SaveChanges();
-            //Thông báo xoá phòng thành công
+
+            var rooms = swp1Context.Rooms.Where(r => r.HotelId == HotelId).ToList(); //lấy danh sách các phòng trong cùng hotel
+            var hasOrder = swp1Context.Orders.AsEnumerable().Any(o => rooms.Any(r => r.RoomId == o.RoomId)); //Check có order hay không 
+            if (hasOrder)
+            {
+                // Nếu có đơn order
+                return RedirectToAction("OwnerHome", "OwnerHome");
+            }
+            else
+            {
+                // Nếu không có đơn order
+                foreach (var room in rooms)
+                {
+                    swp1Context.Rooms.Remove(room);  //Xoá phòng trong khách sạn
+                }
+                swp1Context.Hotels.Remove(hotel); //Xoá khách sạn 
+                swp1Context.SaveChanges();
+            }
+            //Thông báo xoá khách sạn thành công
             TempData["DeleteSuccess"] = "Hotel Deleted successfully";
             return RedirectToAction("OwnerHome", "OwnerHome");
         }

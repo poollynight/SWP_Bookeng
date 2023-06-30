@@ -15,10 +15,9 @@ namespace SWP_template.Controllers.Owner
             mailContent.To = email;
             mailContent.Subject = $"Sorry! Your Bookeng in {hotelName} has been denied";
             mailContent.Body = "<h1>Thanks Thang! Your booking in Da Nang has been denied for some reason.</h1>" +
-                $"<p>{hotelName} apologizes for this inconvenience </p>";
+                $"<p>{hotelName} apologizes for this inconvenience <br/>You can find other destination <a href=\"https://localhost:7278\">here<a/></p>";
             ViewBag.succeed = sendMailServices.SendMail(mailContent).Result;
-            //IHttpContextAccessor Accessors = new HttpContextAccessor();
-            //Accessors.HttpContext.Session.SetString("username", acc.Username);
+            
             return View("~/Views/Owner/OwnerHome.cshtml");
         }
     }

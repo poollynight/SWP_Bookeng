@@ -1,0 +1,64 @@
+﻿@model Room
+@{
+    var HotelId = ViewData["HotelId"] as string;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/Form-Create-Update-Room.css">
+    <!-- Font Awesome Stylesheet -->
+    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pop-up" id="pop-up">
+        <div class="pop-up-content">
+            <h1>Create new room</h1>
+            <form asp-controller="CRUDRoom" asp-action="CreateRoom" method="post">
+                <input type="hidden" name="HotelId" asp-for="HotelId" value="@HotelId" />
+
+                <label>Room's Name</label>
+                <input type="text" asp-for="RoomName" placeholder="Room's Name" required />
+
+                <label>Bed's quantity</label>
+                <input type="text" asp-for="BedQuantity" placeholder="Bed's quantity" required />
+                <label>Price</label>
+                <input type="text" asp-for="RoomPrice" placeholder="Room's Price" required />
+                <label>RoomAvailable</label>
+                <input type="text" asp-for="RoomAvailable" placeholder="Room's Available" required />
+
+                <label>Room's information</label>
+                <textarea asp-for="RoomInfo" placeholder="Room's information" required></textarea>
+                <div class="checkbox-list">
+                    <div class="checkbox-list-item">
+                        <label class="label_checkbox" for="">Wifi</label>
+                        <input class="checkbox" type="checkbox" asp-for="Wifi" name="" id="" />
+                    </div>
+                    <div class="checkbox-list-item">
+                        <label class="label_checkbox" for="">Window</label>
+                        <input class="checkbox" type="checkbox" asp-for="Window" name="" id="" />
+                    </div>
+                    <div class="checkbox-list-item">
+                        <label class="label_checkbox" for="">Smoking</label>
+                        <input class="checkbox" type="checkbox" asp-for="Smoking" name="" id="" />
+                    </div>
+                </div>
+                <br />
+                <label for="">Room's image</label>
+                <input type="file"
+                       asp-for="RoomImage"
+                       accept="image/*"
+                       name="hotelimage"
+                       id="hotelimage" />
+
+                <input type="submit" id="SubmitAddRoom" />
+            </form>
+        </div>
+    </div>
+    <script src="/JS/FormAddHotel.js"></script>
+</body>
+</html>

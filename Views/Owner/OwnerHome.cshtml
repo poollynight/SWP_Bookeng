@@ -9,7 +9,7 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/FormAddHotel.css" />
+    <link rel="stylesheet" href="/css/FormList-Hotel-Room.css" />
     <!-- Bootstrap Stylesheet -->
     <link rel="stylesheet" href="~/css/bootstrap.min.css">
 
@@ -28,7 +28,7 @@
             alert("@ViewData["Update"]");
         </script>
     }
-    <button class="OpenPopup" id="OpenPopup" onclick="location.href='@Url.Action("CreateHotel", "CRUDHotel")'">Create</button>
+    <button class="Create" id="Create" onclick="location.href='@Url.Action("CreateHotel", "CRUDHotel")'">Create</button>
 
     @if (Model != null && Model.Count > 0)
     {
@@ -50,7 +50,7 @@
                         </form>
                     </li>
                     <li>
-                        <form method="post" asp-controller="CRUDHotel" asp-action="DeleteHotelConfirmed">
+                        <form method="post" asp-controller="OwnerHome" asp-action="OwnerHomeRoom">
                             <input type="hidden" value="@hotel.HotelId" name="HotelId" />
                             <input type="submit" value="Detail Room">
                         </form>

@@ -17,11 +17,11 @@ public partial class Room
 
     public string BedQuantity { get; set; }
 
-    public byte[] Wifi { get; set; }
+    public string Wifi { get; set; }
 
-    public byte[] Window { get; set; }
+    public string Window { get; set; }
 
-    public byte[] Smoking { get; set; }
+    public string Smoking { get; set; }
 
     public string RoomImage { get; set; }
 

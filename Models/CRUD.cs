@@ -12,14 +12,14 @@ namespace SWP_template.Models
             return new string(Enumerable.Repeat(chars, length)
                 .Select(s => s[random.Next(s.Length)]).ToArray());
         }
-        string connectionString = "Data Source=desktop-9897340;Initial Catalog=Bookeng;Persist Security Info=True;User ID=sa;Password=sa; Integrated Security=True;TrustServerCertificate=True";
         public void CreateHotel(string accountId, string hotelName, string hotelAddress, string province, string startPrice, string hotelInfo, string avatar)
         {
             using (var dbContext = new Swp1Context())
             {
+                int randomNumber = random.Next(1, 1000);
                 // Tạo ngẫu nhiên HotelId
-                string hotelId = $"{RandomString(2)}{random.Next(10, 100):D2}";
-
+                string provinceinput = new(province.Split(' ').Select(word => char.ToUpper(word[0])).ToArray());
+                string hotelId = $"H{provinceinput}{randomNumber:D3}";
                 var hotel = new Hotel()
                 {
                     AccountId = accountId,
@@ -65,8 +65,9 @@ namespace SWP_template.Models
             }
         }
         //tạo phòng -Thiện-
-        public void CreateRoom(string HotelId, string RoomId, string RoomName, string RoomInfo, string RoomPrice, string BedQuantity, byte[] Wifi, byte[] Window, byte[] Smoking, string RoomImage, int RoomAvailable)
+        public void CreateRoom(string HotelId, string RoomName, string RoomInfo, string RoomPrice, string BedQuantity, string Wifi, string Window, string Smoking, string RoomImage, int RoomAvailable)
         {
+            var RoomId = $"{RandomString(2)}{random.Next(10, 100):D2}";
             using var dbContext = new Swp1Context();
             var room = new Room()
             {
@@ -87,7 +88,7 @@ namespace SWP_template.Models
         }
         //cập nhật phòng -Thiện-
 
-        public void UpdateRoom(string RoomId, string RoomName, string RoomInfo, string RoomPrice, string BedQuantity, byte[] Wifi, byte[] Window, byte[] Smoking, string RoomImage, int RoomAvailable)
+        public void UpdateRoom(string RoomId, string RoomName, string RoomInfo, string RoomPrice, string BedQuantity, string Wifi, string Window, string Smoking, string RoomImage, int RoomAvailable)
         {
             using var dbContext = new Swp1Context();
             var room = dbContext.Rooms.FirstOrDefault(r => r.RoomId == RoomId);
@@ -132,8 +133,5 @@ namespace SWP_template.Models
                 return dbContext.Hotels.FirstOrDefault(r => r.HotelId == HotelId);
             }
         }
-
-
-
     }
 }
