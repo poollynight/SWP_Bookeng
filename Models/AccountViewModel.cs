@@ -26,6 +26,10 @@ namespace SWP_template.Models
 
 public class RegisterViewModel
     {
+        
+        [Required(ErrorMessage = "This is required field")]
+        [Display(Name = "Name")]
+        public string Name { get; set; }
 
         [Required(ErrorMessage = "This is required field")]
         [Display(Name = "Account")]

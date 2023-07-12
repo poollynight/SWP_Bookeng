@@ -2,82 +2,65 @@
 @{
     string HotelId = ViewData["HotelId"] as string;
 }
-<!DOCTYPE html>
-<html lang="en">
-<head>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/FormList-Hotel-Room.css" />
-    <!-- Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="~/css/bootstrap.min.css">
-
-    <!-- Font Awesome Stylesheet -->
-    <link rel="stylesheet" href="~/css/font-awesome.min.css">
-    <title>Document</title>
-
-</head>
-<body>
-    @if (ViewData["Update"] != null)
-    {
-        <script>
-            alert("@ViewData["Update"]");
-        </script>
-    }
-    @*    <button class="CreateRoom" id="CreateRoom" onclick="location.href='@Url.Action("CreateRoom", "CRUDRoom", HotelId)'">Create New Room</button>*@
-    <form method="get" asp-controller="CRUDRoom" asp-action="CreateRoom">
-        <input type="hidden" value="@HotelId" name="HotelId" />
-        <input type="submit" value="Create New Room">
-    </form>
-    @if (Model != null && Model.Count > 0)
-    {
-        @foreach (var room in Model)
-        {
-            <div class="hotel-list">
-                <ul class="hotel-list-left">
-                    <div class="hotel-img"><img src="~/img/" alt="123123" /></div>
-                    <div class="hotel-info">
-                        <h3>@room.RoomName</h3>
-                        <p>@room.RoomPrice</p>
-                        <p>@room.RoomInfo</p>
-                    </div>
-                </ul>
-                <ul class="hotel-list-center">
-                    <div class="hotel-info">
-                        <p>BedQuantity: @(room.BedQuantity == "1" ? "Có" : "Không")</p>
-                        <p>Wifi: @(room.Wifi == "1" ? "Có" : "Không")</p>
-                        <p>Window: @(room.Window == "1" ? "Có" : "Không")</p>
-                        <p>Smoking: @(room.Smoking == "1" ? "Có" : "Không")</p>
-                    </div>
-                </ul>
-                <ul class="hotel-list-right">
-                    <li>
-                        <form method="get" asp-controller="CRUDRoom" asp-action="EditRoom">
-                            <input type="hidden" value="@room.RoomId" name="RoomId" />
-                            <input type="hidden" value="@HotelId" name="HotelId" />
-                            <input type="submit" value="Update">
-                        </form>
-                    </li>
-                    <li>
-                        <form method="post" asp-controller="CRUDRoom" asp-action="DeleteRoom">
-                            <input type="hidden" value="@room.RoomId" name="RoomId" />
-                            <input type="hidden" value="@HotelId" name="HotelId" />
-                            <input type="submit" value="Delete">
-                        </form>
-                    </li>
-                </ul>
-            </div>
-        }
-    }
-    else
-    {
-        <h2>No Any Room!</h2>
-    }
+@if (ViewData["Update"] != null)
+{
     <script>
-        document.getElementById("OpenPopup").addEventListener("click", function () {
-            var hotelId = button.getAttribute("data-hotelId");
-            location.href = "/CRUDRoom/CreateRoom?hotelId=" + hotelId;
-        });
+        alert("@ViewData["Update"]");
     </script>
-</body>
-</html>
+}
+@*    <button class="CreateRoom" id="CreateRoom" onclick="location.href='@Url.Action("CreateRoom", "CRUDRoom", HotelId)'">Create New Room</button>*@
+<form method="get" asp-controller="CRUDRoom" asp-action="CreateRoom">
+    <input type="hidden" value="@HotelId" name="HotelId" />
+    <input type="submit" value="Create New Room">
+</form>
+@if (Model != null && Model.Count > 0)
+{
+    @foreach (var room in Model)
+    {
+        <div class="hotel-list">
+            <ul class="hotel-list-left">
+                <div class="hotel-img"><img src="~/img/" alt="123123" /></div>
+                <div class="hotel-info">
+                    <h3>@room.RoomName</h3>
+                    <p>@room.RoomPrice</p>
+                    <p>@room.RoomInfo</p>
+                </div>
+            </ul>
+            <ul class="hotel-list-center">
+                <div class="hotel-info">
+                    <p>BedQuantity: @(room.BedQuantity == "1" ? "Có" : "Không")</p>
+                    <p>Wifi: @(room.Wifi == "1" ? "Có" : "Không")</p>
+                    <p>Window: @(room.Window == "1" ? "Có" : "Không")</p>
+                    <p>Smoking: @(room.Smoking == "1" ? "Có" : "Không")</p>
+                </div>
+            </ul>
+            <ul class="hotel-list-right">
+                <li>
+                    <form method="get" asp-controller="CRUDRoom" asp-action="EditRoom">
+                        <input type="hidden" value="@room.RoomId" name="RoomId" />
+                        <input type="hidden" value="@HotelId" name="HotelId" />
+                        <input type="submit" value="Update">
+                    </form>
+                </li>
+                <li>
+                    <form method="post" asp-controller="CRUDRoom" asp-action="DeleteRoom">
+                        <input type="hidden" value="@room.RoomId" name="RoomId" />
+                        <input type="hidden" value="@HotelId" name="HotelId" />
+                        <input type="submit" value="Delete">
+                    </form>
+                </li>
+            </ul>
+        </div>
+    }
+}
+else
+{
+    <h2>No Any Room!</h2>
+}
+<script>
+    document.getElementById("OpenPopup").addEventListener("click", function () {
+        var hotelId = button.getAttribute("data-hotelId");
+        location.href = "/CRUDRoom/CreateRoom?hotelId=" + hotelId;
+    });
+</script>

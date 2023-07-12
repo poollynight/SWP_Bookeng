@@ -3,7 +3,7 @@
 }
 
 .hotel-list {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
 }
@@ -21,7 +21,7 @@
 }
 
 .hotel-list-right input {
-    width: 100%;
+    width: 90%;
     padding: 5px;
     background-color: #003580;
     color: #fff;

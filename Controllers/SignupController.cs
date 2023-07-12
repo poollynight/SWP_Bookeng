@@ -24,7 +24,7 @@ namespace SWP_template.Controllers
             return View("Signup");
         }
         [HttpPost]
-        public IActionResult CheckInputUserSignup(string account, string email, string password, string confirmPassword)
+        public IActionResult CheckInputUserSignup(string name, string account, string email, string password, string confirmPassword)
         {
             if (ModelState.IsValid)
             {
@@ -54,8 +54,9 @@ namespace SWP_template.Controllers
                 else
                 {
                     var confirmEmailController = new ConfirmEmailController();
-                    ViewBag.verifiCode = confirmEmailController.SendConfirmEmail(email);
+                    ViewBag.verifiCode = confirmEmailController.SendConfirmEmail(email,"R003");
                     ViewBag.succeed = "An verifi code has been sent to your mail. Check for verifi code";
+                    ViewBag.name = name;
                     ViewBag.account = account;
                     ViewBag.email = email;
                     ViewBag.password = password;

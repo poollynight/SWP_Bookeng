@@ -20,13 +20,16 @@ public class LoginController : Controller
     [ValidateAntiForgeryToken]
     public IActionResult Login(string account, string password, bool rememberme)
     {
+        Swp1Context context = new Swp1Context();
         string role = "R003";
-        string checkID = EFManage.Login(account, password,role );
-        if (checkID != null)
+        var acc = EFManage.Login(account, password,role );
+        if (acc != null)
         {
+            var user = context.Accountsses.Where(a => a.Username.Equals(account) && a.RoleId.Equals("R003")).FirstOrDefault();
             IHttpContextAccessor Accessors = new HttpContextAccessor();
-            Accessors.HttpContext.Session.SetString("Username", account);
-            Accessors.HttpContext.Session.SetString("ID", checkID);
+            Accessors.HttpContext.Session.SetString("Username", user.Name);
+            Accessors.HttpContext.Session.SetString("ID", acc.AccountId);
+            
             return View("/Views/Home/Index.cshtml");
         }
         else

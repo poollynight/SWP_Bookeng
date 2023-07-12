@@ -44,34 +44,42 @@
                                 <h3>Book Hotel</h3>
                                 <p>Find your dream hotel today</p>
                                 <form method="post" action="@Url.Action("Confirm","Confirm", new {Hotelid = ViewBag.id})">
+                                    <h5>First Name</h5>
                                     <div class="form-group">
                                         <input type="text" class="form-control" name="firstName" placeholder="First Name" required />
                                     </div>
 
+                                    <h5>Last Name</h5>
                                     <div class="form-group">
                                         <input type="text" class="form-control" name="lastName" placeholder="Last Name" required />
                                     </div>
 
+                                    <h5>Email</h5>
                                     <div class="form-group">
                                         <input type="email" class="form-control" name="email" placeholder="Email" required />
                                     </div>
 
+                                    <h5>Phone Number</h5>
                                     <div class="form-group">
                                         <input type="text" class="form-control" name="phone" placeholder="Phone" required />
                                     </div>
 
+                                    <h5>Country</h5>
                                     <div class="form-group">
                                         <input type="text" class="form-control" name="country" placeholder="Country" required />
                                     </div>
 
+                                    <h5>Arrival Date</h5>
                                     <div class="form-group">
                                         <input type="text" class="form-control dpd1" name="arrivalDate" placeholder="Arrival Date" required />                                       		<i class="fa fa-calendar"></i>
                                     </div>
 
+                                    <h5>Departure Date</h5>
                                     <div class="form-group">
                                         <input type="text" class="form-control dpd2" name="departureDate" placeholder="Departure Date" required />                                       		<i class="fa fa-calendar"></i>
                                     </div>
 
+                                    <h5>Room Type</h5>
                                     <div class="form-group">
                                         <div class="form-group right-icon">
                                             <select class="form-control" name="roomType">
@@ -84,34 +92,36 @@
                                             <i class="fa fa-angle-down"></i>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-sm-6 col-md-12 col-lg-6 no-sp-r">
-                                            <div class="form-group right-icon">
-                                                <select class="form-control" name="quatityRoom">
-                                                    <option selected>Rooms</option>
-                                                    <option>1</option>
-                                                    <option>2</option>
-                                                    <option>3</option>
-                                                </select>
-                                                <i class="fa fa-angle-down"></i>
-                                            </div>
+                                    <div class="form-group">
+
+                                        <h5>Room Quantity</h5>
+                                        <div class="form-group right-icon">
+                                            <select class="form-control" name="quatityRoom">
+                                                <option selected>Rooms</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                            </select>
+                                            <i class="fa fa-angle-down"></i>
                                         </div>
 
-                                        <div class="col-sm-6 col-md-12 col-lg-6 no-sp-l" ">
-                                            <div class="form-group right-icon">
-                                                <select class="form-control" name="bed">
-                                                    <option selected>Beds</option>
-                                                    <option>1</option>
-                                                    <option>2</option>
-                                                    <option>3</option>
-                                                </select>
-                                                <i class="fa fa-angle-down"></i>
-                                            </div>
+
+                                        <div class="col-sm-0 col-md-0 col-lg-0 no-sp-l" ">
+                                        @*<div class="form-group right-icon">
+                                            <select class="form-control" name="bed">
+                                            <option selected>Beds</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            </select>
+                                            <i class="fa fa-angle-down"></i>
+                                            </div>*@
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-sm-6 col-md-12 col-lg-6 no-sp-r">
+                                            <h5>Adult</h5>
                                             <div class="form-group right-icon">
                                                 <select class="form-control" name="adults">
                                                     <option selected>Adults</option>
@@ -122,8 +132,8 @@
                                                 <i class="fa fa-angle-down"></i>
                                             </div>
                                         </div>
-
                                         <div class="col-sm-6 col-md-12 col-lg-6 no-sp-l" ">
+                                            <h5>Child</h5>
                                             <div class="form-group right-icon">
                                                 <select class="form-control" name="childs">
                                                     <option selected>Childs</option>
@@ -136,11 +146,12 @@
                                         </div>
                                     </div>
 
+                                    <h5>Payment Method</h5>
                                     <div class="form-group right-icon">
                                         <select class="form-control" name="payMethod">
                                             <option selected>Payment Method</option>
                                             <option>Credit Card</option>
-                                            <option>Paypal</option>
+                                            <option>Cash</option>
                                         </select>
                                         <i class="fa fa-angle-down"></i>
                                     </div>
@@ -224,7 +235,7 @@
                                 <div id="restaurant" class="tab-pane">
                                     <div class="row">
                                         <div class="col-sm-4 col-md-4 tab-img">
-                                            <img src="~/img/hotel-detail-tab-2.jpg" class="img-responsive" alt="flight-detail-img" />
+                                            <img src="~/img/@ViewBag.img_URL/avt.jpg" class="img-responsive" alt="flight-detail-img" />
                                         </div><!-- end columns -->
 
                                         <div class="col-sm-8 col-md-8 tab-text">
@@ -237,7 +248,7 @@
                                 <div id="pick-up" class="tab-pane">
                                     <div class="row">
                                         <div class="col-sm-4 col-md-4 tab-img">
-                                            <img src="~/img/hotel-detail-tab-3.jpg" class="img-responsive" alt="flight-detail-img" />
+                                            <img src="~/img/@ViewBag.img_URL/avt.jpg" class="img-responsive" alt="flight-detail-img" />
                                         </div><!-- end columns -->
 
                                         <div class="col-sm-8 col-md-8 tab-text">
@@ -250,7 +261,7 @@
                                 <div id="luxury-gym" class="tab-pane">
                                     <div class="row">
                                         <div class="col-sm-4 col-md-4 tab-img">
-                                            <img src="~/img/hotel-detail-tab-4.jpg" class="img-responsive" alt="flight-detail-img" />
+                                            <img src="~/img/@ViewBag.img_URL/avt.jpg" class="img-responsive" alt="flight-detail-img" />
                                         </div><!-- end columns -->
 
                                         <div class="col-sm-8 col-md-8 tab-text">
@@ -263,7 +274,7 @@
                                 <div id="sports-club" class="tab-pane">
                                     <div class="row">
                                         <div class="col-sm-4 col-md-4 tab-img">
-                                            <img src="~/img/hotel-detail-tab-5.jpg" class="img-responsive" alt="flight-detail-img" />
+                                            <img src="~/img/@ViewBag.img_URL/avt.jpg" class="img-responsive" alt="flight-detail-img" />
                                         </div><!-- end columns -->
 
                                         <div class="col-sm-8 col-md-8 tab-text">
@@ -303,9 +314,19 @@
                                             <h3 class="block-title"><a href="#">@room.RoomName</a></h3>
                                             @*<p class="block-minor">Max Guests:02</p>*@
                                             <p class="block-minor">Available: @room.RoomAvailable</p>
-                                            @*<p>@room.Wifi <t />@room.Window </p>*@
-                                            @*<a href="#" class="btn btn-orange btn-lg">Reserve</a>*@
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-3 col-lg-3 no-sp-r">
+                                                    <img src="~/img/Room Icon/Bed.jfif" class="img-responsive" style="max-height: 15px; float: left"><h8 style="float: right">@room.BedQuantity Bed</h8>
+                                                </div>
+                                                <div class="col-sm-3 col-md-3 col-lg-3 no-sp-r">
+                                                    <img src="~/img/Room Icon/Wifi.jfif" class="img-responsive" style="max-height: 15px; float: left"><h8 style="float: right">Free Wifi</h8>
+                                                </div>
+                                                <div class="col-sm-3 col-md-3 col-lg-3 no-sp-r">
+                                                    <img src="~/img/Room Icon/Smoking.jfif" class="img-responsive" style="max-height: 15px; float: left"><h8 style="float: right">@room.Smoking</h8>
+                                                </div>
+                                            </div>
                                         </div><!-- end room-info -->
+
                                     </div><!-- end list-content -->
                                 </div>
                                 <!-- end room-block -->

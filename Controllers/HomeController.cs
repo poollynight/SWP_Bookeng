@@ -23,8 +23,9 @@ namespace SWP_template.Controllers
         public IActionResult Logout()
         {
             IHttpContextAccessor Accessors = new HttpContextAccessor();
-            Accessors.HttpContext.Session.Remove("Username");
-            Accessors.HttpContext.Session.Remove("ID");
+            //Accessors.HttpContext.Session.Remove("Username");
+            //Accessors.HttpContext.Session.Remove("ID");
+            Accessors.HttpContext.Session.Clear();
             return View("/Views/Home/Index.cshtml");
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

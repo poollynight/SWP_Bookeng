@@ -5,101 +5,429 @@
 }
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"]</title>
-    <link rel="icon" href="~/img/logo.png" type="image/x-icon">
+@if (@Accessors.HttpContext.Session.GetString("ID") == null || @Accessors.HttpContext.Session.GetString("ID").Contains("U"))
+{
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"]</title>
+        <link rel="icon" href="~/img/logo.png" type="image/x-icon">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
-    <!-- Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+        <!-- Bootstrap Stylesheet -->
+        <link rel="stylesheet" href="~/css/bootstrap.min.css">
 
-    <!-- Font Awesome Stylesheet -->
-    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+        <!-- Font Awesome Stylesheet -->
+        <link rel="stylesheet" href="~/css/font-awesome.min.css">
 
-    <!-- Custom Stylesheets -->
-    <link rel="stylesheet" href="~/css/style.css">
-    <link rel="stylesheet" id="cpswitch" href="~/css/orange.css">
-    <link rel="stylesheet" href="~/css/responsive.css">
+        <!-- Custom Stylesheets -->
+        <link rel="stylesheet" href="~/css/style.css">
+        <link rel="stylesheet" id="cpswitch" href="~/css/orange.css">
+        <link rel="stylesheet" href="~/css/responsive.css">
 
-    <!-- Owl Carousel Stylesheet -->
-    <link rel="stylesheet" href="~/css/owl.carousel.css">
-    <link rel="stylesheet" href="~/css/owl.theme.css">
+        <!-- Owl Carousel Stylesheet -->
+        <link rel="stylesheet" href="~/css/owl.carousel.css">
+        <link rel="stylesheet" href="~/css/owl.theme.css">
 
-    <!-- Flex Slider Stylesheet -->
-    <link rel="stylesheet" href="~/css/flexslider.css" type="text/css" />
+        <!-- Flex Slider Stylesheet -->
+        <link rel="stylesheet" href="~/css/flexslider.css" type="text/css" />
 
-    <!--Date-Picker Stylesheet-->
-    <link rel="stylesheet" href="~/css/datepicker.css">
+        <!--Date-Picker Stylesheet-->
+        <link rel="stylesheet" href="~/css/datepicker.css">
 
-    <!-- Magnific Gallery -->
-    <link rel="stylesheet" href="~/css/magnific-popup.css">
-</head>
-<body>
-    <!--============= TOP-BAR ===========-->
-    <div id="top-bar" class="tb-text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div id="info">
+        <!-- Magnific Gallery -->
+        <link rel="stylesheet" href="~/css/magnific-popup.css">
+    </head>
+    <body>
+
+
+
+        <!--============= TOP-BAR ===========-->
+        <div id="top-bar" class="tb-text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div id="info">
+                            <ul class="list-unstyled list-inline">
+                                <li><a asp-action="AdminLogin" asp-controller="AdminLogin"><img src="~/img/Vn.png" /></a></li>
+                                <li><span><i class="fa fa-map-marker"></i></span>29 Land St, Lorem City, CA</li>
+                                <li><span><i class="fa fa-phone"></i></span>+00 123 4567</li>
+                            </ul>
+                        </div><!-- end info -->
+                    </div><!-- end columns -->
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div id="links">
+                            @*@{int x = Context.Session.Get("account");}*@
+                            @if (@Accessors.HttpContext.Session.GetString("ID") == null)
+                            {
+                                <ul class="list-unstyled list-inline">
+                                    <li><a asp-area="" asp-controller="Login" asp-action="Login"><span><i class="fa fa-lock"></i></span>Login</a></li>
+                                    <li><a asp-area="" asp-controller="Signup" asp-action="Signup"><span><i class="fa fa-plus"></i></span>Sign Up</a></li>
+                                </ul>
+
+                            }
+                            else if (@Accessors.HttpContext.Session.GetString("ID").Contains("U"))
+                            {
+                                <ul class="list-unstyled list-inline">
+                                    <li style="color: white; font-weight: bold; text-decoration: none"><a asp-area="" asp-controller="OwnerSignup" asp-action="OwnerSignup"><span><i class="fa fa-plus"></i></span>List your properties</a></li>
+                                    <li style="color: white; font-weight: bold;"><a href="@Url.ActionLink("UserProfile","UserProfile", new { id = Accessors.HttpContext.Session.GetString("ID")})">Hi, @Accessors.HttpContext.Session.GetString("Username")</a></li>
+                                    <li><a href="@Url.ActionLink("Logout","Home")"><span><i class="fa fa-minus"></i></span>Log out</a></li>
+                                </ul>
+                            }
+                            @*else if (@Accessors.HttpContext.Session.GetString("ID").Contains("O"))
+                        {
                         <ul class="list-unstyled list-inline">
-                            <li><span><i class="fa fa-map-marker"></i></span>29 Land St, Lorem City, CA</li>
-                            <li><span><i class="fa fa-phone"></i></span>+00 123 4567</li>
+                        <li style="color: white; font-weight: bold; text-decoration: none"><a href="@Url.ActionLink("OwnerHome","OwnerHome")">Manage your properties</a></li>
+                        <li style="color: white; font-weight: bold;"><a href="@Url.ActionLink("UserProfile","UserProfile", new { id = Accessors.HttpContext.Session.GetString("OwnerID")})">Hi, @Accessors.HttpContext.Session.GetString("Username")</a></li>
+                        <li><a href="@Url.ActionLink("Logout","Home")"><span><i class="fa fa-minus"></i></span>Log out</a></li>
                         </ul>
-                    </div><!-- end info -->
-                </div><!-- end columns -->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div id="links">
-                        @*@{int x = Context.Session.Get("account");}*@
-                        @if (@Accessors.HttpContext.Session.GetString("ID") == null)
-                        {
-                            <ul class="list-unstyled list-inline">
-                                <li><a asp-area="" asp-controller="Login" asp-action="Login"><span><i class="fa fa-lock"></i></span>Login</a></li>
-                                <li><a asp-area="" asp-controller="Signup" asp-action="Signup"><span><i class="fa fa-plus"></i></span>Sign Up</a></li>
-                            </ul>
-                           
-                        }
-                        else if (@Accessors.HttpContext.Session.GetString("ID").Contains("U"))
-                        {
-                            <ul class="list-unstyled list-inline">
-                                <li style="color: white; font-weight: bold; text-decoration: none"><a asp-area="" asp-controller="OwnerSignup" asp-action="OwnerSignup"><span><i class="fa fa-plus"></i></span>List your properties</a></li>
-                                <li style="color: white; font-weight: bold;"><a href="@Url.ActionLink("UserProfile","UserProfile", new { id = Accessors.HttpContext.Session.GetString("ID")})">Hi, @Accessors.HttpContext.Session.GetString("Username")</a></li>
-                                <li><a href="@Url.ActionLink("Logout","Home")"><span><i class="fa fa-minus"></i></span>Log out</a></li>
-                            </ul>
-                        }
-                        else if (@Accessors.HttpContext.Session.GetString("ID").Contains("O"))
-                        {
-                            <ul class="list-unstyled list-inline">
-                                <li style="color: white; font-weight: bold; text-decoration: none"><a href="@Url.ActionLink("OwnerHome","OwnerHome")">Manage your properties</a></li>
-                                <li style="color: white; font-weight: bold;"><a href="@Url.ActionLink("UserProfile","UserProfile", new { id = Accessors.HttpContext.Session.GetString("OwnerID")})">Hi, @Accessors.HttpContext.Session.GetString("Username")</a></li>
-                                <li><a href="@Url.ActionLink("Logout","Home")"><span><i class="fa fa-minus"></i></span>Log out</a></li>
-                            </ul>
-                        }
-                    </div><!-- end links -->
-                </div><!-- end columns -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end top-bar -->
-    <nav class="navbar navbar-default main-navbar navbar-custom navbar-white" id="mynavbar-1">
+                        }*@
+                        </div><!-- end links -->
+                    </div><!-- end columns -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end top-bar -->
+        <nav class="navbar navbar-default main-navbar navbar-custom navbar-white" id="mynavbar-1">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="header-search hidden-lg">
+                    </div>
+                    <a asp-controller="Home" asp-action="Index" class="navbar-brand">Bookeng</a>
+                </div><!-- end navbar-header -->
+            </div><!-- end container -->
+        </nav><!-- end navbar -->
         <div class="container">
-            <div class="navbar-header">
-                <div class="header-search hidden-lg">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+
+    </body>
+}
+else if (@Accessors.HttpContext.Session.GetString("ID").Contains("O"))
+{
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>@ViewData["Title"] - Owner</title>
+
+        <!-- Custom fonts for this template-->
+        <link href="~/lib/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+        <link rel="stylesheet" href="~/css/FormList-Hotel-Room.css" />
+        <!-- Custom styles for this template-->
+        <link href="~/css/sb-admin-2.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="~/css/orange.css">
+        <link rel="stylesheet" href="~/css/Form-Create-Update-Room.css">
+        @* <link rel="stylesheet" href="~/css/bootstrap.min.css">*@
+
+
+    </head>
+
+    <body id="page-top">
+
+        <!-- Page Wrapper -->
+        <div id="wrapper">
+
+            <!-- Sidebar -->
+            <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+                <!-- Sidebar - Brand -->
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="@Url.ActionLink("OwnerHome","OwnerHome")">
+                    <div class="sidebar-brand-icon rotate-n-15">
+                        <i class="fas fa-laugh-wink"></i>
+                    </div>
+                    <div class="sidebar-brand-text mx-3">Bookeng Owner</div>
+                </a>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider my-0">
+
+                <!-- Nav Item - Dashboard -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.ActionLink("OwnerHome","OwnerHome")">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider">
+
+                <!-- Heading -->
+                <div class="sidebar-heading">
+                    Interface
                 </div>
-                <a asp-controller="Home" asp-action="Index" class="navbar-brand">Bookeng</a>
-            </div><!-- end navbar-header -->
-        </div><!-- end container -->
-    </nav><!-- end navbar -->
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
+
+                <!-- Nav Item - Pages Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                        <i class="fas fa-fw fa-cog"></i>
+                        <span>Your management</span>
+                    </a>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="@Url.ActionLink("Properties","OwnerHome")">Properties</a>
+                            <a class="collapse-item" asp-action="SendOrder" asp-controller="SendOrder">Orders</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Nav Item - Utilities Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                    aria-expanded="true" aria-controls="collapseUtilities">
+                        <i class="fas fa-fw fa-wrench"></i>
+                        <span>Utilities</span>
+                    </a>
+                    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                    data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Custom Utilities:</h6>
+                            <a class="collapse-item" href="utilities-color.html">Colors</a>
+                            <a class="collapse-item" href="utilities-border.html">Borders</a>
+                            <a class="collapse-item" href="utilities-animation.html">Animations</a>
+                            <a class="collapse-item" href="utilities-other.html">Other</a>
+                        </div>
+                    </div>
+                </li>
+
+
+                <!-- Sidebar Toggler (Sidebar) -->
+                <div class="text-center d-none d-md-inline">
+                    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+                </div>
+
+                <!-- Sidebar Message -->
+
+
+            </ul>
+            <!-- End of Sidebar -->
+            <!-- Content Wrapper -->
+            <div id="content-wrapper" class="d-flex flex-column">
+                <main>
+                    @RenderBody()
+                </main>
+            </div>
+            <!-- End of Content Wrapper -->
+
+        </div>
+        <!-- End of Page Wrapper -->
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+
+        <!-- Logout Modal-->
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                        <a class="btn btn-primary" asp-action="Logout" asp-controller="Home">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JavaScript-->
+        <script src="/lib/jquery/jquery.min.js"></script>
+        <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core plugin JavaScript-->
+        <script src="/lib/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for all pages-->
+        <script src="/js/sb-admin-2.min.js"></script>
+
+        <!-- Page level plugins -->
+        <script src="/lib/chart.js/Chart.min.js"></script>
+
+        <!-- Page level custom scripts -->
+        <script src="/js/demo/chart-area-demo.js"></script>
+        <script src="/js/demo/chart-pie-demo.js"></script>
+
+    </body>
+}
+else if (@Accessors.HttpContext.Session.GetString("ID").Contains("A"))
+{
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>@ViewData["Title"] - Admin</title>
+
+        <!-- Custom fonts for this template-->
+        <link href="~/lib/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+              rel="stylesheet">
+        <link rel="stylesheet" href="~/css/FormList-Hotel-Room.css" />
+        <!-- Custom styles for this template-->
+        <link href="~/css/sb-admin-2.min.css" rel="stylesheet">
+        <link rel="stylesheet" id="cpswitch" href="~/css/orange.css">
+        <link rel="stylesheet" href="~/css/Form-Create-Update-Room.css">
+        @* <link rel="stylesheet" href="~/css/bootstrap.min.css">*@
+
+
+    </head>
+
+    <body id="page-top">
+
+        <!-- Page Wrapper -->
+        <div id="wrapper">
+
+            <!-- Sidebar -->
+            <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+                <!-- Sidebar - Brand -->
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="@Url.ActionLink("OwnerHome","OwnerHome")">
+                    <div class="sidebar-brand-icon rotate-n-15">
+                        <i class="fas fa-laugh-wink"></i>
+                    </div>
+                    <div class="sidebar-brand-text mx-3">Bookeng Admin</div>
+                </a>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider my-0">
+
+                <!-- Nav Item - Dashboard -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.ActionLink("OwnerHome","OwnerHome")">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider">
+
+                <!-- Heading -->
+                <div class="sidebar-heading">
+                    Interface
+                </div>
+
+                <!-- Nav Item - Pages Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                       aria-expanded="true" aria-controls="collapseTwo">
+                        <i class="fas fa-fw fa-cog"></i>
+                        <span>Your management</span>
+                    </a>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="@Url.ActionLink("Properties","OwnerHome")">Properties</a>
+                            <a class="collapse-item" asp-action="SendOrder" asp-controller="SendOrder">Orders</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Nav Item - Utilities Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                       aria-expanded="true" aria-controls="collapseUtilities">
+                        <i class="fas fa-fw fa-wrench"></i>
+                        <span>Utilities</span>
+                    </a>
+                    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                         data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Custom Utilities:</h6>
+                            <a class="collapse-item" href="utilities-color.html">Colors</a>
+                            <a class="collapse-item" href="utilities-border.html">Borders</a>
+                            <a class="collapse-item" href="utilities-animation.html">Animations</a>
+                            <a class="collapse-item" href="utilities-other.html">Other</a>
+                        </div>
+                    </div>
+                </li>
+
+
+                <!-- Sidebar Toggler (Sidebar) -->
+                <div class="text-center d-none d-md-inline">
+                    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+                </div>
+
+                <!-- Sidebar Message -->
+
+
+            </ul>
+            <!-- End of Sidebar -->
+            <!-- Content Wrapper -->
+            <div id="content-wrapper" class="d-flex flex-column">
+                <main>
+                    @RenderBody()
+                </main>
+            </div>
+            <!-- End of Content Wrapper -->
+
+        </div>
+        <!-- End of Page Wrapper -->
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+
+        <!-- Logout Modal-->
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                        <a class="btn btn-primary" asp-action="Logout" asp-controller="Home">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JavaScript-->
+        <script src="/lib/jquery/jquery.min.js"></script>
+        <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core plugin JavaScript-->
+        <script src="/lib/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for all pages-->
+        <script src="/js/sb-admin-2.min.js"></script>
+
+        <!-- Page level plugins -->
+        <script src="/lib/chart.js/Chart.min.js"></script>
+
+        <!-- Page level custom scripts -->
+        <script src="/js/demo/chart-area-demo.js"></script>
+        <script src="/js/demo/chart-pie-demo.js"></script>
+
+    </body>
+}
 </html>

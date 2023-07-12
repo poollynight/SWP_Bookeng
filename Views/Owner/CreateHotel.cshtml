@@ -3,20 +3,7 @@
 @{
     string accountId = @Accessors.HttpContext.Session.GetString("ID");
 }
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="~/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/Form-Create-Update-Hotel.css">
-    <!-- Font Awesome Stylesheet -->
-    <link rel="stylesheet" href="~/css/font-awesome.min.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="pop-up" id="pop-up">
+<div class="pop-up" id="pop-up" style="margin-top: 10px">
         <div class="pop-up-content">
             <h1>Create hotel</h1>
             <form asp-controller="CRUDHotel" asp-action="CreateHotel" method="post">
@@ -49,5 +36,3 @@
             </form>
         </div>
     </div>
-</body>
-</html>

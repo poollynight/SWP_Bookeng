@@ -11,7 +11,7 @@ namespace SWP_template.Controllers
         {
             _logger = logger;
         }
-        [HttpPost]
+        //[HttpPost]
         public IActionResult SendOrder()
         {
             string account = HttpContext.Session.GetString("ID");

@@ -1,5 +1,5 @@
 @using SWP_template.Models
-@model RegisterViewModel 
+@model RegisterViewModel
 <!doctype html>
 <html lang="en">
 <head>
@@ -35,11 +35,19 @@
                                 <h3>Registration</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 @using (Html.BeginForm("CheckInputUserSignup", "Signup", FormMethod.Post))
-                                {   
+                                {
                                     @ViewBag.fail
                                     @* <div class="form"> *@
                                     <div class="form-group">
-                                        
+                                        @*<input type="text" class="form-control form-control-user" id="exampleLastName"
+                                    placeholder="Last Name" name="lastName">*@
+                                        @Html.LabelFor(m => m.Name, new { @class = "sr-only",@for = "lastName" })
+                                        @Html.TextBoxFor(m => m.Name, new { @class = "form-control account",id = "name", name = "name",placeholder ="Name", autofocus ="", required="required" })
+                                        @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+
+                                    </div>
+                                    <div class="form-group">
+
                                         @Html.LabelFor(m => m.Account, new { @class = "sr-only",@for = "inputAccount" })
                                         @Html.TextBoxFor(m => m.Account, new { @class = "form-control account",id = "inputAccount", name = "account",placeholder ="User account", autofocus ="", required="required" })
                                         @Html.ValidationMessageFor(m => m.Account, "", new { @class = "text-danger" })
@@ -68,7 +76,7 @@
                                     </div>
 
                                     <button class="btn btn-orange btn-block" type="submit">Register</button>
-                                    
+
                                 }
 
 

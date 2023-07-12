@@ -11,6 +11,9 @@ partial class Program
     }
     public void ConfigureService(IServiceCollection services)
     {
+        services
+    .AddControllersWithViews()
+    .AddRazorRuntimeCompilation();
         services.AddOptions();
         var mailSettings = _configuration.GetSection("MailSettings");
         services.Configure<MailSettings>(mailSettings);
@@ -29,6 +32,7 @@ partial class Program
             options.Cookie.HttpOnly = true;
             options.Cookie.IsEssential = true;
         });
+        
         builder.Services.AddHttpContextAccessor();
         builder.Services.AddDbContextPool<Swp1Context>(config =>
         {

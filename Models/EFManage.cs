@@ -37,11 +37,28 @@ namespace SWP_template.Models
             }
             return id;
         }
-        public static void SinupAccount(string username, string email, string password, string role)
+        public static string AdminAccountIdGenerate()
+        {
+            Random res = new();
+            const string str = "0123456789";
+            const int size = 8;
+            string id = "AD";
+            for (int i = 0; i < size; i++)
+            {
+                // Selecting a index randomly
+                int x = res.Next(str.Length);
+                // Appending the character at the 
+                // index to the random alphanumeric string.
+                id += str[x];
+            }
+            return id;
+        }
+        public static void SinupAccount(string name, string username, string email, string password, string role)
         {
             string accID;
             using var dbContext = new Swp1Context();
-            if (role.Equals("R002")) accID = OwnerAccountIdGenerate();
+            if (role.Equals("R001")) accID = AdminAccountIdGenerate();
+            else if (role.Equals("R002")) accID = OwnerAccountIdGenerate();
             else accID = UserAccountIdGenerate();
             var p1 = new Accountss()
             {
@@ -50,7 +67,7 @@ namespace SWP_template.Models
                 Password = password,
                 RoleId = role,
                 Email = email,
-                Name = " ",
+                Name = name,
                 Phone = " ",
                 Gender = " ",
                 Birthday = " ",
@@ -61,7 +78,7 @@ namespace SWP_template.Models
             dbContext.SaveChanges();
         }
 
-        public static string Login(string username, string password, string role)
+        public static Accountss Login(string username, string password, string role)
         {
             using var dbcontext = new Swp1Context();
             
@@ -70,7 +87,7 @@ namespace SWP_template.Models
                            select a).FirstOrDefault();
             if (account != null)
             {
-                return account.AccountId;
+                return account;
             }
             return null;
         }

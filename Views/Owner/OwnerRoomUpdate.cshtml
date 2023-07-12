@@ -2,64 +2,50 @@
 @{
     var HotelId = ViewData["HotelId"] as string;
 }
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="~/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/Form-Create-Update-Room.css">
-    <!-- Font Awesome Stylesheet -->
-    <link rel="stylesheet" href="~/css/font-awesome.min.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="pop-up" id="pop-up">
-        <div class="pop-up-content">
-            <h1>Create new room</h1>
-            <form asp-controller="CRUDRoom" asp-action="UpdateRoom" method="post">
-                <input type="hidden" name="HotelId" value="@HotelId" />
-                <input type="hidden" name="RoomId" value="@Model.RoomId" />
 
-                <label>Room's Name</label>
-                <input type="text" asp-for="RoomName" placeholder="Room's Name" value="@Model.RoomName" required />
+<div class="pop-up" id="pop-up" style="margin-top: 10px">
+    <div class="pop-up-content">
+        <h1>Create new room</h1>
+        <form asp-controller="CRUDRoom" asp-action="UpdateRoom" method="post">
+            <input type="hidden" name="HotelId" value="@HotelId" />
+            <input type="hidden" name="RoomId" value="@Model.RoomId" />
 
-                <label>Bed's quantity</label>
-                <input type="text" asp-for="BedQuantity" placeholder="Room's Price" value="@Model.BedQuantity" required />
-                <label>Price</label>
-                <input type="text" asp-for="RoomPrice" placeholder="Room's Price" value="@Model.RoomPrice" required />
-                <label>RoomAvailable</label>
-                <input type="text" asp-for="RoomAvailable" placeholder="Room's Available" value="@Model.RoomAvailable" required />
+            <label>Room's Name</label>
+            <input type="text" asp-for="RoomName" placeholder="Room's Name" value="@Model.RoomName" required />
 
-                <label>Hotel's information</label>
-                <textarea asp-for="RoomInfo" placeholder="Room's Information'" value="@Model.RoomInfo" required></textarea>
-                <div class="checkbox-list">
-                    <div class="checkbox-list-item">
-                        <label class="label_checkbox" for="">Wifi</label>
-                        <input class="checkbox" type="checkbox" name="Wifi" checked="@(Model.Wifi == "1")" />
-                    </div>
-                    <div class="checkbox-list-item">
-                        <label class="label_checkbox" for="">Window</label>
-                        <input class="checkbox" type="checkbox" name="Window" checked="@(Model.Window == "1")" />
-                    </div>
-                    <div class="checkbox-list-item">
-                        <label class="label_checkbox" for="">Smoking</label>
-                        <input class="checkbox" type="checkbox" name="Smoking" checked="@(Model.Smoking == "1")" />
-                    </div>
+            <label>Bed's quantity</label>
+            <input type="text" asp-for="BedQuantity" placeholder="Room's Price" value="@Model.BedQuantity" required />
+            <label>Price</label>
+            <input type="text" asp-for="RoomPrice" placeholder="Room's Price" value="@Model.RoomPrice" required />
+            <label>RoomAvailable</label>
+            <input type="text" asp-for="RoomAvailable" placeholder="Room's Available" value="@Model.RoomAvailable" required />
+
+            <label>Hotel's information</label>
+            <textarea asp-for="RoomInfo" placeholder="Room's Information'" value="@Model.RoomInfo" required></textarea>
+            <div class="checkbox-list">
+                <div class="checkbox-list-item">
+                    <label class="label_checkbox" for="">Wifi</label>
+                    <input class="checkbox" type="checkbox" name="Wifi" checked="@(Model.Wifi == "1")" />
                 </div>
-                <br />
-                <label for="">Room's image</label>
-                <input type="file"
-                       asp-for="RoomImage"
-                       accept="image/*"
-                       name="hotelimage"
-                       id="hotelimage" value="@Model.RoomImage" />
+                <div class="checkbox-list-item">
+                    <label class="label_checkbox" for="">Window</label>
+                    <input class="checkbox" type="checkbox" name="Window" checked="@(Model.Window == "1")" />
+                </div>
+                <div class="checkbox-list-item">
+                    <label class="label_checkbox" for="">Smoking</label>
+                    <input class="checkbox" type="checkbox" name="Smoking" checked="@(Model.Smoking == "1")" />
+                </div>
+            </div>
+            <br />
+            <label for="">Room's image</label>
+            <input type="file"
+                   asp-for="RoomImage"
+                   accept="image/*"
+                   name="hotelimage"
+                   id="hotelimage" value="@Model.RoomImage" />
 
-                <input type="submit" id="SubmitAddRoom" />
-            </form>
-        </div>
+            <input type="submit" id="SubmitAddRoom" />
+        </form>
     </div>
-    <script src="/JS/FormAddHotel.js"></script>
-</body>
-</html>
+</div>
+<script src="/JS/FormAddHotel.js"></script>

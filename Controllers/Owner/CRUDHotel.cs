@@ -101,11 +101,11 @@ namespace SWP_template.Controllers.Owner
                 // Lưu thay đổi vào CSDL
                 if (swp1Context.SaveChanges() > 0) mess = "Hotel Updated";
 
-                return RedirectToAction("OwnerHome", "OwnerHome", mess);
+                return RedirectToAction("Properties", "OwnerHome", mess);
             }
 
             // Xử lý khi không tìm thấy khách sạn
-            return RedirectToAction("OwnerHome", "OwnerHome");
+            return RedirectToAction("Properties", "OwnerHome");
         }
 
         [HttpPost]

@@ -1,0 +1,69 @@
+﻿<!-- Owner Room-->
+@model List<SWP_template.Models.Hotel>
+@inject IHttpContextAccessor Accessors
+@{
+    string accountId = @Accessors.HttpContext.Session.GetString("ID");
+}
+
+<div id="top-bar" class="tb-text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="links" >
+                    <ul class="list-unstyled list-inline" style="display: flex; margin-right: 0px !important;">
+                        <li>
+                            <form action="@Url.Action("SendOrder","SendOrder")" method="post">
+                                <button type="submit" class="btn-orange">Order List</button>
+                            </form>
+                        </li>
+                        <li>
+                            <button class="btn-orange" id="Create" onclick="location.href='@Url.Action("CreateHotel", "CRUDHotel")'">Create</button>
+                        </li>
+
+                    </ul>
+
+                </div><!-- end links -->
+            </div><!-- end columns -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</div><!-- end top-bar -->
+@if (Model != null && Model.Count > 0)
+{
+    @foreach (var hotel in Model)
+    {
+        <div class="hotel-list">
+            <ul class="hotel-list-left">
+                <div class="hotel-img"><img src="~/img/@hotel.Province/@hotel.HotelName/avt.jpg" alt="123123" style="max-height: 150px; " /></div>
+                <div class="hotel-info" style="width: 1200px">
+                    <h3 style="width: 70%">@hotel.HotelName</h3>
+                    <p>@hotel.StartPrice</p>
+                </div>
+            </ul>
+            <ul class="hotel-list-right">
+                <li>
+                    <form method="get" asp-controller="CRUDHotel" asp-action="EditHotel">
+                        <input type="hidden" value="@hotel.HotelId" name="HotelId" />
+                        <input type="submit" value="Update">
+                    </form>
+                </li>
+                <li>
+                    <form method="post" asp-controller="OwnerHome" asp-action="OwnerHomeRoom">
+                        <input type="hidden" value="@hotel.HotelId" name="HotelId" />
+                        <input type="submit" value="Detail Room">
+                    </form>
+                </li>
+                <li>
+                    <form method="post" asp-controller="CRUDHotel" asp-action="DeleteHotelConfirmed">
+                        <input type="hidden" value="@hotel.HotelId" name="HotelId" />
+                        <input type="submit" value="Delete">
+                    </form>
+                </li>
+            </ul>
+        </div>
+    }
+}
+else
+{
+    <h2>No Any Hotel!</h2>
+}
+<script src="/js/FormAddHotel.js"></script>
