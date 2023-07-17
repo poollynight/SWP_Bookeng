@@ -40,4 +40,7 @@ public partial class Order
     public decimal TotalPrice { get; set; }
 
     public string PaymentStatus { get; set; }
+
+    
+
 }

@@ -14,6 +14,7 @@ namespace SWP_template.Controllers
         [HttpPost]
         public IActionResult EditUserProfile(string userID, string name, string DOB, string email, string phone, string nation, string gender, string identitycard)
         {
+
             EFManage.EditProfile(userID, name, DOB, email, phone, nation, gender, identitycard);
             return RedirectToAction("UserProfile", "UserProfile", new { id = userID });
 
@@ -36,5 +37,14 @@ namespace SWP_template.Controllers
             EFManage.ChangePassword(user.Username, NewPassword, "R003");
             return View("~/Views/UserProfile/UserProfile.cshtml");
         }
+
+        //public IActionResult ViewOrders ()
+        //{
+        //    var context = new Swp1Context();
+        //    string account = HttpContext.Session.GetString("ID");
+        //    List<Order> orders = context.Orders.Where(o => o.AccountId.Equals(account)).ToList();
+        //    Console.WriteLine(orders.Count());
+        //    return View("~/Views/UserOrder/UserOrder.cshtml", orders );
+        //}
     }
 }

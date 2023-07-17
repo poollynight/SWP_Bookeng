@@ -30,7 +30,7 @@ public class LoginController : Controller
             Accessors.HttpContext.Session.SetString("Username", user.Name);
             Accessors.HttpContext.Session.SetString("ID", acc.AccountId);
             
-            return View("/Views/Home/Index.cshtml");
+            return RedirectToAction("Index", "Home");
         }
         else
         {
