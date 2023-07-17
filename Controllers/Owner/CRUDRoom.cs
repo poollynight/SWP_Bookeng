@@ -34,12 +34,13 @@ namespace SWP_template.Controllers.Owner
             return View("/Views/Owner/OwnerHome_Room.cshtml", hoteldetail);
         }
 
-        public ActionResult EditRoom(string roomId)
+        public ActionResult EditRoom(string roomId, string hotelId)
         {
             // Lấy thông tin phòng từ database dựa trên roomId
             var room = swp1Context.Rooms.FirstOrDefault(h => h.RoomId == roomId);
             if (room != null)
             {
+                ViewData["HotelId"] = hotelId;
                 return View("/Views/Owner/OwnerRoomUpdate.cshtml",room);
             }
             // Nếu không tìm thấy phòng, điều hướng về trang danh sách phòng hoặc hiển thị thông báo lỗi
@@ -50,7 +51,7 @@ namespace SWP_template.Controllers.Owner
         public ActionResult UpdateRoom(Room model, string roomId, string HotelId)
         {
             
-            ViewBag.HotelId = HotelId;
+            
             roomId = Request.Form["RoomId"];
             string wifivalue = Request.Form["Wifi"];
             model.Wifi = (wifivalue == "1") ? "1" : "0";
@@ -75,7 +76,8 @@ namespace SWP_template.Controllers.Owner
             string mess = "Room Updated!";
             ViewData["mess"] = mess;
             var hoteldetail = swp1Context.Rooms.Where(h => h.HotelId == HotelId).ToList();
-            return View("/Views/Owner/OwnerHome_Room.cshtml", hoteldetail);
+            return RedirectToAction("OwnerHomeRoom", "OwnerHome", new { HotelId });
+
         }
         public ActionResult DeleteRoom(string roomId, string HotelId)
         {
@@ -84,7 +86,8 @@ namespace SWP_template.Controllers.Owner
             ViewBag.HotelId = HotelId;
             //IHttpContextAccessor Accessors = new HttpContextAccessor();
             var hoteldetail = swp1Context.Rooms.Where(h => h.HotelId == HotelId).ToList();
-            return View("/Views/Owner/OwnerHome_Room.cshtml", hoteldetail);
+            return RedirectToAction("OwnerHomeRoom", "OwnerHome", new { HotelId });
+
             // Nếu không tìm thấy phòng, điều hướng về trang danh sách phòng hoặc hiển thị thông báo lỗi
             //return RedirectToAction("OwnerHomeRoom", "OwnerHome", new { HotelId });
         }

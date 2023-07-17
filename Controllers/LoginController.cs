@@ -13,7 +13,7 @@ public class LoginController : Controller
     }
     public IActionResult Login()
     {
-        return View();
+        return View("~/Views/Login/Login.cshtml");
     }
     [HttpPost]
     [AllowAnonymous]

@@ -38,14 +38,14 @@ namespace SWP_template.Controllers.Owner
         {
             if (ModelState.IsValid)
             {
-                Console.WriteLine("ok nè1");
+               
                 // Thực hiện xử lý tạo phòng trong DB -Thiện-
                 crud.CreateHotel(model.AccountId, model.HotelName, model.HotelAddress, model.Province, model.StartPrice, model.HotelInfo, model.HotelImage);
-                return RedirectToAction("OwnerHome", "OwnerHome");
+                return RedirectToAction("Properties", "OwnerHome");
             }
 
             // Nếu dữ liệu không hợp lệ, quay lại giao diện tạo phòng và hiển thị thông báo lỗi -Thiện-
-            return RedirectToAction("OwnerHome", "OwnerHome");
+            return NotFound(); 
         }
 
         public ActionResult EditHotel(string HotelId)
@@ -108,32 +108,32 @@ namespace SWP_template.Controllers.Owner
             return RedirectToAction("Properties", "OwnerHome");
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteHotelConfirmed(string HotelId)
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        public IActionResult DeleteHotelConfirmed(string HotelId)
         {
             // Nếu HotelId truyền về null thì trở lại trang load
             if (HotelId == null)
             {
+                ViewBag.mess = "ID is null";
                 return RedirectToAction("OwnerHome", "OwnerHome");
             }
             // =============================================
-
-
             // Nếu không có khách sạn nào thì sẽ load trở về
             var hotel = swp1Context.Hotels.FirstOrDefault(h => h.HotelId == HotelId);
             if (hotel == null)
             {
+                ViewBag.mess = "Nothing found!";
                 return RedirectToAction("OwnerHome", "OwnerHome");
             }
             // =============================================
-
 
             var rooms = swp1Context.Rooms.Where(r => r.HotelId == HotelId).ToList(); //lấy danh sách các phòng trong cùng hotel
             var hasOrder = swp1Context.Orders.AsEnumerable().Any(o => rooms.Any(r => r.RoomId == o.RoomId)); //Check có order hay không 
             if (hasOrder)
             {
                 // Nếu có đơn order
+                ViewBag.mess = "Hotel has orders. Action failed";
                 return RedirectToAction("OwnerHome", "OwnerHome");
             }
             else
@@ -147,8 +147,8 @@ namespace SWP_template.Controllers.Owner
                 swp1Context.SaveChanges();
             }
             //Thông báo xoá khách sạn thành công
-            TempData["DeleteSuccess"] = "Hotel Deleted successfully";
-            return RedirectToAction("OwnerHome", "OwnerHome");
+            ViewBag.mess = "Hotel Deleted successfully";
+            return RedirectToAction("Properties", "OwnerHome");
         }
     }
 }

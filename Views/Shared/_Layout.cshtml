@@ -79,7 +79,7 @@
                             @*else if (@Accessors.HttpContext.Session.GetString("ID").Contains("O"))
                         {
                         <ul class="list-unstyled list-inline">
-                        <li style="color: white; font-weight: bold; text-decoration: none"><a href="@Url.ActionLink("OwnerHome","OwnerHome")">Manage your properties</a></li>
+                        <li style="color: white; font-weight: bold; text-decoration: none"><a href="@Url.ActionLink("AdminHome","AdminHome")">Manage your properties</a></li>
                         <li style="color: white; font-weight: bold;"><a href="@Url.ActionLink("UserProfile","UserProfile", new { id = Accessors.HttpContext.Session.GetString("OwnerID")})">Hi, @Accessors.HttpContext.Session.GetString("Username")</a></li>
                         <li><a href="@Url.ActionLink("Logout","Home")"><span><i class="fa fa-minus"></i></span>Log out</a></li>
                         </ul>
@@ -125,14 +125,17 @@ else if (@Accessors.HttpContext.Session.GetString("ID").Contains("O"))
         <!-- Custom fonts for this template-->
         <link href="~/lib/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+              rel="stylesheet">
         <link rel="stylesheet" href="~/css/FormList-Hotel-Room.css" />
         <!-- Custom styles for this template-->
         <link href="~/css/sb-admin-2.min.css" rel="stylesheet">
         <link rel="stylesheet" href="~/css/orange.css">
         <link rel="stylesheet" href="~/css/Form-Create-Update-Room.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
         @* <link rel="stylesheet" href="~/css/bootstrap.min.css">*@
-
+        <!-- style CSS
+        ============================================ -->
+        @* <link rel="stylesheet" href="/style.css"> *@
 
     </head>
 
@@ -145,7 +148,7 @@ else if (@Accessors.HttpContext.Session.GetString("ID").Contains("O"))
             <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
                 <!-- Sidebar - Brand -->
-                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="@Url.ActionLink("OwnerHome","OwnerHome")">
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="@Url.ActionLink("AdminHome","AdminHome")">
                     <div class="sidebar-brand-icon rotate-n-15">
                         <i class="fas fa-laugh-wink"></i>
                     </div>
@@ -157,7 +160,7 @@ else if (@Accessors.HttpContext.Session.GetString("ID").Contains("O"))
 
                 <!-- Nav Item - Dashboard -->
                 <li class="nav-item active">
-                    <a class="nav-link" href="@Url.ActionLink("OwnerHome","OwnerHome")">
+                    <a class="nav-link" href="@Url.ActionLink("IncomeDashboard","DashBoard")">
                         <i class="fas fa-fw fa-tachometer-alt"></i>
                         <span>Dashboard</span>
                     </a>
@@ -174,46 +177,22 @@ else if (@Accessors.HttpContext.Session.GetString("ID").Contains("O"))
                 <!-- Nav Item - Pages Collapse Menu -->
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
+                       aria-expanded="true" aria-controls="collapseTwo">
                         <i class="fas fa-fw fa-cog"></i>
                         <span>Your management</span>
                     </a>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="@Url.ActionLink("Properties","OwnerHome")">Properties</a>
+                            <a class="collapse-item" href="@Url.ActionLink("Properties","AdminHome")">Properties</a>
                             <a class="collapse-item" asp-action="SendOrder" asp-controller="SendOrder">Orders</a>
                         </div>
                     </div>
                 </li>
-
-                <!-- Nav Item - Utilities Collapse Menu -->
-                <li class="nav-item">
-                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
-                        <i class="fas fa-fw fa-wrench"></i>
-                        <span>Utilities</span>
-                    </a>
-                    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                    data-parent="#accordionSidebar">
-                        <div class="bg-white py-2 collapse-inner rounded">
-                            <h6 class="collapse-header">Custom Utilities:</h6>
-                            <a class="collapse-item" href="utilities-color.html">Colors</a>
-                            <a class="collapse-item" href="utilities-border.html">Borders</a>
-                            <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                            <a class="collapse-item" href="utilities-other.html">Other</a>
-                        </div>
-                    </div>
-                </li>
-
-
                 <!-- Sidebar Toggler (Sidebar) -->
                 <div class="text-center d-none d-md-inline">
                     <button class="rounded-circle border-0" id="sidebarToggle"></button>
                 </div>
-
                 <!-- Sidebar Message -->
-
-
             </ul>
             <!-- End of Sidebar -->
             <!-- Content Wrapper -->
@@ -223,7 +202,6 @@ else if (@Accessors.HttpContext.Session.GetString("ID").Contains("O"))
                 </main>
             </div>
             <!-- End of Content Wrapper -->
-
         </div>
         <!-- End of Page Wrapper -->
         <!-- Scroll to Top Button-->
@@ -233,7 +211,7 @@ else if (@Accessors.HttpContext.Session.GetString("ID").Contains("O"))
 
         <!-- Logout Modal-->
         <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -252,22 +230,22 @@ else if (@Accessors.HttpContext.Session.GetString("ID").Contains("O"))
         </div>
 
         <!-- Bootstrap core JavaScript-->
-        <script src="/lib/jquery/jquery.min.js"></script>
-        <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="~/lib/jquery/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 
         <!-- Core plugin JavaScript-->
-        <script src="/lib/jquery-easing/jquery.easing.min.js"></script>
+        <script src="~/lib/jquery-easing/jquery.easing.min.js"></script>
 
         <!-- Custom scripts for all pages-->
-        <script src="/js/sb-admin-2.min.js"></script>
+        <script src="~/js/sb-admin-2.min.js"></script>
 
         <!-- Page level plugins -->
-        <script src="/lib/chart.js/Chart.min.js"></script>
+        <script src="~/lib/chart.js/Chart.min.js"></script>
 
         <!-- Page level custom scripts -->
-        <script src="/js/demo/chart-area-demo.js"></script>
-        <script src="/js/demo/chart-pie-demo.js"></script>
-
+        <script src="~/js/demo/chart-area-demo.js"></script>
+        <script src="~/js/demo/chart-pie-demo.js"></script>
+        @RenderSection("script", false)
     </body>
 }
 else if (@Accessors.HttpContext.Session.GetString("ID").Contains("A"))
@@ -305,7 +283,7 @@ else if (@Accessors.HttpContext.Session.GetString("ID").Contains("A"))
             <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
                 <!-- Sidebar - Brand -->
-                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="@Url.ActionLink("OwnerHome","OwnerHome")">
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="@Url.ActionLink("AdminHome","AdminHome")">
                     <div class="sidebar-brand-icon rotate-n-15">
                         <i class="fas fa-laugh-wink"></i>
                     </div>
@@ -317,7 +295,7 @@ else if (@Accessors.HttpContext.Session.GetString("ID").Contains("A"))
 
                 <!-- Nav Item - Dashboard -->
                 <li class="nav-item active">
-                    <a class="nav-link" href="@Url.ActionLink("OwnerHome","OwnerHome")">
+                    <a class="nav-link" href="@Url.ActionLink("AdminHome","AdminHome")">
                         <i class="fas fa-fw fa-tachometer-alt"></i>
                         <span>Dashboard</span>
                     </a>
@@ -340,27 +318,8 @@ else if (@Accessors.HttpContext.Session.GetString("ID").Contains("A"))
                     </a>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="@Url.ActionLink("Properties","OwnerHome")">Properties</a>
-                            <a class="collapse-item" asp-action="SendOrder" asp-controller="SendOrder">Orders</a>
-                        </div>
-                    </div>
-                </li>
-
-                <!-- Nav Item - Utilities Collapse Menu -->
-                <li class="nav-item">
-                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                       aria-expanded="true" aria-controls="collapseUtilities">
-                        <i class="fas fa-fw fa-wrench"></i>
-                        <span>Utilities</span>
-                    </a>
-                    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                         data-parent="#accordionSidebar">
-                        <div class="bg-white py-2 collapse-inner rounded">
-                            <h6 class="collapse-header">Custom Utilities:</h6>
-                            <a class="collapse-item" href="utilities-color.html">Colors</a>
-                            <a class="collapse-item" href="utilities-border.html">Borders</a>
-                            <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                            <a class="collapse-item" href="utilities-other.html">Other</a>
+                            <a class="collapse-item" href="@Url.ActionLink("ManageUserAccount","AdminHome")">Manage User Accounts</a>
+                          
                         </div>
                     </div>
                 </li>
@@ -412,21 +371,19 @@ else if (@Accessors.HttpContext.Session.GetString("ID").Contains("A"))
         </div>
 
         <!-- Bootstrap core JavaScript-->
-        <script src="/lib/jquery/jquery.min.js"></script>
-        <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="~/lib/jquery/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 
         <!-- Core plugin JavaScript-->
-        <script src="/lib/jquery-easing/jquery.easing.min.js"></script>
+        <script src="~/lib/jquery-easing/jquery.easing.min.js"></script>
 
         <!-- Custom scripts for all pages-->
-        <script src="/js/sb-admin-2.min.js"></script>
+        <script src="~/js/sb-admin-2.min.js"></script>
 
         <!-- Page level plugins -->
-        <script src="/lib/chart.js/Chart.min.js"></script>
-
         <!-- Page level custom scripts -->
-        <script src="/js/demo/chart-area-demo.js"></script>
-        <script src="/js/demo/chart-pie-demo.js"></script>
+        @*  <script src="~/js/demo/chart-area-demo.js"></script>
+    <script src="~/js/demo/chart-pie-demo.js"></script>*@
 
     </body>
 }

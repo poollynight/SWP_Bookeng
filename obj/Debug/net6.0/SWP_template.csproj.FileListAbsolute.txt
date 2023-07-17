@@ -1516,3 +1516,12 @@ C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\refs\System.Xml.X
 C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\refs\WindowsBase.dll
 C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\Mapster.dll
+C:\Users\CHIEN THANG\Desktop\SWP_template_des\bin\Debug\net6.0\Mapster.Core.dll

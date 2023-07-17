@@ -1,0 +1,63 @@
+﻿@model List<SWP_template.Models.Accountss>
+@inject IHttpContextAccessor Accessors
+@{
+    string accountId = @Accessors.HttpContext.Session.GetString("ID");
+}
+
+
+@*<div id="top-bar" class="tb-text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="links">
+                    <ul class="list-unstyled list-inline" style="display: flex; margin-right: 0px !important;">
+                        <li>
+                            <button class="btn-orange" id="Create" onclick="location.href='@Url.Action("CreateHotel", "CRUDHotel")'">Create</button>
+                        </li>
+
+                    </ul>
+
+                </div><!-- end links -->
+            </div><!-- end columns -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</div><!-- end top-bar -->*@
+
+<h4>@ViewBag.mess</h4>
+@if (Model != null && Model.Count > 0)
+{
+    @foreach (var user in Model)
+    {
+        <div class="user-list">
+            <ul class="user-list-left">
+
+                <div class="user-info" style="width: 1000px">
+
+                    <div class="dropdown no-arrow" style="margin-left:945px">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                             aria-labelledby="dropdownMenuLink">
+                            <div class="dropdown-header">Actions:</div>
+
+                         @*   <a class="dropdown-item" href="@Url.ActionLink("EditHotel","CRUDHotel",new{HotelId = @user.HotelId})">Update</a>
+                            <a class="dropdown-item" href="@Url.ActionLink("OwnerHomeRoom","OwnerHome",new{HotelId = @user.HotelId})">Details</a>
+                            <div class="dropdown-divider"></div>*@
+                            <a class="dropdown-item" href="@Url.ActionLink("DeleteHotelConfirmed","CRUDHotel",new{UserID = @user.AccountId})">Remove</a>
+                        </div>
+                    </div>
+                    <h3 style="width: 70%; margin-left: 30px;">@user.AccountId</h3>
+                    <p style=" margin-left: 30px;">@user.Name</p>
+
+                </div>
+            </ul>
+
+        </div>
+    }
+}
+else
+{
+    <h2>No User Found!</h2>
+}

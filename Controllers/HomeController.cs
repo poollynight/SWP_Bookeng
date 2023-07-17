@@ -14,7 +14,7 @@ namespace SWP_template.Controllers
         }
         public IActionResult Index()
         {
-            return View("./Views/Home/Index.cshtml");
+            return View("/Views/Home/Index.cshtml");
         }
         public IActionResult Privacy()
         {

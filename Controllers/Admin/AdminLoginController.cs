@@ -18,7 +18,7 @@ namespace SWP_template.Controllers.Admin
                 IHttpContextAccessor Accessors = new HttpContextAccessor();
                 Accessors.HttpContext.Session.SetString("Username", account);
                 Accessors.HttpContext.Session.SetString("ID", data.AccountId);
-                return RedirectToAction("OwnerHome", "OwnerHome");
+                return RedirectToAction("AdminHome", "AdminHome");
             }
             else
             {

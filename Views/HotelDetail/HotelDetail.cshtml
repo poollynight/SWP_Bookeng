@@ -43,15 +43,11 @@
                             <div class="booking-form">
                                 <h3>Book Hotel</h3>
                                 <p>Find your dream hotel today</p>
-                                <form method="post" action="@Url.Action("Confirm","Confirm", new {Hotelid = ViewBag.id})">
-                                    <h5>First Name</h5>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="firstName" placeholder="First Name" required />
-                                    </div>
+                                <form method="post" action="/Payment/Checkout" id="form-submit">
 
-                                    <h5>Last Name</h5>
+                                    <h5>Full Name</h5>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" name="lastName" placeholder="Last Name" required />
+                                        <input type="text" class="form-control" name="Name" placeholder="Full Name" required />
                                     </div>
 
                                     <h5>Email</h5>
@@ -71,22 +67,24 @@
 
                                     <h5>Arrival Date</h5>
                                     <div class="form-group">
-                                        <input type="text" class="form-control dpd1" name="arrivalDate" placeholder="Arrival Date" required />                                       		<i class="fa fa-calendar"></i>
+                                        <input type="text" class="form-control dpd1" name="CheckIn" placeholder="Arrival Date" required />                                       		<i class="fa fa-calendar"></i>
                                     </div>
 
                                     <h5>Departure Date</h5>
                                     <div class="form-group">
-                                        <input type="text" class="form-control dpd2" name="departureDate" placeholder="Departure Date" required />                                       		<i class="fa fa-calendar"></i>
+                                        <input type="text" class="form-control dpd2" name="CheckOut" placeholder="Departure Date" required />                                       		<i class="fa fa-calendar"></i>
                                     </div>
 
                                     <h5>Room Type</h5>
                                     <div class="form-group">
                                         <div class="form-group right-icon">
-                                            <select class="form-control" name="roomType">
-                                                <option selected>Room Type</option>
+                                            <select class="form-control" name="RoomId">
                                                 @foreach (var room in Model)
                                                 {
-                                                    <option value="@room.RoomId">@room.RoomName</option>
+                                                    if (room.RoomAvailable > 0)
+                                                    {
+                                                        <option value="@room.RoomId">@room.RoomName</option>
+                                                    }
                                                 }
                                             </select>
                                             <i class="fa fa-angle-down"></i>
@@ -96,9 +94,8 @@
 
                                         <h5>Room Quantity</h5>
                                         <div class="form-group right-icon">
-                                            <select class="form-control" name="quatityRoom">
-                                                <option selected>Rooms</option>
-                                                <option>1</option>
+                                            <select class="form-control" name="RoomQualtity">
+                                                <option selected>1</option>
                                                 <option>2</option>
                                                 <option>3</option>
                                             </select>
@@ -123,9 +120,8 @@
                                         <div class="col-sm-6 col-md-12 col-lg-6 no-sp-r">
                                             <h5>Adult</h5>
                                             <div class="form-group right-icon">
-                                                <select class="form-control" name="adults">
-                                                    <option selected>Adults</option>
-                                                    <option>1</option>
+                                                <select class="form-control" name="Adult">
+                                                    <option selected>1</option>
                                                     <option>2</option>
                                                     <option>3</option>
                                                 </select>
@@ -135,9 +131,8 @@
                                         <div class="col-sm-6 col-md-12 col-lg-6 no-sp-l" ">
                                             <h5>Child</h5>
                                             <div class="form-group right-icon">
-                                                <select class="form-control" name="childs">
-                                                    <option selected>Childs</option>
-                                                    <option>1</option>
+                                                <select class="form-control" name="Child">
+                                                    <option selected>1</option>
                                                     <option>2</option>
                                                     <option>3</option>
                                                 </select>
@@ -148,10 +143,9 @@
 
                                     <h5>Payment Method</h5>
                                     <div class="form-group right-icon">
-                                        <select class="form-control" name="payMethod">
-                                            <option selected>Payment Method</option>
-                                            <option>Credit Card</option>
-                                            <option>Cash</option>
+                                        <select class="form-control" name="PayMethod">
+                                            <option value="VNPay">VNPay</option>
+                                            <option value="Cash">Cash</option>
                                         </select>
                                         <i class="fa fa-angle-down"></i>
                                     </div>

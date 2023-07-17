@@ -31,8 +31,8 @@
                 <input type="text" asp-for="StartPrice" placeholder="Price" required />
 
                 <label>Hotel's image</label>
-                <input type="file" name="hotelImage" accept="image/*" />
-                <input type="submit" value="Update" />
+                <input type="file" formenctype="multipart/form-data" name="hotelImage" accept="image/*" />
+                <input type="submit" value="Create" placeholder="Create"/>
             </form>
         </div>
     </div>

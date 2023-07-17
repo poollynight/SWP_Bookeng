@@ -158,7 +158,7 @@
                         <div class="list-block main-block h-list-block">
                             <div class="list-content">
                                 <div class="main-img list-img h-list-img">
-                                    <a href="@Url.Action("HotelDetail", "HotelDetail", new { id = item.HotelId} )">
+                                    <a href="@Url.Action("HotelDetail", "HotelDetail", new { HotelID = item.HotelId} )">
                                         <img src="~/img/@item.Province/@item.HotelName/avt.jpg" class="img-responsive" alt="hotel-img" style="max-height: 245px " />
                                     </a>
                                     <div class="main-mask">
@@ -169,7 +169,7 @@
                                 </div><!-- end h-list-img -->
 
                                 <div class="list-info h-list-info">
-                                    <a href="@Url.Action("HotelDetail", "HotelDetail" , new {id = item.HotelId})">
+                                    <a href="@Url.Action("HotelDetail", "HotelDetail" , new {HotelID = item.HotelId})">
                                         <h3 class="block-title">@item.HotelName</h3>
                                         <p class="block-minor">@item.Province</p>
                                         <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>

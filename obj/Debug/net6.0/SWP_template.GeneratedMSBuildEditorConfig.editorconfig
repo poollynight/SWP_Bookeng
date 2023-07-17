@@ -28,8 +28,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5TaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/Admin/UserList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckxpc3QuY3NodG1s
+[C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/Admin/ManageUserAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlckFjY291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/ForgotPassword/ForgotPassword.cshtml]
@@ -72,6 +72,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJcQ3JlYXRlUm9vbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/Owner/Dashboard_Income.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJcRGFzaGJvYXJkX0luY29tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/Owner/ManageHotel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJcTWFuYWdlSG90ZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -90,6 +94,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/Owner/OwnerLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJcT3duZXJMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/Owner/OwnerProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJcT3duZXJQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/CHIEN THANG/Desktop/SWP_template_des/Views/Owner/OwnerRoomUpdate.cshtml]

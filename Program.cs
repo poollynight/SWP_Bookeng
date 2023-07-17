@@ -1,4 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Application.Common.Options;
+using Application.Interfaces;
+using Infrastructure.Services;
+using Microsoft.EntityFrameworkCore;
 using SWP_template.Models;
 using SWP_template.Service;
 
@@ -23,6 +26,7 @@ partial class Program
     {
         var builder = WebApplication.CreateBuilder(args);
         // Add services to the container.
+        builder.Services.Configure<VnPayOption>(builder.Configuration.GetSection("PaymentConfig:VnPay"));
         builder.Services.AddControllersWithViews();
         builder.Services.AddDistributedMemoryCache();           // Đăng ký dịch vụ lưu cache trong bộ nhớ (Session sẽ sử dụng nó)
         builder.Services.AddSession(options =>
@@ -32,7 +36,8 @@ partial class Program
             options.Cookie.HttpOnly = true;
             options.Cookie.IsEssential = true;
         });
-        
+
+        builder.Services.AddScoped<IVNPayService, VNPayService>();
         builder.Services.AddHttpContextAccessor();
         builder.Services.AddDbContextPool<Swp1Context>(config =>
         {

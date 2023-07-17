@@ -23,6 +23,8 @@ public partial class Swp1Context : DbContext
 
     public virtual DbSet<Order> Orders { get; set; }
 
+    public virtual DbSet<OrderPassed> OrderPasseds { get; set; }
+
     public virtual DbSet<Room> Rooms { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -149,75 +151,61 @@ public partial class Swp1Context : DbContext
 
         modelBuilder.Entity<Order>(entity =>
         {
-            entity.HasKey(e => new { e.RoomId, e.RoomName, e.AccountId, e.CheckIn, e.CheckOut, e.Email, e.Name, e.Phone, e.Nation, e.RoomType, e.RoomQualtity, e.BedQualtity, e.PayMethod }).HasName("PK__Order__41CFE34134624D54");
+            entity.HasKey(e => e.OrderId).HasName("PK__Order__C3905BAF750D737B");
 
             entity.ToTable("Order");
 
+            entity.Property(e => e.OrderId).HasColumnName("OrderID");
+            entity.Property(e => e.AccountId)
+                .IsRequired()
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("AccountID");
+            entity.Property(e => e.CheckIn).HasColumnType("datetime");
+            entity.Property(e => e.CheckOut).HasColumnType("datetime");
+            entity.Property(e => e.Email)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("email");
+            entity.Property(e => e.Name).HasMaxLength(50);
+            entity.Property(e => e.Nation)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("nation");
+            entity.Property(e => e.PayMethod)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.PaymentStatus)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.Phone)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("phone");
             entity.Property(e => e.RoomId)
+                .IsRequired()
                 .HasMaxLength(20)
                 .IsUnicode(false)
                 .HasColumnName("RoomID");
             entity.Property(e => e.RoomName)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("RoomName");
-            entity.Property(e => e.AccountId)
-                .IsRequired()
-                .HasMaxLength(200)
-                .IsUnicode(false)
-                .HasColumnName("AccountID");
-            entity.Property(e => e.CheckIn)
-                .IsRequired()
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("CheckIn");
-            entity.Property(e => e.CheckOut)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("CheckOut");
-            entity.Property(e => e.Email)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("email");
-            entity.Property(e => e.Name)
-                .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("name");
-            entity.Property(e => e.Phone)
-                .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("phone");
-            entity.Property(e => e.Nation)
-                 .HasMaxLength(20)
-                 .IsUnicode(false)
-                 .HasColumnName("nation");
+                .HasMaxLength(255)
+                .IsUnicode(false);
             entity.Property(e => e.RoomType)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("RoomType");
-            entity.Property(e => e.RoomQualtity)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("RoomQualtity");
-            entity.Property(e => e.BedQualtity)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("BedQualtity");
-            entity.Property(e => e.PayMethod)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("PayMethod");
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.TotalPrice).HasColumnType("money");
+        });
 
+        modelBuilder.Entity<OrderPassed>(entity =>
+        {
+            entity
+                .HasNoKey()
+                .ToTable("OrderPassed");
 
-            //entity.HasOne(d => d.Account).WithMany(p => p.Orders)
-            //    .HasForeignKey(d => d.AccountId)
-            //    .OnDelete(DeleteBehavior.ClientSetNull)
-            //    .HasConstraintName("FK__Order__AccountID__34C8D9D1");
-
-            //entity.HasOne(d => d.Room).WithMany(p => p.Orders)
-            //    .HasForeignKey(d => d.RoomId)
-            //    .OnDelete(DeleteBehavior.ClientSetNull)
-            //    .HasConstraintName("FK__Order__RoomID__33D4B598");
+            entity.Property(e => e.OrderId)
+                .HasMaxLength(20)
+                .IsUnicode(false);
+            entity.Property(e => e.RoomQuantity).HasColumnName("roomQuantity");
         });
 
         modelBuilder.Entity<Room>(entity =>
@@ -253,17 +241,14 @@ public partial class Swp1Context : DbContext
                 .HasMaxLength(20)
                 .IsUnicode(false);
             entity.Property(e => e.Smoking)
-                .IsRequired()
-                .HasMaxLength(1)
-                .IsFixedLength();
+                .HasMaxLength(10)
+                .IsUnicode(false);
             entity.Property(e => e.Wifi)
-                .IsRequired()
-                .HasMaxLength(1)
-                .IsFixedLength();
+                .HasMaxLength(10)
+                .IsUnicode(false);
             entity.Property(e => e.Window)
-                .IsRequired()
-                .HasMaxLength(1)
-                .IsFixedLength();
+                .HasMaxLength(10)
+                .IsUnicode(false);
 
             entity.HasOne(d => d.Hotel).WithMany(p => p.Rooms)
                 .HasForeignKey(d => d.HotelId)

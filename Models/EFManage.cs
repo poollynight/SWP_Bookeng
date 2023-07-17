@@ -1,4 +1,10 @@
+
 using ServiceStack;
+using System.Collections;
+using Microsoft.EntityFrameworkCore;
+using Humanizer;
+using System.Data.SqlTypes;
+using System;
 
 namespace SWP_template.Models
 {
@@ -110,6 +116,81 @@ namespace SWP_template.Models
             (from a in dbcontext.Accountsses where a.AccountId.Equals(accID) select a).ToList().ForEach(a => 
             { a.Name = name; a.Birthday = DOB; a.Email = email; a.Phone = phone; a.Nation = nation; a.Gender = gender; a.Identitycard = identitycard; });
             dbcontext.SaveChanges();
+        }
+
+        public static ArrayList SelectOrdersByMonth(string OwnerID)
+        {
+            ArrayList countList = new ArrayList();
+            var context = new Swp1Context();
+            int orderNumber = 0;
+            for (int month = 1; month <= 12; month++)
+            {
+                var orders = (from o in context.Orders
+                              where o.CheckOut.Year == DateTime.Now.Year && o.CheckOut.Month == month && o.CheckOut.Day == DateTime.Now.Day && o.CheckOut.Hour + 14 <= DateTime.Now.Hour
+                              || o.CheckOut.Year == DateTime.Now.Year && o.CheckOut.Month == month && o.CheckOut.Day < DateTime.Now.Day
+                              || o.CheckOut.Month ==month && o.CheckOut.Year == DateTime.Now.Year && o.CheckOut < DateTime.Now
+                              join r in context.Rooms on o.RoomId equals r.RoomId
+                              join h in context.Hotels on r.HotelId equals h.HotelId
+                              where h.AccountId == OwnerID
+                              select new { month = o.CheckIn.Month }).Count();
+                countList.Add(orders);
+            }
+            return countList;
+        }
+
+        public static int DateDiff (string OwnerID)
+        {
+            var count = 0;
+            int devide = 0;
+            var context = new Swp1Context();
+
+            var select = (from o in context.Orders
+                     where o.CheckOut.Year == DateTime.Now.Year && o.CheckOut <= DateTime.Now
+                          join r in context.Rooms on o.RoomId equals r.RoomId
+                     join h in context.Hotels on r.HotelId equals h.HotelId
+                     where h.AccountId == OwnerID
+                     let dateDiff = EF.Functions.DateDiffDay(o.CheckIn, o.CheckOut)
+                     select new {diff = dateDiff}).ToList();
+            foreach(var item in select)
+            {
+                devide++;
+                count += item.diff;
+            }
+            
+            return count / devide;
+        }
+
+        public static SqlMoney IncomeForDashboard(string OwnerID, int month)
+        {
+            var context = new Swp1Context();
+            SqlMoney money = 0;
+            int day = DateTime.Now.Day;
+
+            var monthIncome = from o in context.Orders
+                              where o.CheckOut.Year == DateTime.Now.Year && month == o.CheckOut.Month && month < DateTime.Now.Month
+                              || o.CheckOut.Year == DateTime.Now.Year&& o.CheckOut.Month == month && month == DateTime.Now.Month && o.CheckOut.Day <= DateTime.Now.Day
+                              join r in context.Rooms on o.RoomId equals r.RoomId
+                              join h in context.Hotels on r.HotelId equals h.HotelId
+                              where h.AccountId == OwnerID
+                              select new { monthTotal = o.TotalPrice };
+            foreach (var item in monthIncome) money += item.monthTotal;
+
+            return money;
+        }
+
+        //Admin
+        public static List<Accountss> GetAllUserAccount()
+        {
+            var context = new Swp1Context();
+            var account = context.Accountsses.Where(a => a.RoleId != "R001").ToList();
+            return account;
+        }
+        public static void RemoveUserAccount(string id)
+        {
+            var context = new Swp1Context();
+            var account = context.Accountsses.Where(a => a.AccountId == id).FirstOrDefault();
+            context.Accountsses.Remove(account);
+            context.SaveChanges();
         }
     }
 }

@@ -29,13 +29,13 @@ namespace SWP_template.Controllers
                 string accountID = hotel.AccountId;
                 string roomName = room.RoomName;
                 string id = room.RoomId;
-
-                Console.WriteLine(hotel.HotelName + ";" + hotel.AccountId);
+                decimal total = decimal.Parse(quatityRoom) * decimal.Parse(room.RoomPrice);
+       
                 string connectionString = "Data Source=localhost;Initial Catalog=SWP1;User ID=sa;Password=123456";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    string query = "INSERT INTO [Order] (RoomID,RoomName,AccountID,CheckIn,CheckOut,email,name,phone,nation,RoomType,RoomQualtity,BedQualtity,PayMethod ) VALUES (@RoomID, @RoomName,@AccountID,@ArrivalDate,@DepartureDate,@Email,@Name,@Phone,@Country,@RoomType,@RoomQualtity,@BedQualtity,@Paymethod)";
+                    string query = "INSERT INTO [Order] (RoomID,RoomName,AccountID,CheckIn,CheckOut,email,name,phone,nation,RoomType,RoomQualtity,BedQualtity,Adult,Child,PayMethod,TotalPrice ) VALUES (@RoomID, @RoomName,@AccountID,@ArrivalDate,@DepartureDate,@Email,@Name,@Phone,@Country,@RoomType,@RoomQualtity,@BedQualtity,@Adult,@Child,@Paymethod,@Total)";
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
                         command.Parameters.AddWithValue("RoomID", id);
@@ -50,7 +50,10 @@ namespace SWP_template.Controllers
                         command.Parameters.AddWithValue("@RoomType", roomType);
                         command.Parameters.AddWithValue("@RoomQualtity", quatityRoom);
                         command.Parameters.AddWithValue("@BedQualtity", bed);
+                        command.Parameters.AddWithValue("@Adult", adults);
+                        command.Parameters.AddWithValue("@Child", childs);
                         command.Parameters.AddWithValue("@PayMethod", payMethod);
+                        command.Parameters.AddWithValue("@Total", total);
                         command.ExecuteNonQuery();
                     }
                 }

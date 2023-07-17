@@ -5,17 +5,13 @@
     string accountId = @Accessors.HttpContext.Session.GetString("ID");
 }
 
+
 <div id="top-bar" class="tb-text-white">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div id="links" >
+                <div id="links">
                     <ul class="list-unstyled list-inline" style="display: flex; margin-right: 0px !important;">
-                        <li>
-                            <form action="@Url.Action("SendOrder","SendOrder")" method="post">
-                                <button type="submit" class="btn-orange">Order List</button>
-                            </form>
-                        </li>
                         <li>
                             <button class="btn-orange" id="Create" onclick="location.href='@Url.Action("CreateHotel", "CRUDHotel")'">Create</button>
                         </li>
@@ -27,38 +23,59 @@
         </div><!-- end row -->
     </div><!-- end container -->
 </div><!-- end top-bar -->
+
+<h4>@ViewBag.mess</h4>
 @if (Model != null && Model.Count > 0)
 {
     @foreach (var hotel in Model)
     {
         <div class="hotel-list">
             <ul class="hotel-list-left">
-                <div class="hotel-img"><img src="~/img/@hotel.Province/@hotel.HotelName/avt.jpg" alt="123123" style="max-height: 150px; " /></div>
-                <div class="hotel-info" style="width: 1200px">
-                    <h3 style="width: 70%">@hotel.HotelName</h3>
-                    <p>@hotel.StartPrice</p>
+                
+                <div class="hotel-img"><img src="~/img/@hotel.Province/@hotel.HotelName/avt.jpg" alt="123123" style="max-height: 130px" /></div>
+
+                <div class="hotel-info" style="width: 1000px">
+
+                    <div class="dropdown no-arrow" style="margin-left:945px">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                             aria-labelledby="dropdownMenuLink">
+                            <div class="dropdown-header">Actions:</div>
+
+                            <a class="dropdown-item" href="@Url.ActionLink("EditHotel","CRUDHotel",new{HotelId = @hotel.HotelId})">Update</a>
+                            <a class="dropdown-item" href="@Url.ActionLink("OwnerHomeRoom","OwnerHome",new{HotelId = @hotel.HotelId})">Details</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="@Url.ActionLink("DeleteHotelConfirmed","CRUDHotel",new{HotelId = @hotel.HotelId})">Remove</a>
+                        </div>
+                    </div>
+                    <h3 style="width: 70%; margin-left: 30px;">@hotel.HotelName</h3>
+                    <p style=" margin-left: 30px;">@hotel.StartPrice</p>
+
                 </div>
             </ul>
-            <ul class="hotel-list-right">
-                <li>
-                    <form method="get" asp-controller="CRUDHotel" asp-action="EditHotel">
-                        <input type="hidden" value="@hotel.HotelId" name="HotelId" />
-                        <input type="submit" value="Update">
-                    </form>
-                </li>
-                <li>
-                    <form method="post" asp-controller="OwnerHome" asp-action="OwnerHomeRoom">
-                        <input type="hidden" value="@hotel.HotelId" name="HotelId" />
-                        <input type="submit" value="Detail Room">
-                    </form>
-                </li>
-                <li>
-                    <form method="post" asp-controller="CRUDHotel" asp-action="DeleteHotelConfirmed">
-                        <input type="hidden" value="@hotel.HotelId" name="HotelId" />
-                        <input type="submit" value="Delete">
-                    </form>
-                </li>
-            </ul>
+            @*<ul class="hotel-list-right">
+    <li>
+    <form method="get" asp-controller="CRUDHotel" asp-action="EditHotel">
+    <input type="hidden" value="@hotel.HotelId" name="HotelId" />
+    <input type="submit" style="width: 100%" value="Update">
+    </form>
+    </li>
+    <li>
+    <form method="post" asp-controller="OwnerHome" asp-action="OwnerHomeRoom">
+    <input type="hidden" value="@hotel.HotelId" name="HotelId" />
+    <input type="submit" style="width: 100%" value="Detail Room" >
+    </form>
+    </li>
+    <li>
+    <form method="post" asp-controller="CRUDHotel" asp-action="DeleteHotelConfirmed">
+    <input id="demo" type="hidden" value="@hotel.HotelId" name="HotelId" />
+    <input type="submit" style="width: 100%" value="Delete" >
+    </form>
+    </li>
+    </ul>*@
         </div>
     }
 }
@@ -66,4 +83,6 @@ else
 {
     <h2>No Any Hotel!</h2>
 }
+
+
 <script src="/js/FormAddHotel.js"></script>
